@@ -93,3 +93,13 @@
  GET /alerts 200 in 86ms (next.js: 8ms, application-code: 78ms)
  GET /ai-assistant 200 in 102ms (next.js: 40ms, application-code: 61ms)
  POST /api/chat 200 in 5.9s (next.js: 1889ms, application-code: 4.0s)
+ GET /login 200 in 894ms (next.js: 106ms, application-code: 787ms)
+○ Compiling /overview ...
+ GET /login 200 in 172ms (next.js: 50ms, application-code: 122ms)
+ GET /overview 200 in 9.5s (next.js: 7.2s, application-code: 2.3s)
+○ Compiling /heatmap ...
+ GET /heatmap 200 in 5.7s (next.js: 5.5s, application-code: 230ms)
+ GET /heatmap 200 in 78ms (next.js: 11ms, application-code: 67ms)
+ GET /ai-assistant 200 in 3.4s (next.js: 3.3s, application-code: 132ms)
+ POST /api/chat 200 in 6.0s (next.js: 2.5s, application-code: 3.5s)
+ POST /api/chat 200 in 3.3s (next.js: 7ms, application-code: 3.3s)

@@ -831,3 +831,18 @@ INFO:     127.0.0.1:58352 - "POST /api/v1/chat HTTP/1.1" 200 OK
 INFO:     127.0.0.1:64845 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
 2026-07-14 01:18:27,567 - chat.pdf - INFO - exported conversation cb4b1531-9191-455b-a163-771da33ddc85 -> exports\conversation_cb4b1531-9191-455b-a163-771da33ddc85.pdf
 INFO:     127.0.0.1:62873 - "GET /api/v1/chat/cb4b1531-9191-455b-a163-771da33ddc85/pdf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65080 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+2026-07-14 01:24:27,666 - chat.api - INFO - chat turn user=admin conv=cb4b1531-9191-455b-a163-771da33ddc85 lang=en
+INFO:     127.0.0.1:65081 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 01:24:46,407 - chat.api - INFO - chat turn user=admin conv=cb4b1531-9191-455b-a163-771da33ddc85 lang=en
+INFO:     127.0.0.1:54604 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 01:26:10,149 - chat.api - INFO - chat turn user=admin conv=cb4b1531-9191-455b-a163-771da33ddc85 lang=en
+INFO:     127.0.0.1:53312 - "POST /api/v1/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55446 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+2026-07-14 01:29:35,143 - chat.api - INFO - chat turn user=admin conv=cb4b1531-9191-455b-a163-771da33ddc85 lang=en
+INFO:     127.0.0.1:55447 - "POST /api/v1/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50061 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+2026-07-14 01:34:21,049 - chat.api - INFO - chat turn user=admin conv=ddcab200-cdb1-49da-adcb-05082dfa6ccf lang=en
+INFO:     127.0.0.1:50062 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 01:34:29,339 - chat.api - INFO - chat turn user=admin conv=ddcab200-cdb1-49da-adcb-05082dfa6ccf lang=en
+INFO:     127.0.0.1:50064 - "POST /api/v1/chat HTTP/1.1" 200 OK

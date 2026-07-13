@@ -11,6 +11,7 @@ analysis_result = {}
 for file in csv_files:
     filename = os.path.basename(file)
     try:
+        
         df = pd.read_csv(file)
         
         columns = {}

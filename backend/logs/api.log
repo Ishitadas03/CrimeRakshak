@@ -254,3 +254,9 @@ Failed to read any data from server ResolvedIPv4Address(('127.0.0.1', 7687)) aft
 2026-07-14 01:17:44,127 - chat.api - INFO - chat turn user=admin conv=b97ca21b-e200-449e-b830-4f17f68e4d0f lang=en
 2026-07-14 01:18:15,672 - chat.api - INFO - chat turn user=admin conv=cb4b1531-9191-455b-a163-771da33ddc85 lang=en
 2026-07-14 01:18:27,567 - chat.pdf - INFO - exported conversation cb4b1531-9191-455b-a163-771da33ddc85 -> exports\conversation_cb4b1531-9191-455b-a163-771da33ddc85.pdf
+2026-07-14 01:24:27,666 - chat.api - INFO - chat turn user=admin conv=cb4b1531-9191-455b-a163-771da33ddc85 lang=en
+2026-07-14 01:24:46,407 - chat.api - INFO - chat turn user=admin conv=cb4b1531-9191-455b-a163-771da33ddc85 lang=en
+2026-07-14 01:26:10,149 - chat.api - INFO - chat turn user=admin conv=cb4b1531-9191-455b-a163-771da33ddc85 lang=en
+2026-07-14 01:29:35,143 - chat.api - INFO - chat turn user=admin conv=cb4b1531-9191-455b-a163-771da33ddc85 lang=en
+2026-07-14 01:34:21,049 - chat.api - INFO - chat turn user=admin conv=ddcab200-cdb1-49da-adcb-05082dfa6ccf lang=en
+2026-07-14 01:34:29,339 - chat.api - INFO - chat turn user=admin conv=ddcab200-cdb1-49da-adcb-05082dfa6ccf lang=en
