@@ -216,3 +216,21 @@ Failed to read any data from server ResolvedIPv4Address(('127.0.0.1', 7687)) aft
 2026-07-14 00:23:57,513 - app.chat.data.loader - INFO - Loaded 07_esign_chargesheet_jan2026.csv -> table esign_chargesheet (39 rows)
 2026-07-14 00:24:27,566 - chat.api - INFO - chat turn user=admin conv=14c67b9a-7ebd-4e8b-8e65-2b9df324d2db lang=en
 2026-07-14 00:24:54,053 - chat.api - INFO - chat turn user=admin conv=14c67b9a-7ebd-4e8b-8e65-2b9df324d2db lang=en
+2026-07-14 00:26:34,124 - chat.api - INFO - chat turn user=admin conv=14c67b9a-7ebd-4e8b-8e65-2b9df324d2db lang=en
+2026-07-14 00:40:31,193 - chat.api - INFO - chat turn user=admin conv=1eb7723d-31fb-496e-ac9e-a32371594ed9 lang=en
+2026-07-14 00:40:36,937 - chat.pdf - INFO - exported conversation 1eb7723d-31fb-496e-ac9e-a32371594ed9 -> exports\conversation_1eb7723d-31fb-496e-ac9e-a32371594ed9.pdf
+2026-07-14 00:40:53,096 - chat.api - INFO - chat turn user=admin conv=292c879b-7c86-4849-8671-ba9897355df7 lang=en
+2026-07-14 00:41:47,750 - chat.api - INFO - chat turn user=admin conv=c6c588f1-a59d-435c-86a0-6999288f9452 lang=en
+2026-07-14 00:42:02,787 - chat.api - INFO - chat turn user=admin conv=c6c588f1-a59d-435c-86a0-6999288f9452 lang=en
+2026-07-14 00:42:25,307 - chat.api - INFO - chat turn user=admin conv=c6c588f1-a59d-435c-86a0-6999288f9452 lang=en
+2026-07-14 00:43:14,512 - chat.api - INFO - chat turn user=admin conv=c6c588f1-a59d-435c-86a0-6999288f9452 lang=en
+2026-07-14 00:44:14,583 - chat.api - INFO - chat turn user=admin conv=c6c588f1-a59d-435c-86a0-6999288f9452 lang=en
+2026-07-14 00:44:30,828 - chat.api - INFO - chat turn user=admin conv=c6c588f1-a59d-435c-86a0-6999288f9452 lang=en
+2026-07-14 00:46:43,213 - chat.pdf - INFO - exported conversation c6c588f1-a59d-435c-86a0-6999288f9452 -> exports\conversation_c6c588f1-a59d-435c-86a0-6999288f9452.pdf
+2026-07-14 00:48:22,354 - chat.api - INFO - chat turn user=admin conv=e8520dab-ce6d-4c0b-a843-11805a8dda6b lang=en
+2026-07-14 00:48:48,495 - chat.api - INFO - chat turn user=admin conv=e8520dab-ce6d-4c0b-a843-11805a8dda6b lang=en
+2026-07-14 00:49:21,637 - chat.api - INFO - chat turn user=admin conv=e8520dab-ce6d-4c0b-a843-11805a8dda6b lang=en
+2026-07-14 00:50:02,741 - chat.api - INFO - chat turn user=admin conv=e8520dab-ce6d-4c0b-a843-11805a8dda6b lang=en
+2026-07-14 00:50:25,987 - chat.api - INFO - chat turn user=admin conv=e8520dab-ce6d-4c0b-a843-11805a8dda6b lang=en
+2026-07-14 00:50:45,353 - chat.api - INFO - chat turn user=admin conv=e8520dab-ce6d-4c0b-a843-11805a8dda6b lang=en
+2026-07-14 00:52:58,169 - chat.api - INFO - chat turn user=admin conv=af53a33b-b4d4-4171-9ea5-7c25d89a9fe3 lang=en

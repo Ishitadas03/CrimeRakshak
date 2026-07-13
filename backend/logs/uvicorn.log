@@ -18,3 +18,251 @@ INFO:     127.0.0.1:51037 - "POST /api/v1/chat HTTP/1.1" 200 OK
 INFO:     127.0.0.1:65502 - "POST /api/v1/chat HTTP/1.1" 200 OK
 2026-07-14 00:24:54,053 - chat.api - INFO - chat turn user=admin conv=14c67b9a-7ebd-4e8b-8e65-2b9df324d2db lang=en
 INFO:     127.0.0.1:52142 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 00:26:34,124 - chat.api - INFO - chat turn user=admin conv=14c67b9a-7ebd-4e8b-8e65-2b9df324d2db lang=en
+INFO:     127.0.0.1:57762 - "POST /api/v1/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53575 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+2026-07-14 00:40:31,193 - chat.api - INFO - chat turn user=admin conv=1eb7723d-31fb-496e-ac9e-a32371594ed9 lang=en
+INFO:     127.0.0.1:53576 - "POST /api/v1/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56333 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+2026-07-14 00:40:36,937 - chat.pdf - INFO - exported conversation 1eb7723d-31fb-496e-ac9e-a32371594ed9 -> exports\conversation_1eb7723d-31fb-496e-ac9e-a32371594ed9.pdf
+INFO:     127.0.0.1:53576 - "GET /api/v1/chat/1eb7723d-31fb-496e-ac9e-a32371594ed9/pdf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56336 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+2026-07-14 00:40:53,096 - chat.api - INFO - chat turn user=admin conv=292c879b-7c86-4849-8671-ba9897355df7 lang=en
+INFO:     127.0.0.1:56337 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 00:41:47,750 - chat.api - INFO - chat turn user=admin conv=c6c588f1-a59d-435c-86a0-6999288f9452 lang=en
+INFO:     127.0.0.1:53277 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 00:42:02,787 - chat.api - INFO - chat turn user=admin conv=c6c588f1-a59d-435c-86a0-6999288f9452 lang=en
+INFO:     127.0.0.1:60255 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 00:42:25,307 - chat.api - INFO - chat turn user=admin conv=c6c588f1-a59d-435c-86a0-6999288f9452 lang=en
+INFO:     127.0.0.1:61242 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 00:43:14,512 - chat.api - INFO - chat turn user=admin conv=c6c588f1-a59d-435c-86a0-6999288f9452 lang=en
+INFO:     127.0.0.1:57536 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 00:44:14,583 - chat.api - INFO - chat turn user=admin conv=c6c588f1-a59d-435c-86a0-6999288f9452 lang=en
+INFO:     127.0.0.1:53968 - "POST /api/v1/chat HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\anyio\to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2641, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1033, in run
+    result = context.run(func, *args)
+  File "C:\crime ai\CrimeRakshak\backend\app\chat\router.py", line 47, in chat
+    turn = run_agent(english_question, history=history)
+  File "C:\crime ai\CrimeRakshak\backend\app\chat\agent.py", line 94, in run_agent
+    resp = chat_completion(messages, model=settings.LLM_AGENT_MODEL, tools=TOOL_SPECS)
+  File "C:\crime ai\CrimeRakshak\backend\app\chat\llm.py", line 63, in chat_completion
+    return client.chat.completions.create(**kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\openai\resources\chat\completions.py", line 859, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<40 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\openai\_base_client.py", line 1283, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\openai\_base_client.py", line 960, in request
+    return self._request(
+           ~~~~~~~~~~~~~^
+        cast_to=cast_to,
+        ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        retries_taken=retries_taken,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\openai\_base_client.py", line 1064, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.contents[0].parts[0].function_response.name: Name cannot be empty.\n', 'status': 'INVALID_ARGUMENT'}}]
+2026-07-14 00:44:30,828 - chat.api - INFO - chat turn user=admin conv=c6c588f1-a59d-435c-86a0-6999288f9452 lang=en
+INFO:     127.0.0.1:54544 - "POST /api/v1/chat HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\anyio\to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2641, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1033, in run
+    result = context.run(func, *args)
+  File "C:\crime ai\CrimeRakshak\backend\app\chat\router.py", line 47, in chat
+    turn = run_agent(english_question, history=history)
+  File "C:\crime ai\CrimeRakshak\backend\app\chat\agent.py", line 94, in run_agent
+    resp = chat_completion(messages, model=settings.LLM_AGENT_MODEL, tools=TOOL_SPECS)
+  File "C:\crime ai\CrimeRakshak\backend\app\chat\llm.py", line 63, in chat_completion
+    return client.chat.completions.create(**kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\openai\resources\chat\completions.py", line 859, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<40 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\openai\_base_client.py", line 1283, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\openai\_base_client.py", line 960, in request
+    return self._request(
+           ~~~~~~~~~~~~~^
+        cast_to=cast_to,
+        ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        retries_taken=retries_taken,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\crime ai\CrimeRakshak\backend\venv\Lib\site-packages\openai\_base_client.py", line 1064, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.contents[0].parts[0].function_response.name: Name cannot be empty.\n', 'status': 'INVALID_ARGUMENT'}}]
+2026-07-14 00:46:43,213 - chat.pdf - INFO - exported conversation c6c588f1-a59d-435c-86a0-6999288f9452 -> exports\conversation_c6c588f1-a59d-435c-86a0-6999288f9452.pdf
+INFO:     127.0.0.1:56175 - "GET /api/v1/chat/c6c588f1-a59d-435c-86a0-6999288f9452/pdf HTTP/1.1" 200 OK
+2026-07-14 00:48:22,354 - chat.api - INFO - chat turn user=admin conv=e8520dab-ce6d-4c0b-a843-11805a8dda6b lang=en
+INFO:     127.0.0.1:52101 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 00:48:48,495 - chat.api - INFO - chat turn user=admin conv=e8520dab-ce6d-4c0b-a843-11805a8dda6b lang=en
+INFO:     127.0.0.1:58198 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 00:49:21,637 - chat.api - INFO - chat turn user=admin conv=e8520dab-ce6d-4c0b-a843-11805a8dda6b lang=en
+INFO:     127.0.0.1:55399 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 00:50:02,741 - chat.api - INFO - chat turn user=admin conv=e8520dab-ce6d-4c0b-a843-11805a8dda6b lang=en
+INFO:     127.0.0.1:50261 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 00:50:25,987 - chat.api - INFO - chat turn user=admin conv=e8520dab-ce6d-4c0b-a843-11805a8dda6b lang=en
+INFO:     127.0.0.1:61181 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-07-14 00:50:45,353 - chat.api - INFO - chat turn user=admin conv=e8520dab-ce6d-4c0b-a843-11805a8dda6b lang=en
+INFO:     127.0.0.1:64683 - "POST /api/v1/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52775 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+2026-07-14 00:52:58,169 - chat.api - INFO - chat turn user=admin conv=af53a33b-b4d4-4171-9ea5-7c25d89a9fe3 lang=en
+INFO:     127.0.0.1:52776 - "POST /api/v1/chat HTTP/1.1" 200 OK
