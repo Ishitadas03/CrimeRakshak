@@ -333,6 +333,19 @@ class GraphService:
             if not self._repo.node_exists(label, nid):
                 raise GraphNotFoundError(f"{label} '{nid}' not found")
 
+        # Neo4j's shortestPath() raises when the start and end node are the
+        # same — treat it as the trivial zero-length path instead of a 503.
+        if src_label == dst_label and src_id == dst_id:
+            node = NodeOut(id=src_id, label=src_label, properties={})
+            return PathResponse(
+                source_id=src_id,
+                target_id=dst_id,
+                found=True,
+                length=0,
+                hops=[PathHopOut(node=node, via=None)],
+                graph=self._assemble_graph([node], []),
+            )
+
         rows = self._repo.shortest_path(src_label, src_id, dst_label, dst_id, max_depth)
         if not rows:
             return PathResponse(

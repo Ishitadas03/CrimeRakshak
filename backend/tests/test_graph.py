@@ -300,6 +300,14 @@ def run():
     assert [h["node"]["id"] for h in p["hops"]] == ["P1", "P2"]
     print("shortest path (found) OK")
 
+    # ── shortest path (same node) — must be trivial path, not a Neo4j error ──
+    r = client.get("/api/v1/graph/path?source_id=P1&target_id=P1", headers=graph_user)
+    assert r.status_code == 200, r.text
+    p = r.json()
+    assert p["found"] is True and p["length"] == 0
+    assert [h["node"]["id"] for h in p["hops"]] == ["P1"]
+    print("shortest path (same node -> trivial) OK")
+
     # ── shortest path (not found) ──
     r = client.get("/api/v1/graph/path?source_id=P1&target_id=UNREACHABLE", headers=graph_user)
     # UNREACHABLE fails node_exists → 404

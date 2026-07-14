@@ -105,7 +105,7 @@ class FakeConnection:
                 "incoming": [{"rel": self._rel("T3", 150000), "node": A3}],
             }]
 
-        if "tx_linked + collect(DISTINCT co)" in q:  # LINKED_ACCOUNTS
+        if "tx_linked + co_owned" in q:  # LINKED_ACCOUNTS
             return [{"linked": [A2, A3]}]
 
         if "collect(DISTINCT {src: a, rel: t, dst: c})" in q:  # PERSON_FINANCIALS
