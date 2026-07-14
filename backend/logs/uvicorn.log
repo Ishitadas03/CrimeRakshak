@@ -1,17 +1,6 @@
-INFO:     Started server process [12548]
+INFO:     Started server process [15664]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:64900 - "GET /health HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59350 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
-2026-07-14 02:45:32,075 - chat.api - INFO - chat turn user=admin conv=f5f7d79e-cdab-4c53-a214-afddc6013f12 lang=en
-2026-07-14 02:45:32,181 - app.chat.data.loader - INFO - Loaded 02_district_wise_reported_cases.csv -> table district_crime_matrix (39 rows)
-2026-07-14 02:45:32,230 - app.chat.data.loader - INFO - Loaded district_wise_major_heads_yearly.csv -> table district_major_heads_yearly (49 rows)
-2026-07-14 02:45:32,250 - app.chat.data.loader - INFO - Loaded 01_crime_review_summary.csv -> table crime_review_summary (28 rows)
-2026-07-14 02:45:32,271 - app.chat.data.loader - INFO - Loaded 09_crime_against_women.csv -> table crimes_against_women (24 rows)
-2026-07-14 02:45:32,297 - app.chat.data.loader - INFO - Loaded 10_crime_against_children.csv -> table crimes_against_children (21 rows)
-2026-07-14 02:45:32,344 - app.chat.data.loader - INFO - Loaded 11_crime_against_sc_st.csv -> table crimes_against_sc_st (6 rows)
-2026-07-14 02:45:32,370 - app.chat.data.loader - INFO - Loaded 04_sakala_district_receipts_disposals.csv -> table sakala_disposals (38 rows)
-2026-07-14 02:45:32,401 - app.chat.data.loader - INFO - Loaded 06_esign_fir_jan2026.csv -> table esign_fir (39 rows)
-2026-07-14 02:45:32,433 - app.chat.data.loader - INFO - Loaded 07_esign_chargesheet_jan2026.csv -> table esign_chargesheet (39 rows)
-INFO:     127.0.0.1:59352 - "POST /api/v1/chat HTTP/1.1" 200 OK
+ERROR:    [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
