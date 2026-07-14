@@ -9,7 +9,8 @@ from functools import lru_cache
 from typing import List
 
 from pydantic import field_validator
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic_settings import BaseSettings, NoDecode, SettingsConfigDict
+from typing_extensions import Annotated
 
 
 class Settings(BaseSettings):
@@ -51,6 +52,30 @@ class Settings(BaseSettings):
     # Max hops permitted for full-network traversal and path search.
     GRAPH_MAX_DEPTH: int = 5
 
+    # ── LLM provider ──
+    # "gemini" (Google Generative Language, OpenAI-compat) or "openrouter".
+    LLM_PROVIDER: str = "gemini"
+
+    # OpenRouter (used when LLM_PROVIDER == "openrouter").
+    OPENROUTER_API_KEY: str = ""
+    OPENROUTER_BASE_URL: str = "https://openrouter.ai/api/v1"
+
+    # Google Gemini (used when LLM_PROVIDER == "gemini").
+    GEMINI_API_KEY: str = ""
+    GEMINI_BASE_URL: str = "https://generativelanguage.googleapis.com/v1beta/openai/"
+
+    # Model used for tool-calling / reasoning (agent core).
+    LLM_AGENT_MODEL: str = "gemini-flash-lite-latest"
+    # Model used for fluent answer/summary generation (Kannada-capable).
+    LLM_SUMMARY_MODEL: str = "gemini-flash-lite-latest"
+    # Cap on output tokens per call (keeps cost bounded on metered accounts).
+    LLM_MAX_TOKENS: int = 1024
+
+    # ── CSV analytics (DuckDB) ──
+    # Directory holding the KSP CSV datasets and the on-disk DuckDB file.
+    DATASETS_DIR: str = "../datasets"
+    DUCKDB_PATH: str = "crime_stats.duckdb"
+
     # ── Security policy ──
     PASSWORD_MIN_LENGTH: int = 8
     # Wrong-password attempts before an account is temporarily locked.
@@ -59,7 +84,7 @@ class Settings(BaseSettings):
 
     # ── CORS ──
     # Comma-separated list in the environment, e.g. "http://localhost:3000".
-    BACKEND_CORS_ORIGINS: List[str] = ["http://localhost:3000"]
+    BACKEND_CORS_ORIGINS: Annotated[List[str], NoDecode] = ["http://localhost:3000"]
 
     @field_validator("BACKEND_CORS_ORIGINS", mode="before")
     @classmethod

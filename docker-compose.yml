@@ -1,1 +1,48 @@
+# Local databases for CrimeRakshak.
+# Credentials match the defaults in .env.example so the backend connects
+# out of the box:
+#   POSTGRES_URI=postgresql://user:password@localhost:5544/crimerakshak
+#   NEO4J_URI=bolt://localhost:7687  (neo4j / password)
+# Postgres is published on host port 5544 to avoid clashing with a local
+# PostgreSQL service already using 5432/5433.
+#
+# Start:  docker compose up -d
+# Stop:   docker compose down        (add -v to also wipe data)
+services:
+  postgres:
+    image: postgres:16
+    container_name: crimerakshak-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: crimerakshak
+    ports:
+      - "5544:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U user -d crimerakshak"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
 
+  neo4j:
+    image: neo4j:5
+    container_name: crimerakshak-neo4j
+    environment:
+      NEO4J_AUTH: neo4j/password
+    ports:
+      - "7474:7474"   # Browser UI
+      - "7687:7687"   # Bolt
+    volumes:
+      - neo4jdata:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:7474 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:
+  neo4jdata:

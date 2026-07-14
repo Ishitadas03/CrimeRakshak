@@ -1,0 +1,13 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.10 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.56.1:3000
+✓ Ready in 1936ms
+
+○ Compiling / ...
+memory allocation of 17424 bytes failed
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+✓ Finished writing to filesystem cache in 21.9s

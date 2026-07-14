@@ -19,6 +19,7 @@ from app.core.exceptions import AppHTTPException
 from app.core.logging import get_logger
 from app.financial.routers import financial as financial_router
 from app.graph.routers import graph as graph_router
+from app.chat.router import router as chat_router
 from app.routers import admin, auth, protected
 
 logger = get_logger("api")
@@ -71,6 +72,7 @@ app.include_router(auth.router, prefix=settings.API_V1_PREFIX)
 app.include_router(admin.router, prefix=settings.API_V1_PREFIX)
 app.include_router(protected.router, prefix=settings.API_V1_PREFIX)
 app.include_router(graph_router.router, prefix=settings.API_V1_PREFIX)
+app.include_router(chat_router, prefix=settings.API_V1_PREFIX)
 app.include_router(financial_router.router, prefix=settings.API_V1_PREFIX)
 
 
