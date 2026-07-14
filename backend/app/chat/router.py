@@ -44,7 +44,7 @@ def chat(payload: ChatRequest, current_user: User = Depends(get_current_active_u
     history = _CONVERSATIONS[conversation_id][-_HISTORY_WINDOW:]
 
     logger.info("chat turn user=%s conv=%s lang=%s", current_user.username, conversation_id, language)
-    turn = run_agent(english_question, history=history)
+    turn = run_agent(english_question, history=history, language=language)
 
     answer = from_english(turn.answer, language)
 

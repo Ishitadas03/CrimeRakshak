@@ -37,7 +37,10 @@ const generateUUID = (): string => {
 
 export default function AIAssistantPage() {
   const { t, lang } = useLanguage();
-  const voiceLang = lang === "KA" ? "kn" : "en";
+  // Local language override — allows toggling Kannada/English inside the chat
+  // independently of the global site language.
+  const [chatLang, setChatLang] = useState<"en" | "kn">(lang === "KA" ? "kn" : "en");
+  const voiceLang = chatLang;
 
   // Session history state
   const [sessions, setSessions] = useState<ChatSession[]>([]);
@@ -99,7 +102,7 @@ export default function AIAssistantPage() {
       body: JSON.stringify({
         message,
         conversation_id: conversationId.current,
-        language: voiceLang,
+        language: chatLang,
       }),
     });
     const data = await res.json();
@@ -251,7 +254,6 @@ export default function AIAssistantPage() {
 
   return (
     <div className="p-4 md:p-6 lg:p-8 h-[calc(100vh-4rem)] flex flex-col">
-      {/* Header */}
       <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="mb-4 flex items-start justify-between gap-3 flex-wrap">
         <div>
           <h1 className="text-2xl md:text-3xl font-heading font-bold flex items-center gap-2">
@@ -261,7 +263,20 @@ export default function AIAssistantPage() {
             {t("Natural-language crime data analysis · Decision support · Voice · PDF")}
           </p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
+          {/* Language toggle */}
+          <button
+            onClick={() => setChatLang((l) => (l === "en" ? "kn" : "en"))}
+            title={chatLang === "en" ? "Switch to Kannada" : "Switch to English"}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-semibold transition-all ${
+              chatLang === "kn"
+                ? "bg-brand-purple text-white border-brand-purple shadow-md shadow-brand-purple/30"
+                : "border-border text-muted-foreground hover:border-brand-purple hover:text-brand-purple"
+            }`}
+          >
+            <span className="text-base leading-none">{chatLang === "kn" ? "🇮🇳" : "🌐"}</span>
+            {chatLang === "kn" ? "ಕನ್ನಡ" : "EN"}
+          </button>
           <Button variant="outline" size="sm" onClick={() => setPanelOpen((v) => !v)}>
             <Building2 className="h-4 w-4 mr-1" /> {t("Decision Support")}
           </Button>
@@ -391,7 +406,11 @@ export default function AIAssistantPage() {
                 <Mic className="h-4 w-4" />
               </Button>
               <Input value={input} onChange={(e) => setInput(e.target.value)}
-                placeholder={listening ? t("Listening...") : t("Ask about crime data, or use the mic...")}
+                placeholder={
+                  listening
+                    ? (chatLang === "kn" ? "ಕೇಳುತ್ತಿದೆ..." : t("Listening..."))
+                    : (chatLang === "kn" ? "ಅಪರಾಧ ದತ್ತಾಂಶ ಕುರಿತು ಕೇಳಿ, ಅಥವಾ ಮೈಕ್ ಬಳಸಿ..." : t("Ask about crime data, or use the mic..."))
+                }
                 className="flex-1" disabled={loading} />
               <Button type="submit" size="icon" className="bg-gradient-to-r from-brand-purple to-brand-blue" disabled={!input.trim() || loading}>
                 <Send className="h-4 w-4" />

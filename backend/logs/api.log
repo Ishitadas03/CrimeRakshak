@@ -372,3 +372,28 @@ Failed to read any data from server ResolvedIPv4Address(('127.0.0.1', 7687)) aft
 2026-07-14 21:20:10,972 - chat.api - INFO - chat turn user=admin conv=6fa87a66-0ec3-488f-8bde-5f8bf2812215 lang=en
 2026-07-14 21:28:15,726 - chat.api - INFO - chat turn user=admin conv=6fa87a66-0ec3-488f-8bde-5f8bf2812215 lang=en
 2026-07-14 21:28:32,394 - chat.api - INFO - chat turn user=admin conv=6fa87a66-0ec3-488f-8bde-5f8bf2812215 lang=en
+2026-07-14 21:35:17,590 - chat.api - INFO - chat turn user=admin conv=6fa87a66-0ec3-488f-8bde-5f8bf2812215 lang=en
+2026-07-14 21:35:17,759 - app.chat.data.loader - INFO - Loaded 02_district_wise_reported_cases.csv -> table district_crime_matrix (39 rows)
+2026-07-14 21:35:17,862 - app.chat.data.loader - INFO - Loaded district_wise_major_heads_yearly.csv -> table district_major_heads_yearly (49 rows)
+2026-07-14 21:35:17,907 - app.chat.data.loader - INFO - Loaded 01_crime_review_summary.csv -> table crime_review_summary (28 rows)
+2026-07-14 21:35:17,961 - app.chat.data.loader - INFO - Loaded 09_crime_against_women.csv -> table crimes_against_women (24 rows)
+2026-07-14 21:35:18,001 - app.chat.data.loader - INFO - Loaded 10_crime_against_children.csv -> table crimes_against_children (21 rows)
+2026-07-14 21:35:18,034 - app.chat.data.loader - INFO - Loaded 11_crime_against_sc_st.csv -> table crimes_against_sc_st (6 rows)
+2026-07-14 21:35:18,068 - app.chat.data.loader - INFO - Loaded 04_sakala_district_receipts_disposals.csv -> table sakala_disposals (38 rows)
+2026-07-14 21:35:18,097 - app.chat.data.loader - INFO - Loaded 06_esign_fir_jan2026.csv -> table esign_fir (39 rows)
+2026-07-14 21:35:18,123 - app.chat.data.loader - INFO - Loaded 07_esign_chargesheet_jan2026.csv -> table esign_chargesheet (39 rows)
+2026-07-14 21:38:38,416 - chat.api - INFO - chat turn user=admin conv=6fa87a66-0ec3-488f-8bde-5f8bf2812215 lang=en
+2026-07-14 21:43:50,187 - chat.api - INFO - chat turn user=admin conv=6fa87a66-0ec3-488f-8bde-5f8bf2812215 lang=en
+2026-07-14 21:43:50,381 - app.chat.data.loader - INFO - Loaded 02_district_wise_reported_cases.csv -> table district_crime_matrix (39 rows)
+2026-07-14 21:43:50,495 - app.chat.data.loader - INFO - Loaded district_wise_major_heads_yearly.csv -> table district_major_heads_yearly (49 rows)
+2026-07-14 21:43:50,540 - app.chat.data.loader - INFO - Loaded 01_crime_review_summary.csv -> table crime_review_summary (28 rows)
+2026-07-14 21:43:50,588 - app.chat.data.loader - INFO - Loaded 09_crime_against_women.csv -> table crimes_against_women (24 rows)
+2026-07-14 21:43:50,640 - app.chat.data.loader - INFO - Loaded 10_crime_against_children.csv -> table crimes_against_children (21 rows)
+2026-07-14 21:43:50,694 - app.chat.data.loader - INFO - Loaded 11_crime_against_sc_st.csv -> table crimes_against_sc_st (6 rows)
+2026-07-14 21:43:50,730 - app.chat.data.loader - INFO - Loaded 04_sakala_district_receipts_disposals.csv -> table sakala_disposals (38 rows)
+2026-07-14 21:43:50,763 - app.chat.data.loader - INFO - Loaded 06_esign_fir_jan2026.csv -> table esign_fir (39 rows)
+2026-07-14 21:43:50,794 - app.chat.data.loader - INFO - Loaded 07_esign_chargesheet_jan2026.csv -> table esign_chargesheet (39 rows)
+2026-07-14 21:44:37,288 - chat.api - INFO - chat turn user=admin conv=6fa87a66-0ec3-488f-8bde-5f8bf2812215 lang=kn
+2026-07-14 21:47:24,393 - chat.api - INFO - chat turn user=admin conv=d7804250-1101-498e-8262-fb388f4b0b24 lang=en
+2026-07-14 21:50:26,568 - chat.api - INFO - chat turn user=admin conv=d7804250-1101-498e-8262-fb388f4b0b24 lang=en
+2026-07-14 21:50:36,476 - chat.api - INFO - chat turn user=admin conv=d7804250-1101-498e-8262-fb388f4b0b24 lang=en
