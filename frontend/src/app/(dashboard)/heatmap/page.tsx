@@ -9,25 +9,95 @@ import * as motion from "motion/react-client";
 import { Map, MapPin, Shield, AlertTriangle } from "lucide-react";
 import { AnimatePresence } from "motion/react";
 import { useLanguage } from "@/components/LanguageContext";
+import KarnatakaVectorMap from "./_components/KarnatakaVectorMap";
+import { AccidentClusterOverlay } from "./_components/AccidentClusterOverlay";
+import { LocationSearchBox, type GeoLocationTarget } from "./_components/LocationSearchBox";
 
 export default function HeatmapPage() {
   const { t } = useLanguage();
-  const [selected, setSelected] = useState<string | null>(null);
+  const [selected, setSelected] = useState<string | null>("Bengaluru City");
+  const [targetArea, setTargetArea] = useState<GeoLocationTarget | null>(null);
+  const [crimeFilter, setCrimeFilter] = useState<"ALL" | "VIOLENT" | "CYBER" | "NARCOTICS">("ALL");
+  const [shiftFilter, setShiftFilter] = useState<"DAY" | "NIGHT">("DAY");
+
   const selectedDistrict = districts.find((d) => d.name === selected);
   const top5 = getTopDistricts(5);
   const safest5 = getSafestDistricts(5);
 
-  // Group districts by risk for the visual grid (since we don't have real SVG map data)
   const sortedDistricts = [...districts].sort((a, b) => (b.ipc + b.sll) - (a.ipc + a.sll));
 
   return (
     <div className="p-4 md:p-6 lg:p-8 space-y-6">
-      <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }}>
-        <h1 className="text-2xl md:text-3xl font-heading font-bold flex items-center gap-2">
-          <Map className="h-7 w-7 text-brand-green" /> {t("AI Crime Hotspot Map")}
-        </h1>
-        <p className="text-muted-foreground mt-1">{t("Interactive Karnataka district risk map — click a district to see details")}</p>
+      <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <div className="flex items-center gap-2 mb-1">
+            <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold tracking-widest uppercase bg-brand-green/10 text-brand-green border border-brand-green/20">
+              {t("GIS SPATIAL CLUSTER & HOTSPOT TELEMETRY")}
+            </span>
+          </div>
+          <h1 className="text-2xl md:text-3xl font-heading font-bold flex items-center gap-2 text-foreground">
+            <Map className="h-7 w-7 text-brand-green" /> {t("AI Crime Hotspot Map & GIS Forensics")}
+          </h1>
+          <p className="text-muted-foreground mt-1 text-sm">{t("Interactive Karnataka State GIS vector map with shift telemetry & crime category overlays")}</p>
+        </div>
+
+        {/* Interactive Filter Control Bar */}
+        <div className="flex flex-wrap items-center gap-2">
+          <div className="flex items-center gap-1 bg-muted/30 p-1 rounded-xl border border-border/50">
+            {[
+              { id: "ALL", label: "All Crimes" },
+              { id: "VIOLENT", label: "Violent / Dacoity" },
+              { id: "CYBER", label: "Cyber & Fraud" },
+              { id: "NARCOTICS", label: "NDPS Narcotics" },
+            ].map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => setCrimeFilter(tab.id as any)}
+                className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
+                  crimeFilter === tab.id
+                    ? "bg-brand-purple text-white shadow"
+                    : "text-muted-foreground hover:bg-muted/50"
+                }`}
+              >
+                {t(tab.label)}
+              </button>
+            ))}
+          </div>
+
+          <button
+            onClick={() => setShiftFilter(shiftFilter === "DAY" ? "NIGHT" : "DAY")}
+            className="px-3 py-1.5 rounded-xl text-xs font-bold font-mono border border-border/60 bg-card hover:bg-muted/40 flex items-center gap-1.5 transition-all"
+          >
+            <span className={`w-2 h-2 rounded-full ${shiftFilter === "NIGHT" ? "bg-brand-purple" : "bg-brand-amber"}`} />
+            {shiftFilter === "DAY" ? t("☀️ Day Shift") : t("🌙 Night Patrol")}
+          </button>
+        </div>
       </motion.div>
+
+      {/* Instant District & Hotspot Search Bar */}
+      <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="relative z-[9999]">
+        <LocationSearchBox
+          selectedDistrict={selected}
+          onSelectDistrict={(name) => {
+            setSelected(name);
+            setTargetArea(null);
+          }}
+          onSelectAreaTarget={(target) => setTargetArea(target)}
+        />
+      </motion.div>
+
+      {/* Real Interactive Karnataka State GIS Vector Map */}
+      <KarnatakaVectorMap
+        districts={districts}
+        selectedDistrict={selected}
+        onSelectDistrict={(name) => {
+          setSelected(name);
+          setTargetArea(null);
+        }}
+        crimeFilter={crimeFilter}
+        shiftFilter={shiftFilter}
+        targetArea={targetArea}
+      />
 
       <div className="grid gap-6 lg:grid-cols-3">
         {/* Map Grid */}
@@ -46,7 +116,10 @@ export default function HeatmapPage() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.3, delay: i * 0.02 }}
                     key={d.name}
-                    onClick={() => setSelected(d.name)}
+                    onClick={() => {
+                      setSelected(d.name);
+                      setTargetArea(null);
+                    }}
                     className={`relative p-2 rounded-lg border text-center transition-all duration-200 hover:scale-105 hover:shadow-md ${
                       isSelected ? "ring-2 ring-brand-purple scale-105 shadow-md" : ""
                     }`}
@@ -156,6 +229,11 @@ export default function HeatmapPage() {
           </Card>
         </motion.div>
       </div>
+
+      {/* Road Safety & Highway Accident Cluster Spatial Overlay */}
+      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}>
+        <AccidentClusterOverlay />
+      </motion.div>
     </div>
   );
 }

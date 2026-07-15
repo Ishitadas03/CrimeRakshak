@@ -16,6 +16,7 @@ import {
 import { brandColors, chartPalette } from "@/lib/design-tokens";
 import { Search, ArrowUpDown } from "lucide-react";
 import { useLanguage } from "@/components/LanguageContext";
+import { SllEnforcementBenchmark } from "./_components/SllEnforcementBenchmark";
 
 export default function DistrictPage() {
   const { t } = useLanguage();
@@ -54,10 +55,15 @@ export default function DistrictPage() {
   return (
     <div className="px-4 md:px-6 lg:px-8 pb-8 pt-2 md:pt-4 space-y-6 ">
       <motion.div initial={{ y: -20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, ease: "easeOut" }}>
+        <div className="flex items-center gap-2 mb-1">
+          <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold tracking-widest uppercase bg-brand-purple/10 text-brand-purple border border-brand-purple/20">
+            {t("GRANULAR JURISDICTION & RANGE DECOMPOSITION")}
+          </span>
+        </div>
         <h1 className="text-2xl md:text-4xl font-heading font-bold text-brand-purple">
           {t("District Analysis")}
         </h1>
-        <p className="text-muted-foreground mt-1 text-sm md:text-base">{t("IPC vs SLL breakdown by district and police range")}</p>
+        <p className="text-muted-foreground mt-1 text-sm md:text-base">{t("IPC vs SLL breakdown by district and police range across Karnataka")}</p>
       </motion.div>
 
       {/* Range Filters */}
@@ -135,6 +141,11 @@ export default function DistrictPage() {
           </CardContent>
         </Card>
       </div>
+
+      {/* COTPA & SLL Proactive Enforcement Index */}
+      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }}>
+        <SllEnforcementBenchmark />
+      </motion.div>
 
       {/* Table */}
       <Card className="glass-card relative overflow-hidden transition-all duration-300 shadow-md hover:shadow-xl hover:border-brand-purple/20 hover:-translate-y-1">

@@ -19,6 +19,7 @@ import {
 import { brandColors } from "@/lib/design-tokens";
 import { offenders, type Offender } from "@/data/intelligenceData";
 import { useLanguage } from "@/components/LanguageContext";
+import CriminologyRecidivismMatrix from "./_components/CriminologyRecidivismMatrix";
 
 // ─── Styles ──────────────────────────────────────────────────────────
 
@@ -575,6 +576,9 @@ export default function ProfilingPage() {
         </h1>
         <p className="text-muted-foreground mt-3 text-base">{t("Behavioral analysis, psychometric tracking, and historical case records.")}</p>
       </motion.div>
+
+      {/* Feature 5: Criminology Recidivism & Modus Operandi Matrix */}
+      <CriminologyRecidivismMatrix />
 
       {/* KPIs */}
       <div className="grid gap-4 sm:grid-cols-4">

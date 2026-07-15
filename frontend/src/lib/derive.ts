@@ -17,9 +17,9 @@ import type { RiskTier } from "@/lib/design-tokens";
  */
 export function getRiskTier(district: District): RiskTier {
   const total = district.ipc + district.sll;
-  if (total > 20000) return "Critical";
-  if (total > 8000) return "High";
-  if (total > 4000) return "Moderate";
+  if (total >= 9000) return "Critical";
+  if (total >= 5200) return "High";
+  if (total >= 3800) return "Moderate";
   return "Safe";
 }
 

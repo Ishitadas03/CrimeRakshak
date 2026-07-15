@@ -34,8 +34,8 @@ const simLogs = [
 
 export default function AIPredictionPage() {
   const { t } = useLanguage();
-  const [district, setDistrict] = useState("");
-  const [crimeType, setCrimeType] = useState("");
+  const [district, setDistrict] = useState("Bengaluru City");
+  const [crimeType, setCrimeType] = useState("Theft");
   const [modelType, setModelType] = useState<"LSTM" | "XGBoost" | "Prophet">("LSTM");
   const [months, setMonths] = useState(3);
   const [includeEnvironmental, setIncludeEnvironmental] = useState(true);
@@ -43,7 +43,16 @@ export default function AIPredictionPage() {
   
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [logs, setLogs] = useState<string[]>([]);
-  const [result, setResult] = useState<PredictionResult | null>(null);
+  const [result, setResult] = useState<PredictionResult | null>(() =>
+    runPrediction({
+      district: "Bengaluru City",
+      crimeType: "Theft",
+      months: 3,
+      modelType: "LSTM",
+      includeEnvironmental: true,
+      includeEvents: false,
+    })
+  );
 
   const handlePredict = () => {
     if (!district || !crimeType) return;
@@ -68,7 +77,21 @@ export default function AIPredictionPage() {
         }));
         setIsAnalyzing(false);
       }
-    }, 200);
+    }, 150);
+  };
+
+  const applyPreset = (presetDist: string, presetCrime: string, presetModel: "LSTM" | "XGBoost" | "Prophet") => {
+    setDistrict(presetDist);
+    setCrimeType(presetCrime);
+    setModelType(presetModel);
+    setResult(runPrediction({
+      district: presetDist,
+      crimeType: presetCrime,
+      months,
+      modelType: presetModel,
+      includeEnvironmental,
+      includeEvents,
+    }));
   };
 
   const getTierColor = (tier: string) => {
@@ -104,6 +127,53 @@ export default function AIPredictionPage() {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-6 pt-6">
+              {/* Quick Preset Scenarios */}
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <label className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground flex items-center gap-1.5">
+                    <Sparkles className="h-3 w-3 text-brand-purple" /> {t("Regional Archetype Presets")}
+                  </label>
+                  <span className="text-[9px] font-semibold text-muted-foreground">{t("All 37 Dist. Below")}</span>
+                </div>
+                <div className="grid grid-cols-2 gap-1.5">
+                  <button
+                    onClick={() => applyPreset("Bengaluru City", "Theft", "LSTM")}
+                    className="px-2.5 py-1.5 rounded-lg border border-border/60 bg-muted/20 hover:bg-brand-purple/10 text-xs font-semibold text-left flex items-center gap-1.5 transition-all"
+                  >
+                    ⚡ {t("Bengaluru (Metropolitan)")}
+                  </button>
+                  <button
+                    onClick={() => applyPreset("Kalaburagi City", "Hurt/Grievous Hurt", "XGBoost")}
+                    className="px-2.5 py-1.5 rounded-lg border border-border/60 bg-muted/20 hover:bg-brand-purple/10 text-xs font-semibold text-left flex items-center gap-1.5 transition-all"
+                  >
+                    🔥 {t("Kalaburagi (North-East)")}
+                  </button>
+                  <button
+                    onClick={() => applyPreset("Hubli-Dharwad City", "Cheating", "Prophet")}
+                    className="px-2.5 py-1.5 rounded-lg border border-border/60 bg-muted/20 hover:bg-brand-purple/10 text-xs font-semibold text-left flex items-center gap-1.5 transition-all"
+                  >
+                    🏙️ {t("Hubballi-Dharwad (North)")}
+                  </button>
+                  <button
+                    onClick={() => applyPreset("Mysuru City", "Cheating", "Prophet")}
+                    className="px-2.5 py-1.5 rounded-lg border border-border/60 bg-muted/20 hover:bg-brand-purple/10 text-xs font-semibold text-left flex items-center gap-1.5 transition-all"
+                  >
+                    💻 {t("Mysuru (Southern IT)")}
+                  </button>
+                  <button
+                    onClick={() => applyPreset("Mangaluru City", "Hurt/Grievous Hurt", "XGBoost")}
+                    className="px-2.5 py-1.5 rounded-lg border border-border/60 bg-muted/20 hover:bg-brand-purple/10 text-xs font-semibold text-left flex items-center gap-1.5 transition-all"
+                  >
+                    🌊 {t("Mangaluru (Coastal Port)")}
+                  </button>
+                  <button
+                    onClick={() => applyPreset("Ballari", "Theft", "LSTM")}
+                    className="px-2.5 py-1.5 rounded-lg border border-border/60 bg-muted/20 hover:bg-brand-purple/10 text-xs font-semibold text-left flex items-center gap-1.5 transition-all"
+                  >
+                    🚨 {t("Ballari (Mining Belt)")}
+                  </button>
+                </div>
+              </div>
               
               {/* Target Vectors */}
               <div className="space-y-4">

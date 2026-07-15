@@ -12,6 +12,7 @@ import {
 import { brandColors, chartPalette } from "@/lib/design-tokens";
 import { ChevronRight, PieChart as PieChartIcon, BarChart2, ShieldAlert } from "lucide-react";
 import { useLanguage } from "@/components/LanguageContext";
+import { StatutoryHeadDrillDown } from "./_components/StatutoryHeadDrillDown";
 
 export default function CrimeTypesPage() {
   const { t } = useLanguage();
@@ -33,12 +34,47 @@ export default function CrimeTypesPage() {
       {/* Header Section */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <motion.div initial={{ y: -20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, ease: "easeOut" }}>
+          <div className="flex items-center gap-2 mb-1">
+            <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold tracking-widest uppercase bg-brand-purple/10 text-brand-purple border border-brand-purple/20">
+              {t("STATUTORY TYPOLOGY & MODUS OPERANDI ANALYTICS")}
+            </span>
+          </div>
           <h1 className="text-2xl md:text-3xl font-heading font-bold text-brand-purple">
             {t("Crime Categories")}
           </h1>
-          <p className="text-muted-foreground mt-1">{t("Detailed breakdown of IPC crime classifications")}</p>
+          <p className="text-muted-foreground mt-1">{t("Detailed breakdown of IPC crime classifications & operational subcategories")}</p>
         </motion.div>
+
+        {/* Quick Category Drill-down Presets */}
+        <div className="flex flex-wrap gap-1.5 bg-muted/20 p-1 rounded-xl border border-border/50">
+          {[
+            "Theft",
+            "Cyber Crime",
+            "NDPS",
+            "Robbery"
+          ].map((catName) => (
+            <button
+              key={catName}
+              onClick={() => {
+                const found = sorted.find((s) => s.category.toLowerCase().includes(catName.toLowerCase()));
+                if (found) setSelected(found.category);
+              }}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                selected?.toLowerCase().includes(catName.toLowerCase())
+                  ? "bg-brand-purple text-white shadow-md"
+                  : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
+              }`}
+            >
+              {t(catName)}
+            </button>
+          ))}
+        </div>
       </div>
+
+      {/* Major vs Minor Statutory Head Drill-Down Matrix */}
+      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
+        <StatutoryHeadDrillDown />
+      </motion.div>
 
       {/* KPI Stats */}
       <div className="grid gap-4 sm:grid-cols-3">

@@ -170,6 +170,25 @@ export default function AlertsPage() {
     return () => clearInterval(timer);
   }, []);
 
+  const injectFlashAlert = (crime: string, location: string, change: number, units: string[]) => {
+    const flashId = `alert-flash-${Date.now()}`;
+    const newAlert: Alert = {
+      id: flashId,
+      crime,
+      change,
+      currentMonth: Math.round(180 + change * 2.5),
+      prevMonth: 140,
+      severity: "Critical",
+      timestamp: new Date(),
+      status: "Unread",
+      location,
+      slaMinutes: 15,
+      suggestedUnits: units,
+    };
+    setAlerts((prev) => [newAlert, ...prev]);
+    setSelectedId(flashId);
+  };
+
   const activeAlerts = useMemo(() => alerts.filter((a) => a.status !== "Resolved"), [alerts]);
   
   const filteredAlerts = useMemo(() => {
@@ -215,6 +234,34 @@ export default function AlertsPage() {
             <span className={`text-2xl font-bold font-mono ${criticalCount > 0 ? 'text-brand-red' : 'text-foreground'}`}>{criticalCount}</span>
           </div>
         </motion.div>
+      </div>
+
+      {/* Tactical Emergency Injection Bar for Live Review */}
+      <div className="flex flex-wrap items-center justify-between gap-3 bg-muted/20 border border-border/60 p-3 rounded-xl flex-shrink-0">
+        <div className="flex items-center gap-2">
+          <Siren className="h-4 w-4 text-brand-red animate-pulse" />
+          <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground">{t("Live Alert Simulation Console")}</span>
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          <button
+            onClick={() => injectFlashAlert("Violent Robbery Surge", "Bengaluru South (Electronic City Corridor)", 48, ["Dispatch 3x Hoysala Interceptors", "Alert Checkpoint Alpha-2", "Activate Highway Ring Surveillance"])}
+            className="px-3 py-1.5 rounded-lg border border-brand-red/40 bg-brand-red/10 hover:bg-brand-red/20 text-xs font-bold text-brand-red flex items-center gap-1.5 transition-all shadow-sm"
+          >
+            ⚡ {t("Inject Robbery Surge (+48%)")}
+          </button>
+          <button
+            onClick={() => injectFlashAlert("Cyber Financial Fraud Spike", "Mysuru Commercial District", 36, ["Deploy CEN Cyber Unit", "Alert State Bank Nodal Desk", "Freeze Flagged UPI Gateway Accounts"])}
+            className="px-3 py-1.5 rounded-lg border border-brand-purple/40 bg-brand-purple/10 hover:bg-brand-purple/20 text-xs font-bold text-brand-purple flex items-center gap-1.5 transition-all shadow-sm"
+          >
+            💻 {t("Inject Cyber Spike (+36%)")}
+          </button>
+          <button
+            onClick={() => injectFlashAlert("NDPS Narcotics Transit Anomaly", "Mangaluru Port & Highway Checkpoint", 42, ["Deploy Anti-Narcotics Special Task Force", "Establish Coastal Route Interdiction", "Notify Excise Intelligence"])}
+            className="px-3 py-1.5 rounded-lg border border-brand-teal/40 bg-brand-teal/10 hover:bg-brand-teal/20 text-xs font-bold text-brand-teal flex items-center gap-1.5 transition-all shadow-sm"
+          >
+            🌊 {t("Inject Narcotics Alert (+42%)")}
+          </button>
+        </div>
       </div>
 
       {/* Split-Pane Layout */}

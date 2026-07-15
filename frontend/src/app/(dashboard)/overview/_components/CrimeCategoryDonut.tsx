@@ -15,20 +15,25 @@ export function CrimeCategoryDonut() {
     .filter((c) => !top8.includes(c))
     .reduce((s, c) => s + c.total, 0);
 
+  const stateTotalIpc = ipcCrimes.reduce((s, c) => s + c.total, 0);
+
   const data = [
     ...top8.map((c) => ({ name: t(c.category), value: c.total })),
-    { name: t("Other"), value: otherTotal },
+    { name: t("Other Categories"), value: otherTotal },
   ];
 
   return (
     <Card className="glass-card relative overflow-hidden transition-all duration-300 shadow-md hover:shadow-xl hover:border-brand-purple/20">
-      <CardHeader>
-        <CardTitle className="font-heading text-base">
+      <CardHeader className="pb-2">
+        <CardTitle className="font-heading text-base text-foreground">
           {t("Crime Category Breakdown")}
         </CardTitle>
+        <p className="text-xs text-muted-foreground">
+          {t("Official IPC statewide statutory volume share")}
+        </p>
       </CardHeader>
-      <CardContent>
-        <div className="h-[320px] w-full">
+      <CardContent className="relative">
+        <div className="h-[320px] w-full relative">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
               <defs>
@@ -40,8 +45,8 @@ export function CrimeCategoryDonut() {
                 data={data}
                 cx="50%"
                 cy="45%"
-                innerRadius={55}
-                outerRadius={100}
+                innerRadius={60}
+                outerRadius={95}
                 paddingAngle={2}
                 dataKey="value"
                 animationDuration={1500}
@@ -59,16 +64,16 @@ export function CrimeCategoryDonut() {
               </Pie>
               <Tooltip
                 contentStyle={{
-                  background: "rgba(255, 255, 255, 0.75)",
+                  background: "rgba(255, 255, 255, 0.85)",
                   backdropFilter: "blur(20px)",
                   WebkitBackdropFilter: "blur(20px)",
                   border: "1px solid rgba(255, 255, 255, 0.7)",
                   borderRadius: "16px",
-                  boxShadow: "0 8px 30px rgba(80, 140, 255, 0.08)",
+                  boxShadow: "0 8px 30px rgba(80, 140, 255, 0.12)",
                   color: "#0f172a",
                   fontSize: 12,
                 }}
-                itemStyle={{ color: "#0f172a", fontWeight: 500 }}
+                itemStyle={{ color: "#0f172a", fontWeight: 600 }}
                 formatter={(value: any) => value?.toLocaleString("en-IN")}
               />
               <Legend
@@ -78,6 +83,16 @@ export function CrimeCategoryDonut() {
               />
             </PieChart>
           </ResponsiveContainer>
+
+          {/* Center Donut Label displaying Official Total */}
+          <div className="absolute inset-0 top-[-25px] flex flex-col items-center justify-center pointer-events-none">
+            <span className="text-[10px] uppercase font-bold text-muted-foreground tracking-wider">
+              {t("TOTAL IPC")}
+            </span>
+            <span className="text-base font-mono font-bold text-foreground">
+              {stateTotalIpc.toLocaleString("en-IN")}
+            </span>
+          </div>
         </div>
       </CardContent>
     </Card>

@@ -11,6 +11,9 @@ import {
 import { brandColors, chartPalette } from "@/lib/design-tokens";
 import { ShieldAlert, Baby, Users, Car, TrendingUp, TrendingDown, Sparkles } from "lucide-react";
 import { useLanguage } from "@/components/LanguageContext";
+import UrbanSocioCorrelationMatrix from "./_components/UrbanSocioCorrelationMatrix";
+import DemographicBreakdownCards from "./_components/DemographicBreakdownCards";
+import SocioRiskRadar from "./_components/SocioRiskRadar";
 
 export default function VulnerablePage() {
   const { t } = useLanguage();
@@ -258,6 +261,17 @@ export default function VulnerablePage() {
           ))}
         </div>
       </motion.section>
+
+      {/* ─── Feature 4: Sociological Crime Insights & Demographic Analysis ─── */}
+
+      {/* Urbanization & District Socio-Geographic Crime Matrix */}
+      <UrbanSocioCorrelationMatrix />
+
+      {/* Granular Demographic Sub-Head Breakdown & Risk Drivers */}
+      <DemographicBreakdownCards />
+
+      {/* District Multi-Factor Sociological Radar & Public Health Correlations */}
+      <SocioRiskRadar />
     </div>
   );
 }
