@@ -1,0 +1,1201 @@
+fir_number,date,district,area,crime_type,sections,modus_operandi,status,is_synthetic
+FIR-2025-UDU-0001,2025-08-21,Udupi,Basu Chowk,Theft,BNS 303,vehicle theft from parking,under-investigation,True
+FIR-2025-SHI-0002,2025-12-18,Shivamogga,Ravi Marg,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2025-KAL-0003,2025-03-05,Kalaburagi,Bhatia Chowk,NDPS,NDPS Act 20,courier parcel concealment,court-pending,True
+FIR-2024-MAN-0004,2024-08-29,Mandya,Varughese Zila,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2024-VIJ-0005,2024-04-03,Vijayapur,Kanda Chowk,Extortion,BNS 308,protection money demand,convicted,True
+FIR-2025-KAL-0006,2025-09-02,Kalaburagi,Rajan Road,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2025-DAK-0007,2025-08-25,Dakshina Kannada,Deshpande Marg,Burglary,BNS 331,terrace entry,under-investigation,True
+FIR-2025-BAL-0008,2025-05-30,Ballari,Ramakrishnan Path,Extortion,BNS 308,digital arrest threat call,convicted,True
+FIR-2025-BAG-0009,2025-12-30,Bagalkot,Kashyap Circle,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2025-RAI-0010,2025-11-01,Raichur,Savant Ganj,Robbery,BNS 309,knife-point street robbery,charge-sheeted,True
+FIR-2025-KAL-0011,2025-11-12,Kalaburagi,Bhatia Chowk,Cyber Fraud,IT Act 66D,UPI phishing call,under-investigation,True
+FIR-2024-SHI-0012,2024-10-21,Shivamogga,Master Street,Murder,BNS 103,gang rivalry,convicted,True
+FIR-2024-DHA-0013,2024-08-19,Dharwad,Bhardwaj Path,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2025-KAL-0014,2025-11-04,Kalaburagi,Butala Nagar,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2024-DAK-0015,2024-06-08,Dakshina Kannada,Sankaran Chowk,Murder,BNS 103,property dispute,court-pending,True
+FIR-2025-BEL-0016,2025-03-16,Belagavi,Deol Street,Cyber Fraud,IT Act 66D,courier scam,court-pending,True
+FIR-2024-KAL-0017,2024-08-04,Kalaburagi,Dhawan,Theft,BNS 303,pickpocketing in transit,closed,True
+FIR-2024-BAG-0018,2024-01-20,Bagalkot,Kashyap Circle,Cheating,BNS 318,land document forgery,convicted,True
+FIR-2024-UDU-0019,2024-09-06,Udupi,Talwar Marg,Robbery,BNS 309,highway vehicle stop,charge-sheeted,True
+FIR-2025-VIJ-0020,2025-06-06,Vijayapur,Walia Nagar,NDPS,NDPS Act 20,hostel network supply,charge-sheeted,True
+FIR-2025-TUM-0021,2025-09-08,Tumakuru,Deo Ganj,Chain Snatching,BNS 304,market crowd snatching,closed,True
+FIR-2025-SHI-0022,2025-10-08,Shivamogga,Master Street,Extortion,BNS 308,digital arrest threat call,court-pending,True
+FIR-2024-BAG-0023,2024-02-12,Bagalkot,Bala Marg,NDPS,NDPS Act 20,courier parcel concealment,charge-sheeted,True
+FIR-2025-DAK-0024,2025-10-23,Dakshina Kannada,Sankaran Chowk,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2025-DHA-0025,2025-01-31,Dharwad,Tella Circle,Theft,BNS 303,vehicle theft from parking,court-pending,True
+FIR-2025-UDU-0026,2025-11-25,Udupi,Basu Chowk,NDPS,NDPS Act 20,hostel network supply,under-investigation,True
+FIR-2025-MAN-0027,2025-11-10,Mandya,Saran Marg,Rioting,BNS 191,protest escalation,closed,True
+FIR-2025-KOL-0028,2025-03-09,Kolar,Bhat Chowk,Cyber Fraud,IT Act 66D,OTP social engineering,under-investigation,True
+FIR-2025-HAS-0029,2025-06-23,Hassan,Ghosh Chowk,Robbery,BNS 309,knife-point street robbery,court-pending,True
+FIR-2025-MAN-0030,2025-02-24,Mandya,Gala Street,Murder,BNS 103,gang rivalry,closed,True
+FIR-2025-SHI-0031,2025-04-17,Shivamogga,Ravi Marg,Burglary,BNS 331,lock-picking daytime entry,court-pending,True
+FIR-2025-CHI-0032,2025-10-18,Chickballapura,Chaudry Nagar,Murder,BNS 103,personal enmity,court-pending,True
+FIR-2024-BAG-0033,2024-10-06,Bagalkot,Bala Marg,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2024-UDU-0034,2024-02-24,Udupi,Basu Chowk,Cheating,BNS 318,fake job placement racket,under-investigation,True
+FIR-2025-KAL-0035,2025-12-13,Kalaburagi,Bhatia Chowk,Extortion,BNS 308,protection money demand,charge-sheeted,True
+FIR-2024-SHI-0036,2024-08-31,Shivamogga,Sachdev Circle,Theft,BNS 303,shop till theft,court-pending,True
+FIR-2024-DHA-0037,2024-10-25,Dharwad,Bhardwaj Path,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2025-BEN-0038,2025-01-17,Bengaluru City,Jayaraman Nagar,Robbery,BNS 309,highway vehicle stop,convicted,True
+FIR-2024-HAS-0039,2024-02-15,Hassan,Ghosh Chowk,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2025-VIJ-0040,2025-04-13,Vijayapur,Kanda Chowk,Robbery,BNS 309,knife-point street robbery,convicted,True
+FIR-2025-HAS-0041,2025-11-02,Hassan,Ganesan Marg,Murder,BNS 103,property dispute,under-investigation,True
+FIR-2025-TUM-0042,2025-06-15,Tumakuru,Kala Ganj,Cyber Fraud,IT Act 66D,fake loan app extortion,under-investigation,True
+FIR-2024-BAG-0043,2024-06-19,Bagalkot,Lad Ganj,Cheating,BNS 318,land document forgery,charge-sheeted,True
+FIR-2024-BAG-0044,2024-02-01,Bagalkot,Kashyap Circle,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2025-MAN-0045,2025-01-14,Mandya,Dhawan Chowk,Extortion,BNS 308,protection money demand,convicted,True
+FIR-2024-DAV-0046,2024-04-30,Davanagere,Singh Nagar,NDPS,NDPS Act 20,street-level peddling,convicted,True
+FIR-2024-BAG-0047,2024-06-25,Bagalkot,Kashyap Circle,Extortion,BNS 308,digital arrest threat call,convicted,True
+FIR-2025-VIJ-0048,2025-06-04,Vijayapur,Ram Zila,Cyber Fraud,IT Act 66D,courier scam,under-investigation,True
+FIR-2025-DHA-0049,2025-06-22,Dharwad,Saha Nagar,Extortion,BNS 308,protection money demand,convicted,True
+FIR-2024-BEL-0050,2024-02-26,Belagavi,Sabharwal Ganj,NDPS,NDPS Act 20,street-level peddling,charge-sheeted,True
+FIR-2024-RAI-0051,2024-07-20,Raichur,Dugal Street,Theft,BNS 303,vehicle theft from parking,court-pending,True
+FIR-2025-VIJ-0052,2025-08-13,Vijayapur,Shah Marg,Robbery,BNS 309,knife-point street robbery,court-pending,True
+FIR-2024-BAG-0053,2024-10-31,Bagalkot,Kashyap Circle,Cheating,BNS 318,investment ponzi scheme,convicted,True
+FIR-2024-BEL-0054,2024-11-22,Belagavi,Deol Street,Cyber Fraud,IT Act 66D,fake loan app extortion,charge-sheeted,True
+FIR-2025-SHI-0055,2025-04-23,Shivamogga,Ravi Marg,Cyber Fraud,IT Act 66D,courier scam,under-investigation,True
+FIR-2025-CHI-0056,2025-05-21,Chickballapura,Chaudry Nagar,Theft,BNS 303,vehicle theft from parking,court-pending,True
+FIR-2024-RAI-0057,2024-02-22,Raichur,Savant Ganj,Cheating,BNS 318,fake job placement racket,charge-sheeted,True
+FIR-2025-KAL-0058,2025-01-09,Kalaburagi,Rajan Road,NDPS,NDPS Act 20,courier parcel concealment,court-pending,True
+FIR-2025-UDU-0059,2025-09-19,Udupi,Basu Chowk,Cyber Fraud,IT Act 66D,courier scam,court-pending,True
+FIR-2025-CHI-0060,2025-09-03,Chickballapura,Chaudry Nagar,Rioting,BNS 191,communal flashpoint clash,closed,True
+FIR-2025-BAL-0061,2025-11-28,Ballari,Ramakrishnan Path,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2025-KAL-0062,2025-12-23,Kalaburagi,Rajan Road,Murder,BNS 103,gang rivalry,court-pending,True
+FIR-2025-BAL-0063,2025-05-10,Ballari,Contractor Zila,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2025-DAV-0064,2025-05-06,Davanagere,Singh Nagar,Cyber Fraud,IT Act 66D,courier scam,under-investigation,True
+FIR-2025-DAV-0065,2025-03-28,Davanagere,Keer Street,Cyber Fraud,IT Act 66D,OTP social engineering,under-investigation,True
+FIR-2024-BAL-0066,2024-08-19,Ballari,Ramakrishnan Path,NDPS,NDPS Act 20,street-level peddling,closed,True
+FIR-2025-VIJ-0067,2025-10-28,Vijayapur,Walia Nagar,Extortion,BNS 308,protection money demand,charge-sheeted,True
+FIR-2024-MYS-0068,2024-10-23,Mysuru,Keer,Chain Snatching,BNS 304,market crowd snatching,under-investigation,True
+FIR-2024-BEL-0069,2024-07-16,Belagavi,Deol Street,Theft,BNS 303,pickpocketing in transit,closed,True
+FIR-2025-HAS-0070,2025-06-11,Hassan,Bath Chowk,Cheating,BNS 318,investment ponzi scheme,charge-sheeted,True
+FIR-2024-MAN-0071,2024-01-12,Mandya,Gala Street,Rioting,BNS 191,communal flashpoint clash,closed,True
+FIR-2024-BAG-0072,2024-06-05,Bagalkot,Lad Ganj,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2025-MAN-0073,2025-06-24,Mandya,Varughese Zila,Extortion,BNS 308,protection money demand,closed,True
+FIR-2025-KOL-0074,2025-08-20,Kolar,Rau Nagar,Burglary,BNS 331,lock-picking daytime entry,convicted,True
+FIR-2024-BEN-0075,2024-09-17,Bengaluru City,Brar Zila,Cheating,BNS 318,investment ponzi scheme,court-pending,True
+FIR-2024-KAL-0076,2024-07-03,Kalaburagi,Bhatia Chowk,Cheating,BNS 318,fake job placement racket,charge-sheeted,True
+FIR-2025-KOL-0077,2025-02-06,Kolar,Wable Chowk,NDPS,NDPS Act 20,street-level peddling,convicted,True
+FIR-2024-KAL-0078,2024-09-10,Kalaburagi,Dhawan,Burglary,BNS 331,night house-break via rear entry,under-investigation,True
+FIR-2025-MYS-0079,2025-12-21,Mysuru,Babu Road,Robbery,BNS 309,highway vehicle stop,convicted,True
+FIR-2024-KAL-0080,2024-11-05,Kalaburagi,Rajan Road,Burglary,BNS 331,lock-picking daytime entry,charge-sheeted,True
+FIR-2025-MYS-0081,2025-05-22,Mysuru,Dhawan Ganj,NDPS,NDPS Act 20,hostel network supply,closed,True
+FIR-2024-KAL-0082,2024-08-18,Kalaburagi,Bhatia Chowk,Burglary,BNS 331,terrace entry,closed,True
+FIR-2025-BAG-0083,2025-10-24,Bagalkot,Lad Ganj,Cyber Fraud,IT Act 66D,fake loan app extortion,under-investigation,True
+FIR-2024-VIJ-0084,2024-01-16,Vijayapur,Ram Zila,Cyber Fraud,IT Act 66D,UPI phishing call,closed,True
+FIR-2024-SHI-0085,2024-11-25,Shivamogga,Ravi Marg,NDPS,NDPS Act 20,hostel network supply,charge-sheeted,True
+FIR-2024-BAL-0086,2024-11-16,Ballari,Arya Road,Cyber Fraud,IT Act 66D,courier scam,court-pending,True
+FIR-2025-CHI-0087,2025-10-19,Chickballapura,Maharaj Road,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2024-DHA-0088,2024-01-07,Dharwad,Venkatesh Marg,Murder,BNS 103,personal enmity,convicted,True
+FIR-2024-BEN-0089,2024-01-17,Bengaluru City,Sankaran Chowk,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2024-UDU-0090,2024-12-28,Udupi,Talwar Marg,Burglary,BNS 331,lock-picking daytime entry,charge-sheeted,True
+FIR-2025-RAI-0091,2025-02-19,Raichur,Amble Circle,Robbery,BNS 309,knife-point street robbery,under-investigation,True
+FIR-2024-BAL-0092,2024-02-13,Ballari,Arya Road,NDPS,NDPS Act 20,hostel network supply,closed,True
+FIR-2025-MYS-0093,2025-07-10,Mysuru,Babu Road,Theft,BNS 303,shop till theft,closed,True
+FIR-2024-UDU-0094,2024-09-03,Udupi,Basu Chowk,Rioting,BNS 191,communal flashpoint clash,charge-sheeted,True
+FIR-2024-DHA-0095,2024-04-10,Dharwad,Venkatesh Marg,Murder,BNS 103,property dispute,convicted,True
+FIR-2025-BAL-0096,2025-05-17,Ballari,Contractor Zila,Extortion,BNS 308,digital arrest threat call,court-pending,True
+FIR-2024-UDU-0097,2024-06-06,Udupi,Badami Circle,Theft,BNS 303,shop till theft,convicted,True
+FIR-2025-RAI-0098,2025-04-04,Raichur,Amble Circle,Cheating,BNS 318,investment ponzi scheme,under-investigation,True
+FIR-2024-UDU-0099,2024-06-22,Udupi,Badami Circle,NDPS,NDPS Act 20,street-level peddling,closed,True
+FIR-2025-CHI-0100,2025-10-02,Chickballapura,Sidhu Chowk,Burglary,BNS 331,night house-break via rear entry,charge-sheeted,True
+FIR-2024-DHA-0101,2024-12-08,Dharwad,Venkatesh Marg,Extortion,BNS 308,protection money demand,charge-sheeted,True
+FIR-2025-BEL-0102,2025-01-08,Belagavi,Sabharwal Ganj,Cheating,BNS 318,land document forgery,court-pending,True
+FIR-2025-TUM-0103,2025-12-10,Tumakuru,Kala Ganj,Theft,BNS 303,vehicle theft from parking,court-pending,True
+FIR-2024-BAG-0104,2024-03-16,Bagalkot,Rastogi Path,Cheating,BNS 318,land document forgery,court-pending,True
+FIR-2025-MAN-0105,2025-11-04,Mandya,Gala Street,Burglary,BNS 331,night house-break via rear entry,court-pending,True
+FIR-2024-BAL-0106,2024-01-11,Ballari,Arya Road,Robbery,BNS 309,highway vehicle stop,charge-sheeted,True
+FIR-2024-SHI-0107,2024-04-17,Shivamogga,Ravi Marg,Extortion,BNS 308,protection money demand,closed,True
+FIR-2025-CHI-0108,2025-06-17,Chickballapura,Rattan Chowk,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2025-DAK-0109,2025-11-24,Dakshina Kannada,Sarma Road,Robbery,BNS 309,ATM-exit targeting,court-pending,True
+FIR-2024-VIJ-0110,2024-01-30,Vijayapur,Shah Marg,Cheating,BNS 318,fake job placement racket,court-pending,True
+FIR-2025-HAS-0111,2025-10-16,Hassan,Sampath Path,Robbery,BNS 309,ATM-exit targeting,court-pending,True
+FIR-2024-BEL-0112,2024-04-30,Belagavi,Sabharwal Ganj,Cyber Fraud,IT Act 66D,fake loan app extortion,charge-sheeted,True
+FIR-2024-DAK-0113,2024-05-23,Dakshina Kannada,Deshpande Marg,Theft,BNS 303,pickpocketing in transit,convicted,True
+FIR-2025-CHI-0114,2025-06-01,Chickballapura,Maharaj Road,NDPS,NDPS Act 20,courier parcel concealment,convicted,True
+FIR-2024-MYS-0115,2024-10-26,Mysuru,Dhawan Ganj,Burglary,BNS 331,terrace entry,closed,True
+FIR-2025-MAN-0116,2025-07-10,Mandya,Varughese Zila,Theft,BNS 303,shop till theft,convicted,True
+FIR-2024-BAG-0117,2024-02-03,Bagalkot,Lad Ganj,Theft,BNS 303,vehicle theft from parking,charge-sheeted,True
+FIR-2025-KAL-0118,2025-10-09,Kalaburagi,Rajan Road,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2025-DAV-0119,2025-08-09,Davanagere,Singhal Nagar,Theft,BNS 303,shop till theft,under-investigation,True
+FIR-2024-HAS-0120,2024-05-29,Hassan,Ghosh Chowk,Burglary,BNS 331,terrace entry,convicted,True
+FIR-2025-TUM-0121,2025-12-15,Tumakuru,Kala Ganj,Cyber Fraud,IT Act 66D,courier scam,under-investigation,True
+FIR-2024-BEL-0122,2024-02-17,Belagavi,Banik Street,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2024-MAN-0123,2024-03-25,Mandya,Gala Street,Theft,BNS 303,pickpocketing in transit,under-investigation,True
+FIR-2024-CHI-0124,2024-08-06,Chickballapura,Rattan Chowk,Murder,BNS 103,property dispute,court-pending,True
+FIR-2025-UDU-0125,2025-05-04,Udupi,Talwar Marg,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2025-VIJ-0126,2025-03-26,Vijayapur,Ram Zila,Robbery,BNS 309,ATM-exit targeting,closed,True
+FIR-2025-DHA-0127,2025-01-28,Dharwad,Tella Circle,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2024-MYS-0128,2024-10-29,Mysuru,Babu Road,Cheating,BNS 318,investment ponzi scheme,charge-sheeted,True
+FIR-2025-RAI-0129,2025-08-05,Raichur,Savant Ganj,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2024-KOL-0130,2024-10-20,Kolar,Rau Nagar,NDPS,NDPS Act 20,courier parcel concealment,charge-sheeted,True
+FIR-2024-KAL-0131,2024-07-27,Kalaburagi,Dhawan,NDPS,NDPS Act 20,hostel network supply,charge-sheeted,True
+FIR-2024-DHA-0132,2024-02-29,Dharwad,Bhardwaj Path,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2025-CHI-0133,2025-12-19,Chickballapura,Chaudry Nagar,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2025-TUM-0134,2025-12-30,Tumakuru,Kala Ganj,Theft,BNS 303,shop till theft,charge-sheeted,True
+FIR-2024-BEL-0135,2024-04-15,Belagavi,Sabharwal Ganj,Theft,BNS 303,vehicle theft from parking,convicted,True
+FIR-2025-KAL-0136,2025-01-27,Kalaburagi,Rajan Road,Cyber Fraud,IT Act 66D,UPI phishing call,closed,True
+FIR-2025-KOL-0137,2025-08-08,Kolar,Dhawan Street,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2024-HAS-0138,2024-11-14,Hassan,Bath Chowk,Theft,BNS 303,vehicle theft from parking,court-pending,True
+FIR-2024-KAL-0139,2024-09-08,Kalaburagi,Butala Nagar,NDPS,NDPS Act 20,street-level peddling,closed,True
+FIR-2024-VIJ-0140,2024-04-16,Vijayapur,Ram Zila,Theft,BNS 303,vehicle theft from parking,charge-sheeted,True
+FIR-2025-MAN-0141,2025-02-26,Mandya,Dhawan Chowk,NDPS,NDPS Act 20,street-level peddling,closed,True
+FIR-2024-DAV-0142,2024-10-25,Davanagere,Singh Nagar,Burglary,BNS 331,lock-picking daytime entry,closed,True
+FIR-2024-BEL-0143,2024-05-19,Belagavi,Sabharwal Ganj,Burglary,BNS 331,lock-picking daytime entry,closed,True
+FIR-2024-MYS-0144,2024-11-07,Mysuru,Babu Road,Robbery,BNS 309,highway vehicle stop,convicted,True
+FIR-2024-BEN-0145,2024-06-27,Bengaluru City,Sankaran Chowk,Theft,BNS 303,pickpocketing in transit,convicted,True
+FIR-2024-KAL-0146,2024-08-15,Kalaburagi,Rajan Road,Murder,BNS 103,property dispute,convicted,True
+FIR-2024-BEL-0147,2024-12-05,Belagavi,Magar Zila,Robbery,BNS 309,knife-point street robbery,closed,True
+FIR-2024-BAG-0148,2024-07-10,Bagalkot,Bala Marg,Burglary,BNS 331,night house-break via rear entry,under-investigation,True
+FIR-2025-KOL-0149,2025-03-05,Kolar,Wable Chowk,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2024-DAK-0150,2024-10-03,Dakshina Kannada,Sankaran Chowk,Cheating,BNS 318,investment ponzi scheme,charge-sheeted,True
+FIR-2025-DAK-0151,2025-02-01,Dakshina Kannada,Sarma Road,Robbery,BNS 309,highway vehicle stop,under-investigation,True
+FIR-2025-VIJ-0152,2025-07-31,Vijayapur,Shah Marg,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2024-VIJ-0153,2024-12-05,Vijayapur,Ram Zila,Murder,BNS 103,personal enmity,charge-sheeted,True
+FIR-2024-UDU-0154,2024-03-15,Udupi,Talwar Marg,Robbery,BNS 309,highway vehicle stop,charge-sheeted,True
+FIR-2025-DAK-0155,2025-11-12,Dakshina Kannada,Madan Circle,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2024-BEL-0156,2024-08-14,Belagavi,Banik Street,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2024-DAV-0157,2024-12-24,Davanagere,Singhal Nagar,Robbery,BNS 309,knife-point street robbery,convicted,True
+FIR-2025-MAN-0158,2025-01-22,Mandya,Dhawan Chowk,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2024-BEN-0159,2024-10-28,Bengaluru City,Jayaraman Nagar,Murder,BNS 103,personal enmity,closed,True
+FIR-2025-DAK-0160,2025-03-17,Dakshina Kannada,Madan Circle,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2024-BEL-0161,2024-08-31,Belagavi,Magar Zila,Theft,BNS 303,pickpocketing in transit,charge-sheeted,True
+FIR-2025-CHI-0162,2025-11-08,Chickballapura,Sidhu Chowk,Theft,BNS 303,vehicle theft from parking,under-investigation,True
+FIR-2025-DAV-0163,2025-05-15,Davanagere,Singhal Nagar,Extortion,BNS 308,digital arrest threat call,court-pending,True
+FIR-2024-MYS-0164,2024-10-02,Mysuru,Babu Road,Burglary,BNS 331,terrace entry,convicted,True
+FIR-2025-DHA-0165,2025-06-19,Dharwad,Saha Nagar,Cheating,BNS 318,investment ponzi scheme,court-pending,True
+FIR-2024-DHA-0166,2024-07-16,Dharwad,Bhardwaj Path,Burglary,BNS 331,lock-picking daytime entry,closed,True
+FIR-2024-TUM-0167,2024-03-09,Tumakuru,Kala Ganj,Cyber Fraud,IT Act 66D,OTP social engineering,court-pending,True
+FIR-2024-RAI-0168,2024-10-19,Raichur,Dugal Street,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2025-HAS-0169,2025-02-09,Hassan,Ghosh Chowk,Murder,BNS 103,property dispute,under-investigation,True
+FIR-2024-CHI-0170,2024-10-14,Chickballapura,Rattan Chowk,Theft,BNS 303,vehicle theft from parking,closed,True
+FIR-2025-BAG-0171,2025-10-23,Bagalkot,Bala Marg,Rioting,BNS 191,protest escalation,closed,True
+FIR-2024-KOL-0172,2024-11-14,Kolar,Rau Nagar,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2025-VIJ-0173,2025-01-04,Vijayapur,Walia Nagar,Murder,BNS 103,property dispute,charge-sheeted,True
+FIR-2025-BAG-0174,2025-01-16,Bagalkot,Bala Marg,Burglary,BNS 331,lock-picking daytime entry,closed,True
+FIR-2024-BEN-0175,2024-10-18,Bengaluru City,Sankaran Chowk,Robbery,BNS 309,knife-point street robbery,under-investigation,True
+FIR-2024-BEN-0176,2024-01-21,Bengaluru City,Sankaran Chowk,NDPS,NDPS Act 20,hostel network supply,closed,True
+FIR-2025-UDU-0177,2025-03-09,Udupi,Basu Chowk,Theft,BNS 303,vehicle theft from parking,charge-sheeted,True
+FIR-2025-SHI-0178,2025-10-24,Shivamogga,Master Street,NDPS,NDPS Act 20,courier parcel concealment,convicted,True
+FIR-2025-HAS-0179,2025-09-06,Hassan,Ghosh Chowk,Burglary,BNS 331,terrace entry,convicted,True
+FIR-2025-RAI-0180,2025-12-31,Raichur,Amble Circle,Cyber Fraud,IT Act 66D,OTP social engineering,closed,True
+FIR-2025-DAK-0181,2025-07-26,Dakshina Kannada,Deshpande Marg,Theft,BNS 303,vehicle theft from parking,court-pending,True
+FIR-2024-BEL-0182,2024-10-28,Belagavi,Banik Street,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2024-BAG-0183,2024-07-24,Bagalkot,Bala Marg,Chain Snatching,BNS 304,two-wheeler drive-by snatching,charge-sheeted,True
+FIR-2025-DAV-0184,2025-04-07,Davanagere,Mani Road,Murder,BNS 103,personal enmity,convicted,True
+FIR-2025-DHA-0185,2025-02-17,Dharwad,Saha Nagar,Cheating,BNS 318,investment ponzi scheme,charge-sheeted,True
+FIR-2025-BAL-0186,2025-10-03,Ballari,Arya Road,Murder,BNS 103,property dispute,convicted,True
+FIR-2025-KOL-0187,2025-06-16,Kolar,Bhat Chowk,Extortion,BNS 308,protection money demand,charge-sheeted,True
+FIR-2024-VIJ-0188,2024-05-14,Vijayapur,Kanda Chowk,Burglary,BNS 331,night house-break via rear entry,court-pending,True
+FIR-2025-MYS-0189,2025-09-30,Mysuru,Keer,NDPS,NDPS Act 20,hostel network supply,court-pending,True
+FIR-2025-KAL-0190,2025-12-19,Kalaburagi,Rajan Road,Extortion,BNS 308,protection money demand,convicted,True
+FIR-2024-VIJ-0191,2024-04-18,Vijayapur,Walia Nagar,Robbery,BNS 309,knife-point street robbery,convicted,True
+FIR-2024-TUM-0192,2024-08-28,Tumakuru,Banik Chowk,Cyber Fraud,IT Act 66D,courier scam,convicted,True
+FIR-2024-MAN-0193,2024-10-24,Mandya,Saran Marg,Robbery,BNS 309,knife-point street robbery,charge-sheeted,True
+FIR-2024-BAG-0194,2024-12-02,Bagalkot,Lad Ganj,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2025-DAK-0195,2025-03-07,Dakshina Kannada,Sankaran Chowk,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2025-BEN-0196,2025-01-02,Bengaluru City,Brar Zila,Cheating,BNS 318,fake job placement racket,charge-sheeted,True
+FIR-2024-BAL-0197,2024-04-07,Ballari,Raj,Rioting,BNS 191,protest escalation,charge-sheeted,True
+FIR-2025-CHI-0198,2025-04-25,Chickballapura,Sidhu Chowk,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2025-BAG-0199,2025-08-09,Bagalkot,Kashyap Circle,Extortion,BNS 308,digital arrest threat call,convicted,True
+FIR-2024-TUM-0200,2024-01-01,Tumakuru,Sahota,NDPS,NDPS Act 20,hostel network supply,closed,True
+FIR-2024-RAI-0201,2024-12-05,Raichur,Amble Circle,Extortion,BNS 308,digital arrest threat call,convicted,True
+FIR-2025-KOL-0202,2025-07-14,Kolar,Bhat Chowk,Theft,BNS 303,vehicle theft from parking,convicted,True
+FIR-2024-UDU-0203,2024-05-03,Udupi,Badami Circle,Burglary,BNS 331,night house-break via rear entry,charge-sheeted,True
+FIR-2025-KOL-0204,2025-04-13,Kolar,Wable Chowk,Extortion,BNS 308,protection money demand,closed,True
+FIR-2024-HAS-0205,2024-04-16,Hassan,Sampath Path,Chain Snatching,BNS 304,two-wheeler drive-by snatching,charge-sheeted,True
+FIR-2025-RAI-0206,2025-06-08,Raichur,Dugal Street,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2025-HAS-0207,2025-10-14,Hassan,Bath Chowk,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2025-BEL-0208,2025-06-19,Belagavi,Magar Zila,Murder,BNS 103,personal enmity,charge-sheeted,True
+FIR-2024-VIJ-0209,2024-10-29,Vijayapur,Kanda Chowk,Chain Snatching,BNS 304,market crowd snatching,charge-sheeted,True
+FIR-2025-MYS-0210,2025-12-13,Mysuru,Sarna Road,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2025-MAN-0211,2025-10-10,Mandya,Gala Street,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2024-DHA-0212,2024-02-11,Dharwad,Tella Circle,Cheating,BNS 318,investment ponzi scheme,court-pending,True
+FIR-2024-MYS-0213,2024-11-26,Mysuru,Dhawan Ganj,Chain Snatching,BNS 304,market crowd snatching,charge-sheeted,True
+FIR-2024-DHA-0214,2024-06-12,Dharwad,Saha Nagar,NDPS,NDPS Act 20,hostel network supply,convicted,True
+FIR-2024-BAL-0215,2024-09-03,Ballari,Ramakrishnan Path,Extortion,BNS 308,digital arrest threat call,convicted,True
+FIR-2025-KOL-0216,2025-01-18,Kolar,Rau Nagar,NDPS,NDPS Act 20,courier parcel concealment,charge-sheeted,True
+FIR-2025-BEN-0217,2025-06-30,Bengaluru City,Majumdar Street,NDPS,NDPS Act 20,hostel network supply,under-investigation,True
+FIR-2025-KAL-0218,2025-12-03,Kalaburagi,Butala Nagar,Robbery,BNS 309,highway vehicle stop,charge-sheeted,True
+FIR-2025-UDU-0219,2025-02-21,Udupi,Date Path,Theft,BNS 303,shop till theft,court-pending,True
+FIR-2024-KOL-0220,2024-03-15,Kolar,Dhawan Street,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2024-KAL-0221,2024-08-13,Kalaburagi,Bhatia Chowk,NDPS,NDPS Act 20,hostel network supply,convicted,True
+FIR-2024-UDU-0222,2024-02-12,Udupi,Talwar Marg,Robbery,BNS 309,ATM-exit targeting,charge-sheeted,True
+FIR-2024-DAV-0223,2024-07-07,Davanagere,Mani Road,Chain Snatching,BNS 304,two-wheeler drive-by snatching,under-investigation,True
+FIR-2024-VIJ-0224,2024-04-10,Vijayapur,Shah Marg,Theft,BNS 303,shop till theft,closed,True
+FIR-2024-CHI-0225,2024-11-21,Chickballapura,Maharaj Road,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2025-DHA-0226,2025-10-18,Dharwad,Tella Circle,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2025-BEL-0227,2025-07-18,Belagavi,Sabharwal Ganj,Extortion,BNS 308,protection money demand,court-pending,True
+FIR-2025-MYS-0228,2025-08-27,Mysuru,Dhawan Ganj,Robbery,BNS 309,ATM-exit targeting,court-pending,True
+FIR-2024-KOL-0229,2024-04-02,Kolar,Dhawan Street,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2025-MYS-0230,2025-01-02,Mysuru,Babu Road,Extortion,BNS 308,protection money demand,convicted,True
+FIR-2025-UDU-0231,2025-08-06,Udupi,Basu Chowk,Cyber Fraud,IT Act 66D,UPI phishing call,court-pending,True
+FIR-2025-KAL-0232,2025-09-10,Kalaburagi,Bhatia Chowk,Cyber Fraud,IT Act 66D,UPI phishing call,under-investigation,True
+FIR-2024-CHI-0233,2024-04-26,Chickballapura,Maharaj Road,Cyber Fraud,IT Act 66D,UPI phishing call,closed,True
+FIR-2024-KOL-0234,2024-07-03,Kolar,Rau Nagar,Theft,BNS 303,pickpocketing in transit,court-pending,True
+FIR-2024-BAL-0235,2024-06-23,Ballari,Raj,Extortion,BNS 308,protection money demand,court-pending,True
+FIR-2024-KAL-0236,2024-08-23,Kalaburagi,Butala Nagar,Robbery,BNS 309,ATM-exit targeting,court-pending,True
+FIR-2025-DHA-0237,2025-11-25,Dharwad,Saha Nagar,Robbery,BNS 309,knife-point street robbery,charge-sheeted,True
+FIR-2024-DAV-0238,2024-05-17,Davanagere,Keer Street,Cheating,BNS 318,investment ponzi scheme,convicted,True
+FIR-2025-VIJ-0239,2025-01-19,Vijayapur,Walia Nagar,Murder,BNS 103,personal enmity,charge-sheeted,True
+FIR-2025-MAN-0240,2025-07-24,Mandya,Dhawan Chowk,Rioting,BNS 191,protest escalation,under-investigation,True
+FIR-2025-DAK-0241,2025-04-02,Dakshina Kannada,Sankaran Chowk,Burglary,BNS 331,lock-picking daytime entry,under-investigation,True
+FIR-2024-KAL-0242,2024-04-03,Kalaburagi,Bhatia Chowk,Murder,BNS 103,property dispute,closed,True
+FIR-2025-KOL-0243,2025-03-25,Kolar,Bhat Chowk,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2025-MAN-0244,2025-02-13,Mandya,Dhawan Chowk,Theft,BNS 303,vehicle theft from parking,charge-sheeted,True
+FIR-2024-RAI-0245,2024-10-18,Raichur,Dugal Street,NDPS,NDPS Act 20,courier parcel concealment,charge-sheeted,True
+FIR-2024-DHA-0246,2024-06-28,Dharwad,Bhardwaj Path,Theft,BNS 303,pickpocketing in transit,court-pending,True
+FIR-2025-CHI-0247,2025-07-30,Chickballapura,Sidhu Chowk,Cheating,BNS 318,fake job placement racket,convicted,True
+FIR-2025-BAL-0248,2025-11-24,Ballari,Contractor Zila,Burglary,BNS 331,lock-picking daytime entry,charge-sheeted,True
+FIR-2024-RAI-0249,2024-03-18,Raichur,Savant Ganj,Cyber Fraud,IT Act 66D,OTP social engineering,charge-sheeted,True
+FIR-2024-BEL-0250,2024-12-30,Belagavi,Magar Zila,Burglary,BNS 331,terrace entry,closed,True
+FIR-2025-HAS-0251,2025-01-15,Hassan,Sampath Path,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2025-RAI-0252,2025-05-04,Raichur,Sura,Cheating,BNS 318,fake job placement racket,court-pending,True
+FIR-2024-MAN-0253,2024-11-29,Mandya,Saran Marg,Burglary,BNS 331,lock-picking daytime entry,closed,True
+FIR-2025-UDU-0254,2025-01-16,Udupi,Basu Chowk,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2024-KAL-0255,2024-07-19,Kalaburagi,Rajan Road,Cheating,BNS 318,investment ponzi scheme,charge-sheeted,True
+FIR-2024-BEL-0256,2024-09-17,Belagavi,Banik Street,Burglary,BNS 331,lock-picking daytime entry,convicted,True
+FIR-2025-RAI-0257,2025-08-12,Raichur,Savant Ganj,Rioting,BNS 191,protest escalation,closed,True
+FIR-2025-SHI-0258,2025-09-20,Shivamogga,Ravi Marg,Cheating,BNS 318,investment ponzi scheme,court-pending,True
+FIR-2024-SHI-0259,2024-08-21,Shivamogga,Master Street,Cyber Fraud,IT Act 66D,courier scam,court-pending,True
+FIR-2025-DAV-0260,2025-11-08,Davanagere,Singhal Nagar,Burglary,BNS 331,lock-picking daytime entry,under-investigation,True
+FIR-2024-BEL-0261,2024-03-26,Belagavi,Deol Street,NDPS,NDPS Act 20,street-level peddling,court-pending,True
+FIR-2025-KAL-0262,2025-10-03,Kalaburagi,Rajan Road,Extortion,BNS 308,protection money demand,court-pending,True
+FIR-2024-BAG-0263,2024-06-30,Bagalkot,Rastogi Path,NDPS,NDPS Act 20,hostel network supply,court-pending,True
+FIR-2024-MAN-0264,2024-11-11,Mandya,Dhawan Chowk,Extortion,BNS 308,protection money demand,convicted,True
+FIR-2025-MAN-0265,2025-07-15,Mandya,Gala Street,Murder,BNS 103,gang rivalry,charge-sheeted,True
+FIR-2025-DAV-0266,2025-09-19,Davanagere,Singh Nagar,NDPS,NDPS Act 20,hostel network supply,court-pending,True
+FIR-2024-BAG-0267,2024-04-23,Bagalkot,Rastogi Path,Theft,BNS 303,vehicle theft from parking,under-investigation,True
+FIR-2024-BEN-0268,2024-08-26,Bengaluru City,Sankaran Chowk,Chain Snatching,BNS 304,market crowd snatching,closed,True
+FIR-2024-RAI-0269,2024-03-14,Raichur,Amble Circle,Cheating,BNS 318,fake job placement racket,under-investigation,True
+FIR-2024-BEL-0270,2024-02-04,Belagavi,Sabharwal Ganj,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2025-BEL-0271,2025-06-17,Belagavi,Deol Street,NDPS,NDPS Act 20,courier parcel concealment,charge-sheeted,True
+FIR-2024-BEN-0272,2024-11-28,Bengaluru City,Brar Zila,Cheating,BNS 318,land document forgery,convicted,True
+FIR-2024-TUM-0273,2024-09-11,Tumakuru,Sahota,Robbery,BNS 309,ATM-exit targeting,closed,True
+FIR-2024-RAI-0274,2024-11-20,Raichur,Dugal Street,Burglary,BNS 331,lock-picking daytime entry,convicted,True
+FIR-2025-BAG-0275,2025-12-24,Bagalkot,Lad Ganj,Extortion,BNS 308,digital arrest threat call,court-pending,True
+FIR-2025-MAN-0276,2025-07-08,Mandya,Dhawan Chowk,Theft,BNS 303,pickpocketing in transit,under-investigation,True
+FIR-2024-HAS-0277,2024-09-01,Hassan,Bath Chowk,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2025-HAS-0278,2025-02-23,Hassan,Bath Chowk,Cyber Fraud,IT Act 66D,UPI phishing call,under-investigation,True
+FIR-2024-BEL-0279,2024-07-15,Belagavi,Magar Zila,Extortion,BNS 308,digital arrest threat call,court-pending,True
+FIR-2025-CHI-0280,2025-11-02,Chickballapura,Rattan Chowk,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2024-VIJ-0281,2024-03-20,Vijayapur,Kanda Chowk,Theft,BNS 303,vehicle theft from parking,closed,True
+FIR-2025-MAN-0282,2025-10-15,Mandya,Dhawan Chowk,Robbery,BNS 309,highway vehicle stop,convicted,True
+FIR-2025-BAG-0283,2025-09-06,Bagalkot,Lad Ganj,NDPS,NDPS Act 20,hostel network supply,closed,True
+FIR-2024-RAI-0284,2024-09-03,Raichur,Savant Ganj,Rioting,BNS 191,protest escalation,charge-sheeted,True
+FIR-2024-SHI-0285,2024-01-07,Shivamogga,Dewan Chowk,Theft,BNS 303,shop till theft,court-pending,True
+FIR-2024-KAL-0286,2024-12-30,Kalaburagi,Rajan Road,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2024-CHI-0287,2024-11-28,Chickballapura,Sidhu Chowk,Robbery,BNS 309,ATM-exit targeting,charge-sheeted,True
+FIR-2025-UDU-0288,2025-08-13,Udupi,Talwar Marg,Murder,BNS 103,property dispute,convicted,True
+FIR-2025-SHI-0289,2025-10-09,Shivamogga,Sachdev Circle,Rioting,BNS 191,communal flashpoint clash,charge-sheeted,True
+FIR-2025-KOL-0290,2025-09-01,Kolar,Dhawan Street,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2025-DHA-0291,2025-05-28,Dharwad,Venkatesh Marg,Cheating,BNS 318,fake job placement racket,convicted,True
+FIR-2025-HAS-0292,2025-03-16,Hassan,Bath Chowk,Theft,BNS 303,shop till theft,under-investigation,True
+FIR-2024-BAL-0293,2024-05-29,Ballari,Arya Road,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2024-BEN-0294,2024-10-21,Bengaluru City,Jayaraman Nagar,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2025-KAL-0295,2025-05-09,Kalaburagi,Butala Nagar,NDPS,NDPS Act 20,hostel network supply,charge-sheeted,True
+FIR-2024-BEN-0296,2024-10-04,Bengaluru City,Majumdar Street,Rioting,BNS 191,protest escalation,charge-sheeted,True
+FIR-2024-UDU-0297,2024-08-24,Udupi,Talwar Marg,Cheating,BNS 318,fake job placement racket,closed,True
+FIR-2025-CHI-0298,2025-06-26,Chickballapura,Maharaj Road,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2024-RAI-0299,2024-01-31,Raichur,Dugal Street,Cheating,BNS 318,land document forgery,closed,True
+FIR-2025-HAS-0300,2025-09-11,Hassan,Sampath Path,Theft,BNS 303,vehicle theft from parking,court-pending,True
+FIR-2025-KOL-0301,2025-12-06,Kolar,Wable Chowk,Theft,BNS 303,vehicle theft from parking,charge-sheeted,True
+FIR-2025-BEL-0302,2025-06-29,Belagavi,Sabharwal Ganj,NDPS,NDPS Act 20,street-level peddling,charge-sheeted,True
+FIR-2024-DAK-0303,2024-07-11,Dakshina Kannada,Sankaran Chowk,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2024-CHI-0304,2024-03-22,Chickballapura,Sidhu Chowk,Cyber Fraud,IT Act 66D,courier scam,court-pending,True
+FIR-2025-BEN-0305,2025-02-22,Bengaluru City,Jayaraman Nagar,Murder,BNS 103,personal enmity,closed,True
+FIR-2025-CHI-0306,2025-09-23,Chickballapura,Chaudry Nagar,Extortion,BNS 308,protection money demand,convicted,True
+FIR-2024-BAL-0307,2024-02-13,Ballari,Raj,Extortion,BNS 308,protection money demand,closed,True
+FIR-2024-BAG-0308,2024-10-19,Bagalkot,Bala Marg,Theft,BNS 303,pickpocketing in transit,charge-sheeted,True
+FIR-2025-RAI-0309,2025-05-27,Raichur,Savant Ganj,Robbery,BNS 309,highway vehicle stop,charge-sheeted,True
+FIR-2024-BAG-0310,2024-05-06,Bagalkot,Lad Ganj,Chain Snatching,BNS 304,two-wheeler drive-by snatching,under-investigation,True
+FIR-2025-SHI-0311,2025-12-30,Shivamogga,Master Street,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2025-CHI-0312,2025-04-14,Chickballapura,Maharaj Road,Murder,BNS 103,personal enmity,court-pending,True
+FIR-2025-BAG-0313,2025-02-23,Bagalkot,Kashyap Circle,Extortion,BNS 308,protection money demand,court-pending,True
+FIR-2025-SHI-0314,2025-11-14,Shivamogga,Master Street,Murder,BNS 103,personal enmity,closed,True
+FIR-2025-RAI-0315,2025-09-01,Raichur,Savant Ganj,Rioting,BNS 191,protest escalation,closed,True
+FIR-2025-TUM-0316,2025-07-17,Tumakuru,Sahota,Cheating,BNS 318,investment ponzi scheme,charge-sheeted,True
+FIR-2024-SHI-0317,2024-03-30,Shivamogga,Ravi Marg,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2024-BEN-0318,2024-07-17,Bengaluru City,Majumdar Street,Theft,BNS 303,vehicle theft from parking,under-investigation,True
+FIR-2025-VIJ-0319,2025-10-14,Vijayapur,Kanda Chowk,NDPS,NDPS Act 20,hostel network supply,court-pending,True
+FIR-2025-HAS-0320,2025-12-03,Hassan,Ganesan Marg,Robbery,BNS 309,ATM-exit targeting,charge-sheeted,True
+FIR-2025-MYS-0321,2025-04-30,Mysuru,Babu Road,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2024-KAL-0322,2024-12-28,Kalaburagi,Dhawan,Cyber Fraud,IT Act 66D,OTP social engineering,convicted,True
+FIR-2024-HAS-0323,2024-11-11,Hassan,Bath Chowk,Robbery,BNS 309,highway vehicle stop,convicted,True
+FIR-2024-MYS-0324,2024-04-24,Mysuru,Babu Road,Chain Snatching,BNS 304,market crowd snatching,closed,True
+FIR-2025-SHI-0325,2025-06-20,Shivamogga,Master Street,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2024-BEN-0326,2024-04-28,Bengaluru City,Jayaraman Nagar,NDPS,NDPS Act 20,hostel network supply,closed,True
+FIR-2025-SHI-0327,2025-08-14,Shivamogga,Dewan Chowk,Murder,BNS 103,personal enmity,charge-sheeted,True
+FIR-2025-KAL-0328,2025-07-16,Kalaburagi,Dhawan,Robbery,BNS 309,knife-point street robbery,court-pending,True
+FIR-2025-MYS-0329,2025-04-27,Mysuru,Keer,Murder,BNS 103,personal enmity,charge-sheeted,True
+FIR-2025-KAL-0330,2025-08-04,Kalaburagi,Butala Nagar,Extortion,BNS 308,digital arrest threat call,convicted,True
+FIR-2024-BEN-0331,2024-11-28,Bengaluru City,Majumdar Street,Cyber Fraud,IT Act 66D,OTP social engineering,charge-sheeted,True
+FIR-2024-RAI-0332,2024-11-29,Raichur,Sura,Robbery,BNS 309,ATM-exit targeting,convicted,True
+FIR-2025-TUM-0333,2025-01-28,Tumakuru,Sahota,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2025-BEL-0334,2025-04-19,Belagavi,Banik Street,Rioting,BNS 191,protest escalation,under-investigation,True
+FIR-2025-BEN-0335,2025-10-13,Bengaluru City,Brar Zila,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2025-SHI-0336,2025-08-06,Shivamogga,Ravi Marg,Theft,BNS 303,shop till theft,convicted,True
+FIR-2025-RAI-0337,2025-01-13,Raichur,Sura,Murder,BNS 103,gang rivalry,under-investigation,True
+FIR-2025-UDU-0338,2025-12-29,Udupi,Date Path,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2024-BEN-0339,2024-01-12,Bengaluru City,Brar Zila,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2025-DHA-0340,2025-04-11,Dharwad,Venkatesh Marg,Cheating,BNS 318,fake job placement racket,charge-sheeted,True
+FIR-2025-MYS-0341,2025-08-13,Mysuru,Sarna Road,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2025-TUM-0342,2025-06-13,Tumakuru,Banik Chowk,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2025-CHI-0343,2025-06-08,Chickballapura,Chaudry Nagar,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2025-SHI-0344,2025-11-03,Shivamogga,Sachdev Circle,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2024-BAL-0345,2024-09-24,Ballari,Raj,Rioting,BNS 191,protest escalation,convicted,True
+FIR-2025-BAL-0346,2025-01-27,Ballari,Raj,Cheating,BNS 318,investment ponzi scheme,convicted,True
+FIR-2025-CHI-0347,2025-02-12,Chickballapura,Chaudry Nagar,Extortion,BNS 308,protection money demand,charge-sheeted,True
+FIR-2025-HAS-0348,2025-01-26,Hassan,Bath Chowk,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2025-BAL-0349,2025-04-17,Ballari,Arya Road,Cheating,BNS 318,land document forgery,court-pending,True
+FIR-2024-KOL-0350,2024-04-10,Kolar,Dhawan Street,Cheating,BNS 318,fake job placement racket,convicted,True
+FIR-2024-UDU-0351,2024-05-13,Udupi,Badami Circle,Burglary,BNS 331,terrace entry,closed,True
+FIR-2024-TUM-0352,2024-06-14,Tumakuru,Sahota,Theft,BNS 303,shop till theft,convicted,True
+FIR-2024-DHA-0353,2024-04-21,Dharwad,Venkatesh Marg,Robbery,BNS 309,knife-point street robbery,court-pending,True
+FIR-2025-CHI-0354,2025-04-01,Chickballapura,Sidhu Chowk,Robbery,BNS 309,knife-point street robbery,court-pending,True
+FIR-2025-UDU-0355,2025-05-17,Udupi,Talwar Marg,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2024-TUM-0356,2024-02-26,Tumakuru,Sahota,Cheating,BNS 318,fake job placement racket,court-pending,True
+FIR-2025-MAN-0357,2025-10-07,Mandya,Dhawan Chowk,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2025-TUM-0358,2025-02-02,Tumakuru,Sahota,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2025-RAI-0359,2025-04-14,Raichur,Savant Ganj,NDPS,NDPS Act 20,street-level peddling,convicted,True
+FIR-2024-MYS-0360,2024-01-15,Mysuru,Dhawan Ganj,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2024-UDU-0361,2024-07-26,Udupi,Basu Chowk,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2024-BEL-0362,2024-06-26,Belagavi,Deol Street,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2024-DAK-0363,2024-03-23,Dakshina Kannada,Sankaran Chowk,Rioting,BNS 191,protest escalation,convicted,True
+FIR-2025-BAG-0364,2025-06-19,Bagalkot,Rastogi Path,Theft,BNS 303,vehicle theft from parking,under-investigation,True
+FIR-2025-BEN-0365,2025-03-04,Bengaluru City,Brar Zila,Cyber Fraud,IT Act 66D,UPI phishing call,under-investigation,True
+FIR-2025-DAK-0366,2025-04-30,Dakshina Kannada,Sankaran Chowk,Robbery,BNS 309,highway vehicle stop,under-investigation,True
+FIR-2024-DAK-0367,2024-06-29,Dakshina Kannada,Sankaran Chowk,NDPS,NDPS Act 20,street-level peddling,charge-sheeted,True
+FIR-2024-DHA-0368,2024-08-21,Dharwad,Venkatesh Marg,Cyber Fraud,IT Act 66D,fake loan app extortion,charge-sheeted,True
+FIR-2024-VIJ-0369,2024-05-19,Vijayapur,Walia Nagar,Cyber Fraud,IT Act 66D,fake loan app extortion,closed,True
+FIR-2025-DAK-0370,2025-09-10,Dakshina Kannada,Sarma Road,Cyber Fraud,IT Act 66D,courier scam,under-investigation,True
+FIR-2024-BAL-0371,2024-09-10,Ballari,Arya Road,Burglary,BNS 331,night house-break via rear entry,closed,True
+FIR-2025-BAL-0372,2025-05-22,Ballari,Ramakrishnan Path,Extortion,BNS 308,protection money demand,court-pending,True
+FIR-2024-SHI-0373,2024-01-17,Shivamogga,Dewan Chowk,Robbery,BNS 309,ATM-exit targeting,convicted,True
+FIR-2025-TUM-0374,2025-10-04,Tumakuru,Kala Ganj,Chain Snatching,BNS 304,market crowd snatching,closed,True
+FIR-2025-MYS-0375,2025-11-21,Mysuru,Keer,Rioting,BNS 191,protest escalation,charge-sheeted,True
+FIR-2025-VIJ-0376,2025-12-27,Vijayapur,Ram Zila,NDPS,NDPS Act 20,street-level peddling,closed,True
+FIR-2024-MAN-0377,2024-10-10,Mandya,Saran Marg,Cyber Fraud,IT Act 66D,UPI phishing call,charge-sheeted,True
+FIR-2024-SHI-0378,2024-07-02,Shivamogga,Sachdev Circle,Cheating,BNS 318,investment ponzi scheme,court-pending,True
+FIR-2025-BAG-0379,2025-03-06,Bagalkot,Kashyap Circle,Cyber Fraud,IT Act 66D,UPI phishing call,under-investigation,True
+FIR-2025-BAG-0380,2025-07-15,Bagalkot,Rastogi Path,NDPS,NDPS Act 20,street-level peddling,charge-sheeted,True
+FIR-2024-MAN-0381,2024-05-31,Mandya,Saran Marg,Murder,BNS 103,personal enmity,charge-sheeted,True
+FIR-2024-HAS-0382,2024-08-31,Hassan,Ghosh Chowk,Chain Snatching,BNS 304,market crowd snatching,charge-sheeted,True
+FIR-2024-BEL-0383,2024-11-04,Belagavi,Magar Zila,NDPS,NDPS Act 20,courier parcel concealment,charge-sheeted,True
+FIR-2025-SHI-0384,2025-04-30,Shivamogga,Dewan Chowk,Theft,BNS 303,pickpocketing in transit,convicted,True
+FIR-2024-RAI-0385,2024-05-22,Raichur,Sura,Murder,BNS 103,property dispute,charge-sheeted,True
+FIR-2025-DAV-0386,2025-06-23,Davanagere,Mani Road,Rioting,BNS 191,protest escalation,under-investigation,True
+FIR-2025-KAL-0387,2025-02-11,Kalaburagi,Bhatia Chowk,Cyber Fraud,IT Act 66D,OTP social engineering,charge-sheeted,True
+FIR-2024-DHA-0388,2024-06-16,Dharwad,Saha Nagar,Theft,BNS 303,vehicle theft from parking,convicted,True
+FIR-2025-DAK-0389,2025-02-28,Dakshina Kannada,Madan Circle,Theft,BNS 303,vehicle theft from parking,convicted,True
+FIR-2024-BAG-0390,2024-11-07,Bagalkot,Bala Marg,Rioting,BNS 191,protest escalation,closed,True
+FIR-2025-BAL-0391,2025-12-05,Ballari,Ramakrishnan Path,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2025-BEL-0392,2025-12-11,Belagavi,Deol Street,Extortion,BNS 308,protection money demand,court-pending,True
+FIR-2024-DHA-0393,2024-02-24,Dharwad,Tella Circle,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2025-RAI-0394,2025-12-05,Raichur,Dugal Street,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2025-VIJ-0395,2025-05-30,Vijayapur,Kanda Chowk,Chain Snatching,BNS 304,two-wheeler drive-by snatching,charge-sheeted,True
+FIR-2024-SHI-0396,2024-12-16,Shivamogga,Sachdev Circle,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2024-VIJ-0397,2024-05-08,Vijayapur,Ram Zila,Theft,BNS 303,shop till theft,closed,True
+FIR-2024-VIJ-0398,2024-02-13,Vijayapur,Kanda Chowk,Cheating,BNS 318,land document forgery,under-investigation,True
+FIR-2024-MAN-0399,2024-07-23,Mandya,Varughese Zila,Rioting,BNS 191,protest escalation,under-investigation,True
+FIR-2025-TUM-0400,2025-08-06,Tumakuru,Banik Chowk,NDPS,NDPS Act 20,street-level peddling,convicted,True
+FIR-2025-CHI-0401,2025-05-31,Chickballapura,Chaudry Nagar,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2025-VIJ-0402,2025-03-10,Vijayapur,Ram Zila,Cheating,BNS 318,fake job placement racket,charge-sheeted,True
+FIR-2024-UDU-0403,2024-04-28,Udupi,Basu Chowk,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2025-MAN-0404,2025-05-02,Mandya,Gala Street,Burglary,BNS 331,terrace entry,under-investigation,True
+FIR-2025-BEL-0405,2025-12-12,Belagavi,Sabharwal Ganj,Cheating,BNS 318,investment ponzi scheme,under-investigation,True
+FIR-2025-BAG-0406,2025-06-07,Bagalkot,Kashyap Circle,Rioting,BNS 191,protest escalation,under-investigation,True
+FIR-2024-CHI-0407,2024-03-10,Chickballapura,Rattan Chowk,Murder,BNS 103,property dispute,closed,True
+FIR-2025-BAG-0408,2025-05-19,Bagalkot,Bala Marg,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2025-HAS-0409,2025-04-05,Hassan,Sampath Path,Cheating,BNS 318,investment ponzi scheme,charge-sheeted,True
+FIR-2025-RAI-0410,2025-11-22,Raichur,Amble Circle,Rioting,BNS 191,communal flashpoint clash,charge-sheeted,True
+FIR-2025-MYS-0411,2025-08-27,Mysuru,Babu Road,Murder,BNS 103,property dispute,convicted,True
+FIR-2025-MAN-0412,2025-02-25,Mandya,Varughese Zila,Cyber Fraud,IT Act 66D,fake loan app extortion,court-pending,True
+FIR-2025-KOL-0413,2025-08-04,Kolar,Rau Nagar,Cheating,BNS 318,land document forgery,under-investigation,True
+FIR-2024-HAS-0414,2024-12-10,Hassan,Ghosh Chowk,Burglary,BNS 331,lock-picking daytime entry,court-pending,True
+FIR-2024-MYS-0415,2024-09-28,Mysuru,Dhawan Ganj,Theft,BNS 303,shop till theft,closed,True
+FIR-2024-KOL-0416,2024-12-10,Kolar,Rau Nagar,Rioting,BNS 191,protest escalation,charge-sheeted,True
+FIR-2025-KOL-0417,2025-02-28,Kolar,Rau Nagar,Burglary,BNS 331,terrace entry,court-pending,True
+FIR-2025-VIJ-0418,2025-10-03,Vijayapur,Walia Nagar,Rioting,BNS 191,communal flashpoint clash,charge-sheeted,True
+FIR-2025-VIJ-0419,2025-10-11,Vijayapur,Shah Marg,Robbery,BNS 309,highway vehicle stop,under-investigation,True
+FIR-2024-BAL-0420,2024-06-02,Ballari,Contractor Zila,Robbery,BNS 309,ATM-exit targeting,charge-sheeted,True
+FIR-2024-BEN-0421,2024-05-19,Bengaluru City,Jayaraman Nagar,Theft,BNS 303,shop till theft,convicted,True
+FIR-2024-TUM-0422,2024-02-26,Tumakuru,Sahota,Murder,BNS 103,personal enmity,court-pending,True
+FIR-2024-KOL-0423,2024-04-24,Kolar,Dhawan Street,Burglary,BNS 331,terrace entry,court-pending,True
+FIR-2025-BAL-0424,2025-02-03,Ballari,Raj,Cyber Fraud,IT Act 66D,UPI phishing call,under-investigation,True
+FIR-2024-RAI-0425,2024-11-20,Raichur,Amble Circle,Robbery,BNS 309,knife-point street robbery,charge-sheeted,True
+FIR-2024-MYS-0426,2024-11-11,Mysuru,Keer,Cyber Fraud,IT Act 66D,fake loan app extortion,convicted,True
+FIR-2024-VIJ-0427,2024-10-31,Vijayapur,Ram Zila,Burglary,BNS 331,terrace entry,closed,True
+FIR-2025-DHA-0428,2025-04-27,Dharwad,Tella Circle,Extortion,BNS 308,protection money demand,convicted,True
+FIR-2024-DAK-0429,2024-02-23,Dakshina Kannada,Madan Circle,Murder,BNS 103,personal enmity,convicted,True
+FIR-2025-KAL-0430,2025-12-31,Kalaburagi,Bhatia Chowk,NDPS,NDPS Act 20,courier parcel concealment,convicted,True
+FIR-2024-MAN-0431,2024-07-22,Mandya,Gala Street,Rioting,BNS 191,protest escalation,charge-sheeted,True
+FIR-2025-BAL-0432,2025-10-24,Ballari,Ramakrishnan Path,NDPS,NDPS Act 20,street-level peddling,closed,True
+FIR-2024-KAL-0433,2024-09-23,Kalaburagi,Butala Nagar,Rioting,BNS 191,communal flashpoint clash,closed,True
+FIR-2024-CHI-0434,2024-09-29,Chickballapura,Maharaj Road,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2024-BEN-0435,2024-05-29,Bengaluru City,Jayaraman Nagar,Cheating,BNS 318,investment ponzi scheme,closed,True
+FIR-2025-VIJ-0436,2025-12-10,Vijayapur,Shah Marg,Cyber Fraud,IT Act 66D,OTP social engineering,convicted,True
+FIR-2025-UDU-0437,2025-05-31,Udupi,Basu Chowk,Theft,BNS 303,pickpocketing in transit,closed,True
+FIR-2024-KOL-0438,2024-06-22,Kolar,Rau Nagar,Theft,BNS 303,shop till theft,closed,True
+FIR-2024-MAN-0439,2024-10-14,Mandya,Dhawan Chowk,Chain Snatching,BNS 304,market crowd snatching,under-investigation,True
+FIR-2025-BAG-0440,2025-11-04,Bagalkot,Kashyap Circle,Chain Snatching,BNS 304,two-wheeler drive-by snatching,under-investigation,True
+FIR-2025-KAL-0441,2025-04-13,Kalaburagi,Butala Nagar,Cyber Fraud,IT Act 66D,fake loan app extortion,charge-sheeted,True
+FIR-2025-BEL-0442,2025-11-24,Belagavi,Deol Street,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2024-CHI-0443,2024-01-30,Chickballapura,Maharaj Road,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2024-MYS-0444,2024-11-26,Mysuru,Keer,Theft,BNS 303,pickpocketing in transit,court-pending,True
+FIR-2024-KAL-0445,2024-10-18,Kalaburagi,Butala Nagar,Chain Snatching,BNS 304,market crowd snatching,under-investigation,True
+FIR-2024-CHI-0446,2024-07-23,Chickballapura,Maharaj Road,NDPS,NDPS Act 20,courier parcel concealment,closed,True
+FIR-2025-DHA-0447,2025-09-20,Dharwad,Bhardwaj Path,Cyber Fraud,IT Act 66D,OTP social engineering,under-investigation,True
+FIR-2025-TUM-0448,2025-03-23,Tumakuru,Kala Ganj,Extortion,BNS 308,protection money demand,charge-sheeted,True
+FIR-2024-MYS-0449,2024-03-19,Mysuru,Keer,NDPS,NDPS Act 20,courier parcel concealment,court-pending,True
+FIR-2024-BEL-0450,2024-01-17,Belagavi,Banik Street,NDPS,NDPS Act 20,street-level peddling,closed,True
+FIR-2024-HAS-0451,2024-09-28,Hassan,Ghosh Chowk,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2024-CHI-0452,2024-01-14,Chickballapura,Maharaj Road,Robbery,BNS 309,ATM-exit targeting,convicted,True
+FIR-2024-KAL-0453,2024-03-30,Kalaburagi,Rajan Road,Theft,BNS 303,pickpocketing in transit,convicted,True
+FIR-2025-SHI-0454,2025-07-05,Shivamogga,Ravi Marg,Burglary,BNS 331,lock-picking daytime entry,under-investigation,True
+FIR-2024-VIJ-0455,2024-09-05,Vijayapur,Walia Nagar,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2025-CHI-0456,2025-08-28,Chickballapura,Sidhu Chowk,NDPS,NDPS Act 20,hostel network supply,convicted,True
+FIR-2025-DHA-0457,2025-10-23,Dharwad,Bhardwaj Path,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2025-MAN-0458,2025-03-02,Mandya,Dhawan Chowk,Cheating,BNS 318,investment ponzi scheme,convicted,True
+FIR-2024-DHA-0459,2024-04-13,Dharwad,Saha Nagar,Burglary,BNS 331,night house-break via rear entry,charge-sheeted,True
+FIR-2025-TUM-0460,2025-05-30,Tumakuru,Sahota,Chain Snatching,BNS 304,two-wheeler drive-by snatching,charge-sheeted,True
+FIR-2025-BAG-0461,2025-12-24,Bagalkot,Rastogi Path,Chain Snatching,BNS 304,two-wheeler drive-by snatching,closed,True
+FIR-2024-DAK-0462,2024-04-17,Dakshina Kannada,Sankaran Chowk,NDPS,NDPS Act 20,courier parcel concealment,convicted,True
+FIR-2024-VIJ-0463,2024-05-21,Vijayapur,Shah Marg,Cyber Fraud,IT Act 66D,UPI phishing call,closed,True
+FIR-2025-BAL-0464,2025-01-04,Ballari,Arya Road,Cheating,BNS 318,land document forgery,convicted,True
+FIR-2025-TUM-0465,2025-06-13,Tumakuru,Banik Chowk,Murder,BNS 103,property dispute,charge-sheeted,True
+FIR-2025-RAI-0466,2025-03-05,Raichur,Dugal Street,Rioting,BNS 191,protest escalation,convicted,True
+FIR-2025-VIJ-0467,2025-10-21,Vijayapur,Shah Marg,Extortion,BNS 308,digital arrest threat call,convicted,True
+FIR-2024-VIJ-0468,2024-10-17,Vijayapur,Kanda Chowk,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2025-DAV-0469,2025-08-29,Davanagere,Mani Road,NDPS,NDPS Act 20,courier parcel concealment,convicted,True
+FIR-2024-BEL-0470,2024-12-28,Belagavi,Banik Street,Cyber Fraud,IT Act 66D,courier scam,under-investigation,True
+FIR-2025-BAG-0471,2025-01-04,Bagalkot,Kashyap Circle,Cyber Fraud,IT Act 66D,courier scam,under-investigation,True
+FIR-2025-RAI-0472,2025-02-16,Raichur,Amble Circle,NDPS,NDPS Act 20,hostel network supply,convicted,True
+FIR-2025-BAG-0473,2025-12-29,Bagalkot,Bala Marg,Extortion,BNS 308,protection money demand,closed,True
+FIR-2025-MAN-0474,2025-02-22,Mandya,Saran Marg,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2024-SHI-0475,2024-11-08,Shivamogga,Dewan Chowk,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2025-CHI-0476,2025-01-21,Chickballapura,Sidhu Chowk,Cyber Fraud,IT Act 66D,courier scam,convicted,True
+FIR-2025-UDU-0477,2025-01-31,Udupi,Basu Chowk,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2025-BEL-0478,2025-12-25,Belagavi,Magar Zila,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2024-VIJ-0479,2024-10-08,Vijayapur,Ram Zila,Murder,BNS 103,gang rivalry,convicted,True
+FIR-2025-DAK-0480,2025-03-23,Dakshina Kannada,Madan Circle,Cyber Fraud,IT Act 66D,OTP social engineering,under-investigation,True
+FIR-2024-DHA-0481,2024-06-06,Dharwad,Venkatesh Marg,Robbery,BNS 309,knife-point street robbery,under-investigation,True
+FIR-2025-BEL-0482,2025-01-19,Belagavi,Magar Zila,Theft,BNS 303,pickpocketing in transit,under-investigation,True
+FIR-2025-DHA-0483,2025-07-20,Dharwad,Bhardwaj Path,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2025-KAL-0484,2025-10-29,Kalaburagi,Dhawan,NDPS,NDPS Act 20,courier parcel concealment,court-pending,True
+FIR-2025-RAI-0485,2025-03-09,Raichur,Amble Circle,Cyber Fraud,IT Act 66D,courier scam,under-investigation,True
+FIR-2025-UDU-0486,2025-11-27,Udupi,Basu Chowk,Theft,BNS 303,vehicle theft from parking,convicted,True
+FIR-2024-UDU-0487,2024-04-01,Udupi,Talwar Marg,Theft,BNS 303,pickpocketing in transit,convicted,True
+FIR-2025-BAG-0488,2025-12-25,Bagalkot,Lad Ganj,Theft,BNS 303,shop till theft,under-investigation,True
+FIR-2024-DAK-0489,2024-01-10,Dakshina Kannada,Madan Circle,Murder,BNS 103,gang rivalry,court-pending,True
+FIR-2024-BAG-0490,2024-02-01,Bagalkot,Kashyap Circle,NDPS,NDPS Act 20,courier parcel concealment,charge-sheeted,True
+FIR-2025-VIJ-0491,2025-04-18,Vijayapur,Shah Marg,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2024-DAV-0492,2024-02-07,Davanagere,Keer Street,Cyber Fraud,IT Act 66D,fake loan app extortion,closed,True
+FIR-2025-DAK-0493,2025-11-06,Dakshina Kannada,Sankaran Chowk,Burglary,BNS 331,terrace entry,court-pending,True
+FIR-2025-BEN-0494,2025-04-09,Bengaluru City,Sankaran Chowk,NDPS,NDPS Act 20,hostel network supply,court-pending,True
+FIR-2025-CHI-0495,2025-04-22,Chickballapura,Chaudry Nagar,NDPS,NDPS Act 20,street-level peddling,court-pending,True
+FIR-2024-UDU-0496,2024-01-06,Udupi,Badami Circle,Cyber Fraud,IT Act 66D,UPI phishing call,charge-sheeted,True
+FIR-2024-BEN-0497,2024-01-29,Bengaluru City,Jayaraman Nagar,Robbery,BNS 309,knife-point street robbery,convicted,True
+FIR-2025-BAG-0498,2025-10-02,Bagalkot,Kashyap Circle,Robbery,BNS 309,knife-point street robbery,under-investigation,True
+FIR-2025-MYS-0499,2025-03-28,Mysuru,Dhawan Ganj,Murder,BNS 103,property dispute,court-pending,True
+FIR-2024-DHA-0500,2024-04-08,Dharwad,Venkatesh Marg,Cheating,BNS 318,land document forgery,convicted,True
+FIR-2025-KOL-0501,2025-04-09,Kolar,Bhat Chowk,Murder,BNS 103,personal enmity,court-pending,True
+FIR-2024-MAN-0502,2024-09-19,Mandya,Dhawan Chowk,NDPS,NDPS Act 20,hostel network supply,charge-sheeted,True
+FIR-2025-MAN-0503,2025-10-29,Mandya,Saran Marg,NDPS,NDPS Act 20,hostel network supply,court-pending,True
+FIR-2024-KOL-0504,2024-08-31,Kolar,Dhawan Street,Murder,BNS 103,personal enmity,charge-sheeted,True
+FIR-2025-HAS-0505,2025-09-22,Hassan,Ghosh Chowk,Cyber Fraud,IT Act 66D,UPI phishing call,under-investigation,True
+FIR-2025-HAS-0506,2025-05-07,Hassan,Sampath Path,Burglary,BNS 331,night house-break via rear entry,under-investigation,True
+FIR-2024-KAL-0507,2024-04-27,Kalaburagi,Dhawan,NDPS,NDPS Act 20,hostel network supply,charge-sheeted,True
+FIR-2024-DAK-0508,2024-10-17,Dakshina Kannada,Sarma Road,Burglary,BNS 331,terrace entry,closed,True
+FIR-2024-DAV-0509,2024-06-29,Davanagere,Singhal Nagar,Murder,BNS 103,property dispute,under-investigation,True
+FIR-2025-DAK-0510,2025-11-07,Dakshina Kannada,Madan Circle,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2025-MAN-0511,2025-06-29,Mandya,Saran Marg,Burglary,BNS 331,terrace entry,court-pending,True
+FIR-2025-DAV-0512,2025-10-06,Davanagere,Mani Road,Murder,BNS 103,gang rivalry,convicted,True
+FIR-2024-UDU-0513,2024-03-07,Udupi,Basu Chowk,Rioting,BNS 191,protest escalation,charge-sheeted,True
+FIR-2025-MYS-0514,2025-08-20,Mysuru,Babu Road,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2024-MAN-0515,2024-10-29,Mandya,Gala Street,Cyber Fraud,IT Act 66D,courier scam,court-pending,True
+FIR-2024-DAV-0516,2024-08-27,Davanagere,Singhal Nagar,Extortion,BNS 308,protection money demand,charge-sheeted,True
+FIR-2025-VIJ-0517,2025-07-13,Vijayapur,Walia Nagar,Murder,BNS 103,property dispute,under-investigation,True
+FIR-2024-SHI-0518,2024-11-02,Shivamogga,Master Street,Murder,BNS 103,property dispute,convicted,True
+FIR-2024-BAL-0519,2024-08-21,Ballari,Arya Road,Cheating,BNS 318,land document forgery,charge-sheeted,True
+FIR-2025-DHA-0520,2025-12-15,Dharwad,Venkatesh Marg,Cheating,BNS 318,land document forgery,charge-sheeted,True
+FIR-2025-UDU-0521,2025-12-03,Udupi,Basu Chowk,Cheating,BNS 318,investment ponzi scheme,charge-sheeted,True
+FIR-2025-CHI-0522,2025-07-01,Chickballapura,Rattan Chowk,Robbery,BNS 309,highway vehicle stop,charge-sheeted,True
+FIR-2025-CHI-0523,2025-12-06,Chickballapura,Rattan Chowk,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2024-BAG-0524,2024-03-12,Bagalkot,Kashyap Circle,NDPS,NDPS Act 20,street-level peddling,charge-sheeted,True
+FIR-2025-CHI-0525,2025-03-04,Chickballapura,Rattan Chowk,NDPS,NDPS Act 20,street-level peddling,charge-sheeted,True
+FIR-2024-BEN-0526,2024-07-25,Bengaluru City,Brar Zila,Theft,BNS 303,shop till theft,charge-sheeted,True
+FIR-2025-SHI-0527,2025-04-12,Shivamogga,Ravi Marg,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2025-MYS-0528,2025-12-16,Mysuru,Babu Road,Cheating,BNS 318,investment ponzi scheme,closed,True
+FIR-2024-MAN-0529,2024-05-04,Mandya,Varughese Zila,NDPS,NDPS Act 20,hostel network supply,convicted,True
+FIR-2024-TUM-0530,2024-01-28,Tumakuru,Kala Ganj,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2025-BAG-0531,2025-05-11,Bagalkot,Kashyap Circle,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2025-BEL-0532,2025-09-13,Belagavi,Sabharwal Ganj,Murder,BNS 103,gang rivalry,under-investigation,True
+FIR-2025-VIJ-0533,2025-03-27,Vijayapur,Kanda Chowk,Chain Snatching,BNS 304,two-wheeler drive-by snatching,closed,True
+FIR-2025-VIJ-0534,2025-01-21,Vijayapur,Ram Zila,Murder,BNS 103,personal enmity,charge-sheeted,True
+FIR-2024-DAK-0535,2024-04-08,Dakshina Kannada,Sarma Road,Burglary,BNS 331,lock-picking daytime entry,closed,True
+FIR-2024-HAS-0536,2024-12-31,Hassan,Ghosh Chowk,Robbery,BNS 309,knife-point street robbery,under-investigation,True
+FIR-2024-CHI-0537,2024-11-04,Chickballapura,Rattan Chowk,Cheating,BNS 318,land document forgery,convicted,True
+FIR-2025-HAS-0538,2025-11-13,Hassan,Bath Chowk,Cyber Fraud,IT Act 66D,courier scam,court-pending,True
+FIR-2024-DHA-0539,2024-05-07,Dharwad,Venkatesh Marg,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2024-MYS-0540,2024-05-17,Mysuru,Sarna Road,Cyber Fraud,IT Act 66D,OTP social engineering,court-pending,True
+FIR-2025-BAG-0541,2025-06-17,Bagalkot,Kashyap Circle,Burglary,BNS 331,lock-picking daytime entry,under-investigation,True
+FIR-2024-TUM-0542,2024-07-28,Tumakuru,Kala Ganj,Rioting,BNS 191,protest escalation,convicted,True
+FIR-2025-TUM-0543,2025-05-07,Tumakuru,Sahota,Theft,BNS 303,vehicle theft from parking,charge-sheeted,True
+FIR-2024-SHI-0544,2024-03-26,Shivamogga,Dewan Chowk,Cheating,BNS 318,investment ponzi scheme,court-pending,True
+FIR-2024-KOL-0545,2024-01-05,Kolar,Bhat Chowk,Burglary,BNS 331,lock-picking daytime entry,charge-sheeted,True
+FIR-2024-BEL-0546,2024-02-09,Belagavi,Banik Street,Cheating,BNS 318,investment ponzi scheme,closed,True
+FIR-2025-MYS-0547,2025-05-04,Mysuru,Dhawan Ganj,Burglary,BNS 331,terrace entry,court-pending,True
+FIR-2024-DAK-0548,2024-09-17,Dakshina Kannada,Sankaran Chowk,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2025-SHI-0549,2025-03-13,Shivamogga,Ravi Marg,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2024-VIJ-0550,2024-10-02,Vijayapur,Shah Marg,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2025-DHA-0551,2025-06-21,Dharwad,Tella Circle,Cheating,BNS 318,investment ponzi scheme,convicted,True
+FIR-2024-VIJ-0552,2024-07-06,Vijayapur,Walia Nagar,Murder,BNS 103,property dispute,closed,True
+FIR-2024-TUM-0553,2024-10-27,Tumakuru,Kala Ganj,Robbery,BNS 309,ATM-exit targeting,convicted,True
+FIR-2024-KOL-0554,2024-02-12,Kolar,Dhawan Street,Rioting,BNS 191,protest escalation,charge-sheeted,True
+FIR-2025-UDU-0555,2025-01-04,Udupi,Date Path,Cyber Fraud,IT Act 66D,OTP social engineering,court-pending,True
+FIR-2024-MAN-0556,2024-09-11,Mandya,Dhawan Chowk,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2025-MAN-0557,2025-10-10,Mandya,Varughese Zila,Murder,BNS 103,gang rivalry,closed,True
+FIR-2024-VIJ-0558,2024-10-27,Vijayapur,Ram Zila,Cheating,BNS 318,land document forgery,convicted,True
+FIR-2025-DAK-0559,2025-04-23,Dakshina Kannada,Madan Circle,NDPS,NDPS Act 20,courier parcel concealment,closed,True
+FIR-2024-HAS-0560,2024-01-30,Hassan,Sampath Path,Robbery,BNS 309,knife-point street robbery,convicted,True
+FIR-2025-CHI-0561,2025-10-10,Chickballapura,Rattan Chowk,NDPS,NDPS Act 20,courier parcel concealment,convicted,True
+FIR-2025-RAI-0562,2025-01-25,Raichur,Amble Circle,Cheating,BNS 318,investment ponzi scheme,convicted,True
+FIR-2025-BEN-0563,2025-01-24,Bengaluru City,Jayaraman Nagar,Cyber Fraud,IT Act 66D,fake loan app extortion,under-investigation,True
+FIR-2024-RAI-0564,2024-01-10,Raichur,Amble Circle,Cheating,BNS 318,fake job placement racket,charge-sheeted,True
+FIR-2024-CHI-0565,2024-10-07,Chickballapura,Sidhu Chowk,Robbery,BNS 309,ATM-exit targeting,charge-sheeted,True
+FIR-2024-CHI-0566,2024-07-02,Chickballapura,Maharaj Road,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2024-KOL-0567,2024-03-14,Kolar,Bhat Chowk,Cheating,BNS 318,land document forgery,under-investigation,True
+FIR-2025-CHI-0568,2025-08-14,Chickballapura,Chaudry Nagar,Chain Snatching,BNS 304,two-wheeler drive-by snatching,closed,True
+FIR-2024-CHI-0569,2024-04-08,Chickballapura,Sidhu Chowk,Chain Snatching,BNS 304,two-wheeler drive-by snatching,closed,True
+FIR-2024-SHI-0570,2024-09-03,Shivamogga,Dewan Chowk,Robbery,BNS 309,highway vehicle stop,court-pending,True
+FIR-2024-BAG-0571,2024-10-08,Bagalkot,Lad Ganj,Cheating,BNS 318,fake job placement racket,convicted,True
+FIR-2025-CHI-0572,2025-08-30,Chickballapura,Maharaj Road,Robbery,BNS 309,knife-point street robbery,under-investigation,True
+FIR-2025-BEL-0573,2025-10-29,Belagavi,Sabharwal Ganj,Robbery,BNS 309,knife-point street robbery,closed,True
+FIR-2025-DAK-0574,2025-08-11,Dakshina Kannada,Sankaran Chowk,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2025-SHI-0575,2025-06-15,Shivamogga,Ravi Marg,Murder,BNS 103,property dispute,under-investigation,True
+FIR-2024-MYS-0576,2024-08-30,Mysuru,Babu Road,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2024-DHA-0577,2024-05-11,Dharwad,Bhardwaj Path,Theft,BNS 303,shop till theft,court-pending,True
+FIR-2025-DAV-0578,2025-07-02,Davanagere,Mani Road,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2025-RAI-0579,2025-06-28,Raichur,Amble Circle,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2024-BEL-0580,2024-08-15,Belagavi,Magar Zila,Robbery,BNS 309,highway vehicle stop,under-investigation,True
+FIR-2025-BEL-0581,2025-09-14,Belagavi,Magar Zila,Rioting,BNS 191,protest escalation,under-investigation,True
+FIR-2025-KAL-0582,2025-12-31,Kalaburagi,Rajan Road,NDPS,NDPS Act 20,hostel network supply,under-investigation,True
+FIR-2024-BAG-0583,2024-07-06,Bagalkot,Lad Ganj,Extortion,BNS 308,digital arrest threat call,convicted,True
+FIR-2024-MYS-0584,2024-04-05,Mysuru,Keer,Robbery,BNS 309,ATM-exit targeting,convicted,True
+FIR-2025-KOL-0585,2025-05-24,Kolar,Dhawan Street,Extortion,BNS 308,protection money demand,charge-sheeted,True
+FIR-2024-DAK-0586,2024-08-18,Dakshina Kannada,Sankaran Chowk,NDPS,NDPS Act 20,street-level peddling,charge-sheeted,True
+FIR-2024-BAL-0587,2024-12-12,Ballari,Ramakrishnan Path,Robbery,BNS 309,knife-point street robbery,closed,True
+FIR-2025-CHI-0588,2025-09-24,Chickballapura,Rattan Chowk,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2025-VIJ-0589,2025-05-18,Vijayapur,Kanda Chowk,Cheating,BNS 318,investment ponzi scheme,court-pending,True
+FIR-2025-SHI-0590,2025-01-18,Shivamogga,Master Street,Cheating,BNS 318,investment ponzi scheme,charge-sheeted,True
+FIR-2025-VIJ-0591,2025-01-02,Vijayapur,Kanda Chowk,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2025-CHI-0592,2025-03-07,Chickballapura,Sidhu Chowk,Robbery,BNS 309,highway vehicle stop,charge-sheeted,True
+FIR-2024-BEN-0593,2024-06-08,Bengaluru City,Brar Zila,Chain Snatching,BNS 304,market crowd snatching,under-investigation,True
+FIR-2025-KAL-0594,2025-03-15,Kalaburagi,Rajan Road,Robbery,BNS 309,knife-point street robbery,under-investigation,True
+FIR-2025-BEL-0595,2025-04-30,Belagavi,Sabharwal Ganj,Burglary,BNS 331,terrace entry,under-investigation,True
+FIR-2024-KAL-0596,2024-07-15,Kalaburagi,Bhatia Chowk,Theft,BNS 303,shop till theft,convicted,True
+FIR-2024-BEL-0597,2024-11-07,Belagavi,Deol Street,Murder,BNS 103,property dispute,charge-sheeted,True
+FIR-2024-HAS-0598,2024-02-23,Hassan,Ghosh Chowk,Murder,BNS 103,personal enmity,court-pending,True
+FIR-2024-HAS-0599,2024-05-13,Hassan,Ganesan Marg,NDPS,NDPS Act 20,courier parcel concealment,convicted,True
+FIR-2024-BEL-0600,2024-04-18,Belagavi,Magar Zila,Robbery,BNS 309,ATM-exit targeting,court-pending,True
+FIR-2025-VIJ-0601,2025-04-30,Vijayapur,Ram Zila,Theft,BNS 303,vehicle theft from parking,under-investigation,True
+FIR-2024-CHI-0602,2024-03-10,Chickballapura,Maharaj Road,Cheating,BNS 318,land document forgery,court-pending,True
+FIR-2025-RAI-0603,2025-02-11,Raichur,Sura,Burglary,BNS 331,terrace entry,under-investigation,True
+FIR-2024-VIJ-0604,2024-06-12,Vijayapur,Kanda Chowk,Murder,BNS 103,gang rivalry,convicted,True
+FIR-2024-DAK-0605,2024-05-01,Dakshina Kannada,Sarma Road,NDPS,NDPS Act 20,hostel network supply,convicted,True
+FIR-2025-MAN-0606,2025-10-09,Mandya,Saran Marg,Burglary,BNS 331,terrace entry,under-investigation,True
+FIR-2024-BEN-0607,2024-02-28,Bengaluru City,Jayaraman Nagar,Cyber Fraud,IT Act 66D,fake loan app extortion,under-investigation,True
+FIR-2024-UDU-0608,2024-07-27,Udupi,Badami Circle,Theft,BNS 303,pickpocketing in transit,charge-sheeted,True
+FIR-2024-CHI-0609,2024-06-29,Chickballapura,Sidhu Chowk,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2025-UDU-0610,2025-03-12,Udupi,Talwar Marg,Robbery,BNS 309,knife-point street robbery,convicted,True
+FIR-2024-BEN-0611,2024-04-22,Bengaluru City,Majumdar Street,Murder,BNS 103,property dispute,under-investigation,True
+FIR-2024-TUM-0612,2024-12-12,Tumakuru,Deo Ganj,Robbery,BNS 309,highway vehicle stop,under-investigation,True
+FIR-2024-BEN-0613,2024-05-06,Bengaluru City,Majumdar Street,NDPS,NDPS Act 20,courier parcel concealment,court-pending,True
+FIR-2024-MAN-0614,2024-05-30,Mandya,Saran Marg,Cheating,BNS 318,fake job placement racket,under-investigation,True
+FIR-2024-MAN-0615,2024-10-15,Mandya,Varughese Zila,Robbery,BNS 309,knife-point street robbery,court-pending,True
+FIR-2024-KOL-0616,2024-06-03,Kolar,Bhat Chowk,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2025-MAN-0617,2025-05-26,Mandya,Saran Marg,Theft,BNS 303,pickpocketing in transit,convicted,True
+FIR-2024-CHI-0618,2024-05-31,Chickballapura,Rattan Chowk,Cyber Fraud,IT Act 66D,OTP social engineering,court-pending,True
+FIR-2025-BAL-0619,2025-10-13,Ballari,Raj,Rioting,BNS 191,protest escalation,charge-sheeted,True
+FIR-2024-TUM-0620,2024-08-12,Tumakuru,Deo Ganj,Rioting,BNS 191,communal flashpoint clash,charge-sheeted,True
+FIR-2024-KAL-0621,2024-05-22,Kalaburagi,Bhatia Chowk,Cyber Fraud,IT Act 66D,UPI phishing call,under-investigation,True
+FIR-2025-TUM-0622,2025-11-09,Tumakuru,Kala Ganj,Robbery,BNS 309,knife-point street robbery,convicted,True
+FIR-2024-KAL-0623,2024-07-05,Kalaburagi,Dhawan,Chain Snatching,BNS 304,market crowd snatching,charge-sheeted,True
+FIR-2024-DHA-0624,2024-01-12,Dharwad,Saha Nagar,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2024-KOL-0625,2024-04-04,Kolar,Rau Nagar,Theft,BNS 303,vehicle theft from parking,closed,True
+FIR-2025-UDU-0626,2025-04-24,Udupi,Date Path,Chain Snatching,BNS 304,market crowd snatching,under-investigation,True
+FIR-2024-SHI-0627,2024-12-09,Shivamogga,Dewan Chowk,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2025-HAS-0628,2025-05-10,Hassan,Bath Chowk,Robbery,BNS 309,knife-point street robbery,closed,True
+FIR-2024-KOL-0629,2024-04-09,Kolar,Dhawan Street,Cyber Fraud,IT Act 66D,fake loan app extortion,court-pending,True
+FIR-2024-TUM-0630,2024-03-21,Tumakuru,Deo Ganj,Extortion,BNS 308,protection money demand,closed,True
+FIR-2024-UDU-0631,2024-02-10,Udupi,Badami Circle,Cheating,BNS 318,investment ponzi scheme,under-investigation,True
+FIR-2025-SHI-0632,2025-04-10,Shivamogga,Dewan Chowk,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2025-SHI-0633,2025-05-14,Shivamogga,Ravi Marg,Chain Snatching,BNS 304,two-wheeler drive-by snatching,charge-sheeted,True
+FIR-2025-BAL-0634,2025-10-21,Ballari,Ramakrishnan Path,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2025-RAI-0635,2025-04-22,Raichur,Amble Circle,Cyber Fraud,IT Act 66D,fake loan app extortion,under-investigation,True
+FIR-2025-CHI-0636,2025-09-10,Chickballapura,Rattan Chowk,Cyber Fraud,IT Act 66D,UPI phishing call,under-investigation,True
+FIR-2025-MAN-0637,2025-01-24,Mandya,Dhawan Chowk,Rioting,BNS 191,communal flashpoint clash,closed,True
+FIR-2024-UDU-0638,2024-05-25,Udupi,Talwar Marg,Robbery,BNS 309,highway vehicle stop,under-investigation,True
+FIR-2024-MAN-0639,2024-10-31,Mandya,Dhawan Chowk,Cyber Fraud,IT Act 66D,fake loan app extortion,charge-sheeted,True
+FIR-2025-KAL-0640,2025-09-23,Kalaburagi,Dhawan,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2025-DHA-0641,2025-11-21,Dharwad,Tella Circle,Robbery,BNS 309,knife-point street robbery,court-pending,True
+FIR-2024-VIJ-0642,2024-04-09,Vijayapur,Shah Marg,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2025-BEN-0643,2025-01-07,Bengaluru City,Jayaraman Nagar,Cyber Fraud,IT Act 66D,UPI phishing call,closed,True
+FIR-2025-DAK-0644,2025-04-14,Dakshina Kannada,Sarma Road,Cyber Fraud,IT Act 66D,courier scam,court-pending,True
+FIR-2024-RAI-0645,2024-04-16,Raichur,Sura,Robbery,BNS 309,ATM-exit targeting,court-pending,True
+FIR-2025-BEL-0646,2025-01-25,Belagavi,Sabharwal Ganj,NDPS,NDPS Act 20,street-level peddling,convicted,True
+FIR-2025-DAV-0647,2025-06-03,Davanagere,Singh Nagar,Burglary,BNS 331,lock-picking daytime entry,convicted,True
+FIR-2025-DAK-0648,2025-09-06,Dakshina Kannada,Madan Circle,Cyber Fraud,IT Act 66D,courier scam,under-investigation,True
+FIR-2024-UDU-0649,2024-06-26,Udupi,Basu Chowk,Cheating,BNS 318,fake job placement racket,court-pending,True
+FIR-2025-DAK-0650,2025-07-20,Dakshina Kannada,Deshpande Marg,Theft,BNS 303,vehicle theft from parking,under-investigation,True
+FIR-2024-BAG-0651,2024-05-13,Bagalkot,Lad Ganj,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2025-BEN-0652,2025-10-04,Bengaluru City,Majumdar Street,Chain Snatching,BNS 304,two-wheeler drive-by snatching,under-investigation,True
+FIR-2025-BEN-0653,2025-02-04,Bengaluru City,Sankaran Chowk,Burglary,BNS 331,terrace entry,under-investigation,True
+FIR-2024-DAK-0654,2024-07-03,Dakshina Kannada,Sankaran Chowk,Chain Snatching,BNS 304,market crowd snatching,closed,True
+FIR-2025-KOL-0655,2025-07-02,Kolar,Wable Chowk,Robbery,BNS 309,highway vehicle stop,under-investigation,True
+FIR-2024-CHI-0656,2024-10-07,Chickballapura,Sidhu Chowk,Theft,BNS 303,shop till theft,closed,True
+FIR-2024-DAV-0657,2024-09-13,Davanagere,Keer Street,Burglary,BNS 331,terrace entry,under-investigation,True
+FIR-2025-UDU-0658,2025-09-29,Udupi,Date Path,Cyber Fraud,IT Act 66D,OTP social engineering,under-investigation,True
+FIR-2025-DHA-0659,2025-08-23,Dharwad,Tella Circle,Theft,BNS 303,pickpocketing in transit,court-pending,True
+FIR-2024-MAN-0660,2024-07-09,Mandya,Gala Street,Cheating,BNS 318,fake job placement racket,under-investigation,True
+FIR-2025-SHI-0661,2025-07-29,Shivamogga,Dewan Chowk,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2024-HAS-0662,2024-11-21,Hassan,Ghosh Chowk,Cheating,BNS 318,fake job placement racket,under-investigation,True
+FIR-2024-BEN-0663,2024-10-18,Bengaluru City,Majumdar Street,Murder,BNS 103,property dispute,closed,True
+FIR-2025-CHI-0664,2025-10-22,Chickballapura,Rattan Chowk,Cyber Fraud,IT Act 66D,courier scam,convicted,True
+FIR-2024-BAG-0665,2024-11-01,Bagalkot,Rastogi Path,Cheating,BNS 318,investment ponzi scheme,convicted,True
+FIR-2024-BEL-0666,2024-05-22,Belagavi,Deol Street,Murder,BNS 103,gang rivalry,convicted,True
+FIR-2024-BEL-0667,2024-02-14,Belagavi,Magar Zila,Theft,BNS 303,vehicle theft from parking,closed,True
+FIR-2025-HAS-0668,2025-04-16,Hassan,Ghosh Chowk,Rioting,BNS 191,protest escalation,convicted,True
+FIR-2024-HAS-0669,2024-10-14,Hassan,Sampath Path,Extortion,BNS 308,protection money demand,closed,True
+FIR-2024-VIJ-0670,2024-03-02,Vijayapur,Kanda Chowk,Extortion,BNS 308,digital arrest threat call,court-pending,True
+FIR-2024-KAL-0671,2024-04-18,Kalaburagi,Rajan Road,NDPS,NDPS Act 20,courier parcel concealment,closed,True
+FIR-2024-DAK-0672,2024-03-11,Dakshina Kannada,Deshpande Marg,Burglary,BNS 331,terrace entry,closed,True
+FIR-2024-CHI-0673,2024-07-10,Chickballapura,Maharaj Road,Burglary,BNS 331,night house-break via rear entry,charge-sheeted,True
+FIR-2025-KOL-0674,2025-03-17,Kolar,Bhat Chowk,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2025-CHI-0675,2025-09-14,Chickballapura,Maharaj Road,NDPS,NDPS Act 20,street-level peddling,under-investigation,True
+FIR-2025-DAV-0676,2025-08-12,Davanagere,Mani Road,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2025-VIJ-0677,2025-05-22,Vijayapur,Ram Zila,Theft,BNS 303,shop till theft,convicted,True
+FIR-2025-CHI-0678,2025-12-18,Chickballapura,Chaudry Nagar,NDPS,NDPS Act 20,hostel network supply,convicted,True
+FIR-2025-DAK-0679,2025-03-14,Dakshina Kannada,Deshpande Marg,Chain Snatching,BNS 304,two-wheeler drive-by snatching,closed,True
+FIR-2024-MYS-0680,2024-04-22,Mysuru,Keer,Extortion,BNS 308,digital arrest threat call,court-pending,True
+FIR-2024-BAG-0681,2024-12-09,Bagalkot,Rastogi Path,Theft,BNS 303,pickpocketing in transit,convicted,True
+FIR-2024-KOL-0682,2024-10-03,Kolar,Dhawan Street,Robbery,BNS 309,ATM-exit targeting,convicted,True
+FIR-2025-BEL-0683,2025-01-21,Belagavi,Deol Street,Cyber Fraud,IT Act 66D,courier scam,convicted,True
+FIR-2024-SHI-0684,2024-10-09,Shivamogga,Dewan Chowk,Cheating,BNS 318,land document forgery,closed,True
+FIR-2024-SHI-0685,2024-06-15,Shivamogga,Sachdev Circle,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2024-DAV-0686,2024-02-21,Davanagere,Mani Road,Murder,BNS 103,property dispute,charge-sheeted,True
+FIR-2024-TUM-0687,2024-07-20,Tumakuru,Sahota,Chain Snatching,BNS 304,two-wheeler drive-by snatching,closed,True
+FIR-2025-SHI-0688,2025-09-03,Shivamogga,Dewan Chowk,Theft,BNS 303,pickpocketing in transit,court-pending,True
+FIR-2024-DHA-0689,2024-05-18,Dharwad,Venkatesh Marg,Theft,BNS 303,vehicle theft from parking,charge-sheeted,True
+FIR-2025-HAS-0690,2025-12-11,Hassan,Ganesan Marg,Robbery,BNS 309,highway vehicle stop,charge-sheeted,True
+FIR-2024-BAL-0691,2024-11-05,Ballari,Contractor Zila,Robbery,BNS 309,highway vehicle stop,court-pending,True
+FIR-2025-BAG-0692,2025-06-14,Bagalkot,Kashyap Circle,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2024-KOL-0693,2024-05-04,Kolar,Dhawan Street,Murder,BNS 103,gang rivalry,convicted,True
+FIR-2025-SHI-0694,2025-10-05,Shivamogga,Sachdev Circle,Theft,BNS 303,pickpocketing in transit,convicted,True
+FIR-2024-BAL-0695,2024-04-09,Ballari,Arya Road,NDPS,NDPS Act 20,courier parcel concealment,court-pending,True
+FIR-2024-BAG-0696,2024-09-23,Bagalkot,Kashyap Circle,NDPS,NDPS Act 20,hostel network supply,charge-sheeted,True
+FIR-2024-BEL-0697,2024-10-23,Belagavi,Banik Street,Theft,BNS 303,shop till theft,charge-sheeted,True
+FIR-2024-BEN-0698,2024-05-31,Bengaluru City,Jayaraman Nagar,Cheating,BNS 318,land document forgery,charge-sheeted,True
+FIR-2025-KOL-0699,2025-05-30,Kolar,Rau Nagar,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2024-CHI-0700,2024-03-10,Chickballapura,Maharaj Road,Cheating,BNS 318,land document forgery,closed,True
+FIR-2024-BAL-0701,2024-06-11,Ballari,Ramakrishnan Path,Murder,BNS 103,property dispute,court-pending,True
+FIR-2024-TUM-0702,2024-04-27,Tumakuru,Kala Ganj,Robbery,BNS 309,ATM-exit targeting,convicted,True
+FIR-2025-DAV-0703,2025-07-23,Davanagere,Keer Street,Rioting,BNS 191,protest escalation,charge-sheeted,True
+FIR-2024-KAL-0704,2024-07-27,Kalaburagi,Butala Nagar,Robbery,BNS 309,highway vehicle stop,charge-sheeted,True
+FIR-2024-UDU-0705,2024-03-09,Udupi,Talwar Marg,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2025-RAI-0706,2025-09-07,Raichur,Dugal Street,Murder,BNS 103,property dispute,under-investigation,True
+FIR-2025-BAL-0707,2025-08-12,Ballari,Contractor Zila,NDPS,NDPS Act 20,street-level peddling,charge-sheeted,True
+FIR-2024-DHA-0708,2024-12-12,Dharwad,Tella Circle,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2025-TUM-0709,2025-09-04,Tumakuru,Kala Ganj,Cheating,BNS 318,fake job placement racket,closed,True
+FIR-2024-UDU-0710,2024-02-23,Udupi,Badami Circle,Burglary,BNS 331,lock-picking daytime entry,charge-sheeted,True
+FIR-2024-BAL-0711,2024-08-31,Ballari,Ramakrishnan Path,Murder,BNS 103,personal enmity,court-pending,True
+FIR-2024-KAL-0712,2024-02-28,Kalaburagi,Bhatia Chowk,Burglary,BNS 331,terrace entry,closed,True
+FIR-2024-RAI-0713,2024-03-19,Raichur,Savant Ganj,Robbery,BNS 309,ATM-exit targeting,charge-sheeted,True
+FIR-2025-BAL-0714,2025-07-18,Ballari,Contractor Zila,Cyber Fraud,IT Act 66D,UPI phishing call,charge-sheeted,True
+FIR-2024-BEL-0715,2024-08-03,Belagavi,Deol Street,NDPS,NDPS Act 20,street-level peddling,convicted,True
+FIR-2024-UDU-0716,2024-10-11,Udupi,Basu Chowk,Theft,BNS 303,vehicle theft from parking,convicted,True
+FIR-2025-MYS-0717,2025-03-30,Mysuru,Babu Road,Cheating,BNS 318,investment ponzi scheme,under-investigation,True
+FIR-2025-VIJ-0718,2025-08-28,Vijayapur,Kanda Chowk,Theft,BNS 303,pickpocketing in transit,charge-sheeted,True
+FIR-2025-KOL-0719,2025-08-09,Kolar,Bhat Chowk,Cheating,BNS 318,fake job placement racket,under-investigation,True
+FIR-2024-BAL-0720,2024-03-28,Ballari,Contractor Zila,Theft,BNS 303,shop till theft,charge-sheeted,True
+FIR-2024-BAG-0721,2024-07-02,Bagalkot,Rastogi Path,Theft,BNS 303,shop till theft,convicted,True
+FIR-2024-RAI-0722,2024-03-22,Raichur,Dugal Street,Rioting,BNS 191,protest escalation,closed,True
+FIR-2025-MYS-0723,2025-11-02,Mysuru,Babu Road,Chain Snatching,BNS 304,two-wheeler drive-by snatching,under-investigation,True
+FIR-2024-DAV-0724,2024-09-22,Davanagere,Singhal Nagar,Murder,BNS 103,property dispute,court-pending,True
+FIR-2025-VIJ-0725,2025-06-07,Vijayapur,Walia Nagar,Robbery,BNS 309,ATM-exit targeting,court-pending,True
+FIR-2025-MAN-0726,2025-02-21,Mandya,Dhawan Chowk,Cyber Fraud,IT Act 66D,OTP social engineering,closed,True
+FIR-2024-KOL-0727,2024-11-16,Kolar,Bhat Chowk,Burglary,BNS 331,lock-picking daytime entry,closed,True
+FIR-2025-KOL-0728,2025-09-13,Kolar,Rau Nagar,Robbery,BNS 309,knife-point street robbery,charge-sheeted,True
+FIR-2024-BEL-0729,2024-08-24,Belagavi,Sabharwal Ganj,Cyber Fraud,IT Act 66D,courier scam,charge-sheeted,True
+FIR-2025-DHA-0730,2025-07-04,Dharwad,Venkatesh Marg,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2024-DAK-0731,2024-01-16,Dakshina Kannada,Sankaran Chowk,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2024-RAI-0732,2024-05-10,Raichur,Savant Ganj,Cyber Fraud,IT Act 66D,UPI phishing call,convicted,True
+FIR-2025-DHA-0733,2025-10-07,Dharwad,Tella Circle,Cyber Fraud,IT Act 66D,fake loan app extortion,convicted,True
+FIR-2025-HAS-0734,2025-01-23,Hassan,Sampath Path,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2024-VIJ-0735,2024-02-12,Vijayapur,Shah Marg,Cyber Fraud,IT Act 66D,OTP social engineering,court-pending,True
+FIR-2025-BEL-0736,2025-11-13,Belagavi,Sabharwal Ganj,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2025-VIJ-0737,2025-01-13,Vijayapur,Walia Nagar,Murder,BNS 103,gang rivalry,closed,True
+FIR-2025-CHI-0738,2025-03-18,Chickballapura,Chaudry Nagar,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2024-DAK-0739,2024-11-30,Dakshina Kannada,Deshpande Marg,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2024-VIJ-0740,2024-11-21,Vijayapur,Kanda Chowk,NDPS,NDPS Act 20,hostel network supply,closed,True
+FIR-2024-KAL-0741,2024-10-16,Kalaburagi,Rajan Road,Extortion,BNS 308,protection money demand,court-pending,True
+FIR-2025-VIJ-0742,2025-09-17,Vijayapur,Ram Zila,NDPS,NDPS Act 20,hostel network supply,under-investigation,True
+FIR-2024-CHI-0743,2024-10-26,Chickballapura,Maharaj Road,Burglary,BNS 331,lock-picking daytime entry,convicted,True
+FIR-2025-HAS-0744,2025-04-02,Hassan,Ghosh Chowk,Cheating,BNS 318,investment ponzi scheme,court-pending,True
+FIR-2025-DHA-0745,2025-05-15,Dharwad,Venkatesh Marg,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2025-UDU-0746,2025-03-11,Udupi,Basu Chowk,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2024-MAN-0747,2024-12-07,Mandya,Varughese Zila,Robbery,BNS 309,ATM-exit targeting,court-pending,True
+FIR-2024-RAI-0748,2024-12-05,Raichur,Savant Ganj,Cyber Fraud,IT Act 66D,UPI phishing call,closed,True
+FIR-2024-BEN-0749,2024-11-04,Bengaluru City,Brar Zila,Theft,BNS 303,pickpocketing in transit,court-pending,True
+FIR-2025-DHA-0750,2025-12-21,Dharwad,Bhardwaj Path,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2025-BEN-0751,2025-06-08,Bengaluru City,Jayaraman Nagar,Cheating,BNS 318,investment ponzi scheme,under-investigation,True
+FIR-2024-CHI-0752,2024-10-12,Chickballapura,Chaudry Nagar,NDPS,NDPS Act 20,hostel network supply,closed,True
+FIR-2024-BAL-0753,2024-01-26,Ballari,Raj,Rioting,BNS 191,communal flashpoint clash,charge-sheeted,True
+FIR-2025-BAL-0754,2025-05-16,Ballari,Ramakrishnan Path,Burglary,BNS 331,terrace entry,under-investigation,True
+FIR-2025-SHI-0755,2025-02-25,Shivamogga,Master Street,Theft,BNS 303,vehicle theft from parking,convicted,True
+FIR-2025-HAS-0756,2025-05-26,Hassan,Ghosh Chowk,NDPS,NDPS Act 20,hostel network supply,charge-sheeted,True
+FIR-2024-KOL-0757,2024-06-14,Kolar,Dhawan Street,Murder,BNS 103,personal enmity,convicted,True
+FIR-2024-DHA-0758,2024-04-30,Dharwad,Tella Circle,Theft,BNS 303,pickpocketing in transit,convicted,True
+FIR-2024-CHI-0759,2024-09-14,Chickballapura,Maharaj Road,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2025-BEN-0760,2025-04-26,Bengaluru City,Jayaraman Nagar,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2024-RAI-0761,2024-06-09,Raichur,Savant Ganj,Rioting,BNS 191,communal flashpoint clash,charge-sheeted,True
+FIR-2025-RAI-0762,2025-07-28,Raichur,Savant Ganj,Theft,BNS 303,vehicle theft from parking,under-investigation,True
+FIR-2025-BEN-0763,2025-04-29,Bengaluru City,Brar Zila,Cyber Fraud,IT Act 66D,UPI phishing call,closed,True
+FIR-2024-BAG-0764,2024-02-23,Bagalkot,Rastogi Path,Robbery,BNS 309,highway vehicle stop,court-pending,True
+FIR-2025-CHI-0765,2025-01-29,Chickballapura,Chaudry Nagar,Cheating,BNS 318,land document forgery,charge-sheeted,True
+FIR-2025-BEL-0766,2025-12-02,Belagavi,Banik Street,Theft,BNS 303,vehicle theft from parking,court-pending,True
+FIR-2025-DAK-0767,2025-01-18,Dakshina Kannada,Sankaran Chowk,Cheating,BNS 318,fake job placement racket,under-investigation,True
+FIR-2024-DAV-0768,2024-02-04,Davanagere,Keer Street,Theft,BNS 303,pickpocketing in transit,charge-sheeted,True
+FIR-2025-BAG-0769,2025-09-14,Bagalkot,Rastogi Path,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2025-MYS-0770,2025-10-14,Mysuru,Dhawan Ganj,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2025-MYS-0771,2025-11-11,Mysuru,Keer,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2025-DAK-0772,2025-02-23,Dakshina Kannada,Sankaran Chowk,NDPS,NDPS Act 20,hostel network supply,charge-sheeted,True
+FIR-2024-BEN-0773,2024-03-29,Bengaluru City,Brar Zila,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2024-MYS-0774,2024-11-13,Mysuru,Sarna Road,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2025-BAG-0775,2025-12-15,Bagalkot,Lad Ganj,Theft,BNS 303,shop till theft,under-investigation,True
+FIR-2025-SHI-0776,2025-12-20,Shivamogga,Dewan Chowk,Chain Snatching,BNS 304,market crowd snatching,charge-sheeted,True
+FIR-2024-BAG-0777,2024-07-09,Bagalkot,Lad Ganj,Robbery,BNS 309,highway vehicle stop,charge-sheeted,True
+FIR-2024-DHA-0778,2024-06-11,Dharwad,Saha Nagar,Murder,BNS 103,gang rivalry,charge-sheeted,True
+FIR-2025-BAG-0779,2025-03-25,Bagalkot,Rastogi Path,Murder,BNS 103,property dispute,convicted,True
+FIR-2024-BAL-0780,2024-02-11,Ballari,Ramakrishnan Path,Theft,BNS 303,shop till theft,charge-sheeted,True
+FIR-2025-KOL-0781,2025-09-03,Kolar,Wable Chowk,Theft,BNS 303,pickpocketing in transit,closed,True
+FIR-2024-DAK-0782,2024-12-20,Dakshina Kannada,Madan Circle,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2025-DAK-0783,2025-01-18,Dakshina Kannada,Deshpande Marg,Chain Snatching,BNS 304,market crowd snatching,under-investigation,True
+FIR-2025-KAL-0784,2025-01-31,Kalaburagi,Bhatia Chowk,Robbery,BNS 309,highway vehicle stop,convicted,True
+FIR-2025-DAK-0785,2025-08-23,Dakshina Kannada,Sarma Road,Cyber Fraud,IT Act 66D,OTP social engineering,charge-sheeted,True
+FIR-2025-TUM-0786,2025-03-21,Tumakuru,Sahota,Theft,BNS 303,vehicle theft from parking,charge-sheeted,True
+FIR-2024-BAG-0787,2024-04-18,Bagalkot,Kashyap Circle,NDPS,NDPS Act 20,hostel network supply,charge-sheeted,True
+FIR-2025-CHI-0788,2025-12-03,Chickballapura,Maharaj Road,Chain Snatching,BNS 304,two-wheeler drive-by snatching,charge-sheeted,True
+FIR-2025-RAI-0789,2025-03-10,Raichur,Amble Circle,Cyber Fraud,IT Act 66D,UPI phishing call,convicted,True
+FIR-2025-MAN-0790,2025-04-16,Mandya,Varughese Zila,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2025-MYS-0791,2025-09-02,Mysuru,Sarna Road,Cyber Fraud,IT Act 66D,UPI phishing call,under-investigation,True
+FIR-2025-BAG-0792,2025-08-05,Bagalkot,Kashyap Circle,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2025-UDU-0793,2025-03-08,Udupi,Talwar Marg,Cyber Fraud,IT Act 66D,OTP social engineering,under-investigation,True
+FIR-2025-SHI-0794,2025-08-07,Shivamogga,Dewan Chowk,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2025-SHI-0795,2025-11-25,Shivamogga,Master Street,Chain Snatching,BNS 304,two-wheeler drive-by snatching,under-investigation,True
+FIR-2024-SHI-0796,2024-08-14,Shivamogga,Ravi Marg,Burglary,BNS 331,terrace entry,court-pending,True
+FIR-2024-CHI-0797,2024-06-04,Chickballapura,Sidhu Chowk,Cyber Fraud,IT Act 66D,fake loan app extortion,court-pending,True
+FIR-2025-SHI-0798,2025-06-26,Shivamogga,Master Street,Robbery,BNS 309,highway vehicle stop,charge-sheeted,True
+FIR-2025-BEN-0799,2025-03-17,Bengaluru City,Jayaraman Nagar,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2025-BEL-0800,2025-02-09,Belagavi,Deol Street,Robbery,BNS 309,knife-point street robbery,under-investigation,True
+FIR-2025-DAV-0801,2025-09-05,Davanagere,Singh Nagar,Cheating,BNS 318,land document forgery,convicted,True
+FIR-2025-DAK-0802,2025-04-05,Dakshina Kannada,Sarma Road,Theft,BNS 303,vehicle theft from parking,charge-sheeted,True
+FIR-2025-DHA-0803,2025-08-17,Dharwad,Saha Nagar,Cheating,BNS 318,land document forgery,charge-sheeted,True
+FIR-2025-TUM-0804,2025-12-01,Tumakuru,Sahota,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2025-VIJ-0805,2025-12-30,Vijayapur,Walia Nagar,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2024-TUM-0806,2024-06-12,Tumakuru,Banik Chowk,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2024-MYS-0807,2024-01-25,Mysuru,Dhawan Ganj,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2025-BEL-0808,2025-08-16,Belagavi,Sabharwal Ganj,Theft,BNS 303,pickpocketing in transit,charge-sheeted,True
+FIR-2024-BAG-0809,2024-09-23,Bagalkot,Lad Ganj,Robbery,BNS 309,ATM-exit targeting,convicted,True
+FIR-2024-MAN-0810,2024-08-14,Mandya,Saran Marg,Murder,BNS 103,property dispute,convicted,True
+FIR-2025-SHI-0811,2025-12-12,Shivamogga,Ravi Marg,Chain Snatching,BNS 304,two-wheeler drive-by snatching,under-investigation,True
+FIR-2025-KOL-0812,2025-10-21,Kolar,Bhat Chowk,Cyber Fraud,IT Act 66D,courier scam,court-pending,True
+FIR-2024-TUM-0813,2024-01-15,Tumakuru,Sahota,Cheating,BNS 318,fake job placement racket,convicted,True
+FIR-2024-MYS-0814,2024-07-26,Mysuru,Sarna Road,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2024-BAG-0815,2024-09-07,Bagalkot,Bala Marg,Chain Snatching,BNS 304,market crowd snatching,under-investigation,True
+FIR-2025-CHI-0816,2025-08-18,Chickballapura,Maharaj Road,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2024-CHI-0817,2024-03-26,Chickballapura,Sidhu Chowk,Extortion,BNS 308,digital arrest threat call,court-pending,True
+FIR-2025-DAV-0818,2025-09-07,Davanagere,Keer Street,Cheating,BNS 318,fake job placement racket,court-pending,True
+FIR-2025-KOL-0819,2025-05-14,Kolar,Rau Nagar,Chain Snatching,BNS 304,two-wheeler drive-by snatching,charge-sheeted,True
+FIR-2024-SHI-0820,2024-08-06,Shivamogga,Master Street,Burglary,BNS 331,lock-picking daytime entry,convicted,True
+FIR-2024-KOL-0821,2024-06-09,Kolar,Rau Nagar,Burglary,BNS 331,lock-picking daytime entry,court-pending,True
+FIR-2024-MAN-0822,2024-12-07,Mandya,Saran Marg,Theft,BNS 303,shop till theft,charge-sheeted,True
+FIR-2025-MAN-0823,2025-02-22,Mandya,Gala Street,Murder,BNS 103,property dispute,closed,True
+FIR-2025-BEN-0824,2025-01-17,Bengaluru City,Jayaraman Nagar,Theft,BNS 303,shop till theft,charge-sheeted,True
+FIR-2024-CHI-0825,2024-06-13,Chickballapura,Maharaj Road,Burglary,BNS 331,night house-break via rear entry,closed,True
+FIR-2024-MYS-0826,2024-04-13,Mysuru,Dhawan Ganj,Murder,BNS 103,personal enmity,closed,True
+FIR-2025-TUM-0827,2025-08-10,Tumakuru,Kala Ganj,Chain Snatching,BNS 304,market crowd snatching,under-investigation,True
+FIR-2025-BAG-0828,2025-01-04,Bagalkot,Bala Marg,Cyber Fraud,IT Act 66D,courier scam,under-investigation,True
+FIR-2024-KOL-0829,2024-02-19,Kolar,Dhawan Street,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2025-RAI-0830,2025-08-01,Raichur,Sura,Robbery,BNS 309,ATM-exit targeting,court-pending,True
+FIR-2024-BAG-0831,2024-10-10,Bagalkot,Rastogi Path,Cheating,BNS 318,land document forgery,closed,True
+FIR-2025-UDU-0832,2025-09-30,Udupi,Talwar Marg,Murder,BNS 103,property dispute,under-investigation,True
+FIR-2025-KAL-0833,2025-08-13,Kalaburagi,Rajan Road,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2025-VIJ-0834,2025-11-04,Vijayapur,Ram Zila,Burglary,BNS 331,lock-picking daytime entry,charge-sheeted,True
+FIR-2024-BAG-0835,2024-05-20,Bagalkot,Kashyap Circle,Murder,BNS 103,property dispute,convicted,True
+FIR-2025-UDU-0836,2025-03-25,Udupi,Badami Circle,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2024-VIJ-0837,2024-11-20,Vijayapur,Kanda Chowk,Rioting,BNS 191,protest escalation,convicted,True
+FIR-2025-SHI-0838,2025-01-04,Shivamogga,Sachdev Circle,Cyber Fraud,IT Act 66D,OTP social engineering,charge-sheeted,True
+FIR-2024-KOL-0839,2024-05-11,Kolar,Wable Chowk,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2024-DAK-0840,2024-06-25,Dakshina Kannada,Sarma Road,Cheating,BNS 318,land document forgery,convicted,True
+FIR-2024-UDU-0841,2024-11-09,Udupi,Basu Chowk,Burglary,BNS 331,lock-picking daytime entry,closed,True
+FIR-2024-RAI-0842,2024-02-17,Raichur,Amble Circle,Cheating,BNS 318,land document forgery,convicted,True
+FIR-2025-DHA-0843,2025-04-20,Dharwad,Saha Nagar,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2025-KAL-0844,2025-06-11,Kalaburagi,Rajan Road,Burglary,BNS 331,terrace entry,court-pending,True
+FIR-2024-BAG-0845,2024-12-02,Bagalkot,Lad Ganj,Theft,BNS 303,vehicle theft from parking,convicted,True
+FIR-2024-DAK-0846,2024-07-21,Dakshina Kannada,Sankaran Chowk,Murder,BNS 103,personal enmity,convicted,True
+FIR-2024-BAG-0847,2024-08-07,Bagalkot,Lad Ganj,Extortion,BNS 308,protection money demand,court-pending,True
+FIR-2025-BEL-0848,2025-11-10,Belagavi,Deol Street,Extortion,BNS 308,digital arrest threat call,convicted,True
+FIR-2024-BAG-0849,2024-11-10,Bagalkot,Rastogi Path,Robbery,BNS 309,knife-point street robbery,court-pending,True
+FIR-2025-BAL-0850,2025-11-27,Ballari,Ramakrishnan Path,Chain Snatching,BNS 304,market crowd snatching,under-investigation,True
+FIR-2024-KOL-0851,2024-08-23,Kolar,Wable Chowk,NDPS,NDPS Act 20,street-level peddling,charge-sheeted,True
+FIR-2025-DHA-0852,2025-09-16,Dharwad,Venkatesh Marg,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2024-BEN-0853,2024-11-03,Bengaluru City,Majumdar Street,Chain Snatching,BNS 304,two-wheeler drive-by snatching,closed,True
+FIR-2024-DAK-0854,2024-05-27,Dakshina Kannada,Sarma Road,Chain Snatching,BNS 304,two-wheeler drive-by snatching,charge-sheeted,True
+FIR-2024-KAL-0855,2024-10-09,Kalaburagi,Bhatia Chowk,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2024-CHI-0856,2024-04-15,Chickballapura,Sidhu Chowk,NDPS,NDPS Act 20,courier parcel concealment,court-pending,True
+FIR-2024-UDU-0857,2024-02-11,Udupi,Basu Chowk,Theft,BNS 303,vehicle theft from parking,court-pending,True
+FIR-2025-CHI-0858,2025-01-06,Chickballapura,Maharaj Road,Robbery,BNS 309,ATM-exit targeting,charge-sheeted,True
+FIR-2025-DAV-0859,2025-11-13,Davanagere,Singh Nagar,Cheating,BNS 318,investment ponzi scheme,under-investigation,True
+FIR-2025-UDU-0860,2025-07-28,Udupi,Date Path,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2024-BAG-0861,2024-02-10,Bagalkot,Rastogi Path,Burglary,BNS 331,terrace entry,court-pending,True
+FIR-2024-DHA-0862,2024-10-26,Dharwad,Bhardwaj Path,Robbery,BNS 309,highway vehicle stop,convicted,True
+FIR-2025-DAK-0863,2025-10-12,Dakshina Kannada,Sarma Road,Cyber Fraud,IT Act 66D,OTP social engineering,court-pending,True
+FIR-2024-SHI-0864,2024-08-21,Shivamogga,Sachdev Circle,Cyber Fraud,IT Act 66D,UPI phishing call,closed,True
+FIR-2024-HAS-0865,2024-12-25,Hassan,Sampath Path,Extortion,BNS 308,protection money demand,closed,True
+FIR-2024-UDU-0866,2024-07-01,Udupi,Talwar Marg,NDPS,NDPS Act 20,hostel network supply,court-pending,True
+FIR-2025-TUM-0867,2025-08-06,Tumakuru,Sahota,Rioting,BNS 191,protest escalation,closed,True
+FIR-2025-BAL-0868,2025-05-21,Ballari,Arya Road,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2025-BAG-0869,2025-05-09,Bagalkot,Rastogi Path,Burglary,BNS 331,terrace entry,court-pending,True
+FIR-2025-MAN-0870,2025-01-14,Mandya,Gala Street,Cheating,BNS 318,fake job placement racket,charge-sheeted,True
+FIR-2025-CHI-0871,2025-12-26,Chickballapura,Chaudry Nagar,NDPS,NDPS Act 20,hostel network supply,under-investigation,True
+FIR-2025-DHA-0872,2025-08-28,Dharwad,Bhardwaj Path,Extortion,BNS 308,protection money demand,closed,True
+FIR-2025-DAV-0873,2025-08-06,Davanagere,Singhal Nagar,Theft,BNS 303,shop till theft,convicted,True
+FIR-2024-RAI-0874,2024-11-13,Raichur,Dugal Street,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2024-VIJ-0875,2024-06-14,Vijayapur,Ram Zila,Cheating,BNS 318,investment ponzi scheme,closed,True
+FIR-2024-MAN-0876,2024-07-06,Mandya,Gala Street,Rioting,BNS 191,protest escalation,convicted,True
+FIR-2025-MYS-0877,2025-06-20,Mysuru,Keer,Robbery,BNS 309,knife-point street robbery,convicted,True
+FIR-2024-BEN-0878,2024-11-09,Bengaluru City,Jayaraman Nagar,Cheating,BNS 318,investment ponzi scheme,convicted,True
+FIR-2025-DAK-0879,2025-09-06,Dakshina Kannada,Madan Circle,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2024-BEL-0880,2024-10-25,Belagavi,Deol Street,Theft,BNS 303,pickpocketing in transit,convicted,True
+FIR-2025-RAI-0881,2025-11-05,Raichur,Amble Circle,Extortion,BNS 308,protection money demand,convicted,True
+FIR-2024-MAN-0882,2024-02-12,Mandya,Varughese Zila,Cheating,BNS 318,fake job placement racket,closed,True
+FIR-2025-RAI-0883,2025-08-11,Raichur,Amble Circle,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2024-CHI-0884,2024-01-25,Chickballapura,Rattan Chowk,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2025-RAI-0885,2025-08-24,Raichur,Savant Ganj,Theft,BNS 303,pickpocketing in transit,court-pending,True
+FIR-2025-DAK-0886,2025-06-20,Dakshina Kannada,Deshpande Marg,NDPS,NDPS Act 20,street-level peddling,convicted,True
+FIR-2024-VIJ-0887,2024-03-15,Vijayapur,Shah Marg,Cyber Fraud,IT Act 66D,UPI phishing call,under-investigation,True
+FIR-2025-KAL-0888,2025-02-15,Kalaburagi,Rajan Road,Burglary,BNS 331,lock-picking daytime entry,court-pending,True
+FIR-2025-UDU-0889,2025-02-27,Udupi,Basu Chowk,Cheating,BNS 318,investment ponzi scheme,convicted,True
+FIR-2024-BAL-0890,2024-05-11,Ballari,Ramakrishnan Path,Extortion,BNS 308,protection money demand,court-pending,True
+FIR-2025-UDU-0891,2025-11-28,Udupi,Basu Chowk,Theft,BNS 303,shop till theft,court-pending,True
+FIR-2024-MYS-0892,2024-07-24,Mysuru,Sarna Road,Robbery,BNS 309,knife-point street robbery,charge-sheeted,True
+FIR-2025-VIJ-0893,2025-05-30,Vijayapur,Ram Zila,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2025-MYS-0894,2025-04-18,Mysuru,Sarna Road,Cyber Fraud,IT Act 66D,OTP social engineering,charge-sheeted,True
+FIR-2024-TUM-0895,2024-02-28,Tumakuru,Kala Ganj,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2024-MYS-0896,2024-01-07,Mysuru,Sarna Road,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2025-CHI-0897,2025-10-26,Chickballapura,Maharaj Road,Murder,BNS 103,gang rivalry,under-investigation,True
+FIR-2024-MAN-0898,2024-09-13,Mandya,Dhawan Chowk,Rioting,BNS 191,communal flashpoint clash,charge-sheeted,True
+FIR-2024-BEN-0899,2024-06-13,Bengaluru City,Sankaran Chowk,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2025-DHA-0900,2025-02-19,Dharwad,Saha Nagar,Burglary,BNS 331,lock-picking daytime entry,convicted,True
+FIR-2025-MAN-0901,2025-08-05,Mandya,Dhawan Chowk,Burglary,BNS 331,lock-picking daytime entry,court-pending,True
+FIR-2025-DHA-0902,2025-09-30,Dharwad,Bhardwaj Path,Theft,BNS 303,shop till theft,under-investigation,True
+FIR-2025-DAK-0903,2025-08-04,Dakshina Kannada,Deshpande Marg,Cheating,BNS 318,land document forgery,closed,True
+FIR-2025-KOL-0904,2025-05-13,Kolar,Dhawan Street,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2024-TUM-0905,2024-11-10,Tumakuru,Sahota,Burglary,BNS 331,lock-picking daytime entry,court-pending,True
+FIR-2025-KAL-0906,2025-07-29,Kalaburagi,Rajan Road,Robbery,BNS 309,ATM-exit targeting,charge-sheeted,True
+FIR-2025-KAL-0907,2025-11-10,Kalaburagi,Bhatia Chowk,Robbery,BNS 309,knife-point street robbery,under-investigation,True
+FIR-2025-DAK-0908,2025-08-21,Dakshina Kannada,Madan Circle,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2025-UDU-0909,2025-11-24,Udupi,Badami Circle,Theft,BNS 303,pickpocketing in transit,under-investigation,True
+FIR-2025-DHA-0910,2025-09-28,Dharwad,Venkatesh Marg,Murder,BNS 103,property dispute,charge-sheeted,True
+FIR-2024-BAG-0911,2024-09-26,Bagalkot,Rastogi Path,Theft,BNS 303,shop till theft,charge-sheeted,True
+FIR-2025-BEN-0912,2025-10-01,Bengaluru City,Majumdar Street,Chain Snatching,BNS 304,two-wheeler drive-by snatching,charge-sheeted,True
+FIR-2024-MAN-0913,2024-12-09,Mandya,Dhawan Chowk,Cheating,BNS 318,fake job placement racket,charge-sheeted,True
+FIR-2024-KAL-0914,2024-01-24,Kalaburagi,Butala Nagar,Cyber Fraud,IT Act 66D,fake loan app extortion,convicted,True
+FIR-2024-TUM-0915,2024-12-15,Tumakuru,Deo Ganj,Murder,BNS 103,property dispute,court-pending,True
+FIR-2025-KAL-0916,2025-12-22,Kalaburagi,Rajan Road,Murder,BNS 103,personal enmity,closed,True
+FIR-2024-TUM-0917,2024-08-03,Tumakuru,Kala Ganj,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2024-KOL-0918,2024-03-03,Kolar,Dhawan Street,Rioting,BNS 191,protest escalation,under-investigation,True
+FIR-2024-SHI-0919,2024-08-21,Shivamogga,Ravi Marg,Cyber Fraud,IT Act 66D,OTP social engineering,court-pending,True
+FIR-2024-DHA-0920,2024-03-02,Dharwad,Bhardwaj Path,Cyber Fraud,IT Act 66D,courier scam,court-pending,True
+FIR-2024-BAG-0921,2024-11-22,Bagalkot,Lad Ganj,Theft,BNS 303,shop till theft,convicted,True
+FIR-2025-MAN-0922,2025-12-08,Mandya,Dhawan Chowk,Murder,BNS 103,property dispute,charge-sheeted,True
+FIR-2025-BEN-0923,2025-01-29,Bengaluru City,Brar Zila,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2024-UDU-0924,2024-08-10,Udupi,Date Path,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2024-BEL-0925,2024-03-02,Belagavi,Magar Zila,Chain Snatching,BNS 304,market crowd snatching,closed,True
+FIR-2024-DAK-0926,2024-11-11,Dakshina Kannada,Deshpande Marg,Murder,BNS 103,gang rivalry,court-pending,True
+FIR-2025-KAL-0927,2025-01-17,Kalaburagi,Dhawan,Cyber Fraud,IT Act 66D,courier scam,court-pending,True
+FIR-2024-HAS-0928,2024-12-14,Hassan,Ghosh Chowk,NDPS,NDPS Act 20,courier parcel concealment,closed,True
+FIR-2025-CHI-0929,2025-05-15,Chickballapura,Rattan Chowk,Burglary,BNS 331,night house-break via rear entry,charge-sheeted,True
+FIR-2024-DAV-0930,2024-07-16,Davanagere,Mani Road,Cheating,BNS 318,investment ponzi scheme,charge-sheeted,True
+FIR-2025-BEL-0931,2025-10-23,Belagavi,Deol Street,Cyber Fraud,IT Act 66D,fake loan app extortion,convicted,True
+FIR-2024-DAV-0932,2024-11-01,Davanagere,Mani Road,Murder,BNS 103,gang rivalry,court-pending,True
+FIR-2024-BAG-0933,2024-06-09,Bagalkot,Lad Ganj,NDPS,NDPS Act 20,street-level peddling,closed,True
+FIR-2024-BEL-0934,2024-01-18,Belagavi,Magar Zila,Cyber Fraud,IT Act 66D,courier scam,convicted,True
+FIR-2025-SHI-0935,2025-10-21,Shivamogga,Master Street,Murder,BNS 103,gang rivalry,court-pending,True
+FIR-2024-DAK-0936,2024-06-04,Dakshina Kannada,Sarma Road,Chain Snatching,BNS 304,market crowd snatching,closed,True
+FIR-2025-KAL-0937,2025-12-12,Kalaburagi,Butala Nagar,Cheating,BNS 318,fake job placement racket,convicted,True
+FIR-2025-MYS-0938,2025-05-05,Mysuru,Keer,Burglary,BNS 331,night house-break via rear entry,under-investigation,True
+FIR-2025-UDU-0939,2025-01-31,Udupi,Talwar Marg,Cyber Fraud,IT Act 66D,OTP social engineering,court-pending,True
+FIR-2025-MAN-0940,2025-08-19,Mandya,Varughese Zila,Burglary,BNS 331,lock-picking daytime entry,court-pending,True
+FIR-2024-MAN-0941,2024-10-15,Mandya,Dhawan Chowk,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2024-UDU-0942,2024-07-08,Udupi,Talwar Marg,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2024-VIJ-0943,2024-09-15,Vijayapur,Kanda Chowk,Rioting,BNS 191,communal flashpoint clash,charge-sheeted,True
+FIR-2025-SHI-0944,2025-05-18,Shivamogga,Dewan Chowk,Cyber Fraud,IT Act 66D,UPI phishing call,under-investigation,True
+FIR-2025-UDU-0945,2025-03-31,Udupi,Badami Circle,Theft,BNS 303,shop till theft,under-investigation,True
+FIR-2024-KAL-0946,2024-11-05,Kalaburagi,Dhawan,Robbery,BNS 309,knife-point street robbery,charge-sheeted,True
+FIR-2024-BAL-0947,2024-01-15,Ballari,Raj,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2025-UDU-0948,2025-11-25,Udupi,Talwar Marg,Cheating,BNS 318,fake job placement racket,under-investigation,True
+FIR-2025-SHI-0949,2025-12-27,Shivamogga,Ravi Marg,Theft,BNS 303,shop till theft,under-investigation,True
+FIR-2025-BAL-0950,2025-12-20,Ballari,Ramakrishnan Path,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2025-KAL-0951,2025-07-07,Kalaburagi,Dhawan,NDPS,NDPS Act 20,courier parcel concealment,convicted,True
+FIR-2025-TUM-0952,2025-03-18,Tumakuru,Sahota,Cyber Fraud,IT Act 66D,OTP social engineering,closed,True
+FIR-2025-DAK-0953,2025-09-05,Dakshina Kannada,Sarma Road,Chain Snatching,BNS 304,two-wheeler drive-by snatching,closed,True
+FIR-2024-BEN-0954,2024-04-16,Bengaluru City,Jayaraman Nagar,NDPS,NDPS Act 20,hostel network supply,closed,True
+FIR-2025-KOL-0955,2025-02-08,Kolar,Rau Nagar,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2025-TUM-0956,2025-05-22,Tumakuru,Sahota,Chain Snatching,BNS 304,market crowd snatching,under-investigation,True
+FIR-2024-VIJ-0957,2024-05-03,Vijayapur,Ram Zila,Theft,BNS 303,pickpocketing in transit,convicted,True
+FIR-2025-MAN-0958,2025-02-01,Mandya,Gala Street,Cyber Fraud,IT Act 66D,courier scam,charge-sheeted,True
+FIR-2025-RAI-0959,2025-01-27,Raichur,Sura,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2025-TUM-0960,2025-05-01,Tumakuru,Banik Chowk,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2025-BAG-0961,2025-07-19,Bagalkot,Bala Marg,Theft,BNS 303,vehicle theft from parking,court-pending,True
+FIR-2024-BEL-0962,2024-02-19,Belagavi,Banik Street,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2024-BEN-0963,2024-09-12,Bengaluru City,Sankaran Chowk,Extortion,BNS 308,protection money demand,convicted,True
+FIR-2025-BEL-0964,2025-12-18,Belagavi,Magar Zila,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2024-KOL-0965,2024-01-22,Kolar,Bhat Chowk,Cheating,BNS 318,investment ponzi scheme,court-pending,True
+FIR-2025-BAL-0966,2025-05-01,Ballari,Arya Road,Cyber Fraud,IT Act 66D,fake loan app extortion,under-investigation,True
+FIR-2024-RAI-0967,2024-04-28,Raichur,Sura,Cheating,BNS 318,land document forgery,convicted,True
+FIR-2024-BAL-0968,2024-11-23,Ballari,Raj,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2025-RAI-0969,2025-07-20,Raichur,Sura,Cheating,BNS 318,investment ponzi scheme,under-investigation,True
+FIR-2025-MAN-0970,2025-10-02,Mandya,Gala Street,Cheating,BNS 318,fake job placement racket,convicted,True
+FIR-2024-CHI-0971,2024-05-10,Chickballapura,Maharaj Road,Burglary,BNS 331,terrace entry,court-pending,True
+FIR-2024-KAL-0972,2024-03-27,Kalaburagi,Butala Nagar,NDPS,NDPS Act 20,courier parcel concealment,charge-sheeted,True
+FIR-2025-CHI-0973,2025-06-07,Chickballapura,Maharaj Road,Extortion,BNS 308,protection money demand,convicted,True
+FIR-2024-HAS-0974,2024-11-16,Hassan,Ghosh Chowk,Burglary,BNS 331,lock-picking daytime entry,court-pending,True
+FIR-2024-SHI-0975,2024-05-22,Shivamogga,Dewan Chowk,Burglary,BNS 331,lock-picking daytime entry,convicted,True
+FIR-2025-SHI-0976,2025-06-16,Shivamogga,Dewan Chowk,Rioting,BNS 191,protest escalation,under-investigation,True
+FIR-2025-BAG-0977,2025-08-04,Bagalkot,Lad Ganj,Theft,BNS 303,pickpocketing in transit,under-investigation,True
+FIR-2025-BAG-0978,2025-05-21,Bagalkot,Lad Ganj,Theft,BNS 303,shop till theft,court-pending,True
+FIR-2024-MYS-0979,2024-07-04,Mysuru,Keer,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2024-HAS-0980,2024-04-24,Hassan,Ganesan Marg,Murder,BNS 103,gang rivalry,convicted,True
+FIR-2025-HAS-0981,2025-08-21,Hassan,Ghosh Chowk,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2024-BEL-0982,2024-05-07,Belagavi,Sabharwal Ganj,Extortion,BNS 308,protection money demand,convicted,True
+FIR-2025-SHI-0983,2025-11-18,Shivamogga,Ravi Marg,Burglary,BNS 331,terrace entry,court-pending,True
+FIR-2025-BAG-0984,2025-12-30,Bagalkot,Rastogi Path,Cheating,BNS 318,fake job placement racket,under-investigation,True
+FIR-2025-KOL-0985,2025-03-23,Kolar,Bhat Chowk,Extortion,BNS 308,digital arrest threat call,charge-sheeted,True
+FIR-2024-VIJ-0986,2024-07-31,Vijayapur,Walia Nagar,Cheating,BNS 318,fake job placement racket,charge-sheeted,True
+FIR-2025-MAN-0987,2025-02-02,Mandya,Saran Marg,Murder,BNS 103,property dispute,charge-sheeted,True
+FIR-2025-DAK-0988,2025-05-05,Dakshina Kannada,Sarma Road,Theft,BNS 303,pickpocketing in transit,under-investigation,True
+FIR-2025-MYS-0989,2025-01-08,Mysuru,Babu Road,Cheating,BNS 318,investment ponzi scheme,under-investigation,True
+FIR-2024-DHA-0990,2024-05-25,Dharwad,Tella Circle,Theft,BNS 303,vehicle theft from parking,convicted,True
+FIR-2024-CHI-0991,2024-06-29,Chickballapura,Maharaj Road,Rioting,BNS 191,communal flashpoint clash,closed,True
+FIR-2024-RAI-0992,2024-07-02,Raichur,Sura,Theft,BNS 303,pickpocketing in transit,convicted,True
+FIR-2024-DAK-0993,2024-01-09,Dakshina Kannada,Deshpande Marg,Burglary,BNS 331,night house-break via rear entry,court-pending,True
+FIR-2024-MAN-0994,2024-05-15,Mandya,Saran Marg,Chain Snatching,BNS 304,market crowd snatching,charge-sheeted,True
+FIR-2024-KOL-0995,2024-01-01,Kolar,Rau Nagar,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2025-DHA-0996,2025-06-20,Dharwad,Venkatesh Marg,Theft,BNS 303,shop till theft,court-pending,True
+FIR-2025-SHI-0997,2025-01-19,Shivamogga,Master Street,Cheating,BNS 318,fake job placement racket,under-investigation,True
+FIR-2024-BAG-0998,2024-08-20,Bagalkot,Lad Ganj,Murder,BNS 103,property dispute,charge-sheeted,True
+FIR-2024-BAL-0999,2024-02-22,Ballari,Arya Road,Cheating,BNS 318,investment ponzi scheme,closed,True
+FIR-2025-MYS-1000,2025-05-03,Mysuru,Sarna Road,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2024-VIJ-1001,2024-03-02,Vijayapur,Walia Nagar,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2025-KOL-1002,2025-08-02,Kolar,Dhawan Street,NDPS,NDPS Act 20,street-level peddling,closed,True
+FIR-2024-UDU-1003,2024-04-05,Udupi,Basu Chowk,Burglary,BNS 331,night house-break via rear entry,charge-sheeted,True
+FIR-2025-DAV-1004,2025-07-14,Davanagere,Mani Road,Cheating,BNS 318,investment ponzi scheme,under-investigation,True
+FIR-2024-MAN-1005,2024-12-16,Mandya,Dhawan Chowk,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2025-HAS-1006,2025-03-20,Hassan,Ganesan Marg,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2024-BAL-1007,2024-08-16,Ballari,Arya Road,NDPS,NDPS Act 20,street-level peddling,charge-sheeted,True
+FIR-2024-BAL-1008,2024-03-24,Ballari,Arya Road,Theft,BNS 303,pickpocketing in transit,court-pending,True
+FIR-2024-HAS-1009,2024-02-01,Hassan,Ganesan Marg,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2025-UDU-1010,2025-09-04,Udupi,Talwar Marg,Chain Snatching,BNS 304,two-wheeler drive-by snatching,under-investigation,True
+FIR-2024-CHI-1011,2024-01-03,Chickballapura,Sidhu Chowk,Murder,BNS 103,gang rivalry,closed,True
+FIR-2024-BEL-1012,2024-12-04,Belagavi,Magar Zila,Theft,BNS 303,vehicle theft from parking,closed,True
+FIR-2025-BEL-1013,2025-05-17,Belagavi,Deol Street,Cheating,BNS 318,land document forgery,court-pending,True
+FIR-2024-CHI-1014,2024-04-08,Chickballapura,Sidhu Chowk,NDPS,NDPS Act 20,street-level peddling,convicted,True
+FIR-2024-SHI-1015,2024-08-28,Shivamogga,Master Street,Cheating,BNS 318,investment ponzi scheme,court-pending,True
+FIR-2024-HAS-1016,2024-10-16,Hassan,Ganesan Marg,Robbery,BNS 309,ATM-exit targeting,court-pending,True
+FIR-2024-MAN-1017,2024-07-15,Mandya,Varughese Zila,Cheating,BNS 318,fake job placement racket,under-investigation,True
+FIR-2025-HAS-1018,2025-12-25,Hassan,Ghosh Chowk,Cyber Fraud,IT Act 66D,fake loan app extortion,under-investigation,True
+FIR-2025-CHI-1019,2025-09-10,Chickballapura,Chaudry Nagar,NDPS,NDPS Act 20,hostel network supply,closed,True
+FIR-2025-KAL-1020,2025-05-28,Kalaburagi,Dhawan,Robbery,BNS 309,ATM-exit targeting,convicted,True
+FIR-2025-RAI-1021,2025-08-28,Raichur,Dugal Street,Extortion,BNS 308,digital arrest threat call,court-pending,True
+FIR-2025-DAV-1022,2025-08-28,Davanagere,Singh Nagar,Cyber Fraud,IT Act 66D,UPI phishing call,closed,True
+FIR-2024-UDU-1023,2024-09-01,Udupi,Talwar Marg,Extortion,BNS 308,protection money demand,charge-sheeted,True
+FIR-2025-RAI-1024,2025-11-08,Raichur,Dugal Street,NDPS,NDPS Act 20,street-level peddling,convicted,True
+FIR-2024-BAL-1025,2024-12-02,Ballari,Raj,Robbery,BNS 309,ATM-exit targeting,court-pending,True
+FIR-2024-SHI-1026,2024-06-16,Shivamogga,Master Street,Burglary,BNS 331,terrace entry,closed,True
+FIR-2024-DAK-1027,2024-10-03,Dakshina Kannada,Sankaran Chowk,Burglary,BNS 331,lock-picking daytime entry,convicted,True
+FIR-2024-TUM-1028,2024-12-30,Tumakuru,Sahota,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2024-RAI-1029,2024-12-16,Raichur,Savant Ganj,Chain Snatching,BNS 304,market crowd snatching,charge-sheeted,True
+FIR-2025-RAI-1030,2025-05-21,Raichur,Amble Circle,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2025-MAN-1031,2025-08-07,Mandya,Varughese Zila,Murder,BNS 103,property dispute,closed,True
+FIR-2025-RAI-1032,2025-04-29,Raichur,Dugal Street,Robbery,BNS 309,knife-point street robbery,under-investigation,True
+FIR-2024-BEL-1033,2024-02-09,Belagavi,Magar Zila,Theft,BNS 303,pickpocketing in transit,closed,True
+FIR-2025-CHI-1034,2025-06-27,Chickballapura,Chaudry Nagar,Robbery,BNS 309,highway vehicle stop,convicted,True
+FIR-2025-BEL-1035,2025-09-09,Belagavi,Deol Street,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2024-DAV-1036,2024-03-21,Davanagere,Singh Nagar,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2024-DHA-1037,2024-11-15,Dharwad,Bhardwaj Path,Murder,BNS 103,property dispute,court-pending,True
+FIR-2025-MAN-1038,2025-04-25,Mandya,Dhawan Chowk,Murder,BNS 103,property dispute,court-pending,True
+FIR-2024-KAL-1039,2024-01-18,Kalaburagi,Rajan Road,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2025-VIJ-1040,2025-03-16,Vijayapur,Shah Marg,Murder,BNS 103,gang rivalry,under-investigation,True
+FIR-2025-CHI-1041,2025-10-25,Chickballapura,Rattan Chowk,Theft,BNS 303,shop till theft,closed,True
+FIR-2024-KAL-1042,2024-09-11,Kalaburagi,Butala Nagar,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2025-BEN-1043,2025-12-13,Bengaluru City,Sankaran Chowk,Robbery,BNS 309,knife-point street robbery,under-investigation,True
+FIR-2025-VIJ-1044,2025-11-10,Vijayapur,Ram Zila,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2024-DHA-1045,2024-01-04,Dharwad,Saha Nagar,Theft,BNS 303,vehicle theft from parking,under-investigation,True
+FIR-2024-SHI-1046,2024-05-24,Shivamogga,Master Street,Theft,BNS 303,shop till theft,under-investigation,True
+FIR-2024-DAV-1047,2024-07-24,Davanagere,Keer Street,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2025-KAL-1048,2025-10-19,Kalaburagi,Butala Nagar,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2024-BEL-1049,2024-03-05,Belagavi,Sabharwal Ganj,Murder,BNS 103,property dispute,closed,True
+FIR-2024-KAL-1050,2024-01-04,Kalaburagi,Butala Nagar,NDPS,NDPS Act 20,hostel network supply,charge-sheeted,True
+FIR-2024-DHA-1051,2024-11-09,Dharwad,Tella Circle,Robbery,BNS 309,highway vehicle stop,convicted,True
+FIR-2024-MYS-1052,2024-11-28,Mysuru,Dhawan Ganj,Burglary,BNS 331,night house-break via rear entry,charge-sheeted,True
+FIR-2024-MYS-1053,2024-08-24,Mysuru,Babu Road,Robbery,BNS 309,ATM-exit targeting,charge-sheeted,True
+FIR-2025-DAV-1054,2025-01-14,Davanagere,Singhal Nagar,Burglary,BNS 331,lock-picking daytime entry,closed,True
+FIR-2024-DAV-1055,2024-09-03,Davanagere,Mani Road,Robbery,BNS 309,ATM-exit targeting,court-pending,True
+FIR-2024-BAL-1056,2024-04-12,Ballari,Contractor Zila,Cyber Fraud,IT Act 66D,OTP social engineering,under-investigation,True
+FIR-2024-DAK-1057,2024-07-16,Dakshina Kannada,Sarma Road,Theft,BNS 303,vehicle theft from parking,convicted,True
+FIR-2024-VIJ-1058,2024-04-30,Vijayapur,Walia Nagar,Murder,BNS 103,property dispute,court-pending,True
+FIR-2025-BEN-1059,2025-01-22,Bengaluru City,Brar Zila,Extortion,BNS 308,protection money demand,charge-sheeted,True
+FIR-2025-BAL-1060,2025-03-01,Ballari,Arya Road,Chain Snatching,BNS 304,market crowd snatching,under-investigation,True
+FIR-2025-DAV-1061,2025-03-31,Davanagere,Mani Road,Chain Snatching,BNS 304,two-wheeler drive-by snatching,closed,True
+FIR-2024-RAI-1062,2024-04-25,Raichur,Amble Circle,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2024-KAL-1063,2024-08-25,Kalaburagi,Rajan Road,NDPS,NDPS Act 20,hostel network supply,closed,True
+FIR-2024-RAI-1064,2024-09-22,Raichur,Savant Ganj,Cyber Fraud,IT Act 66D,UPI phishing call,convicted,True
+FIR-2025-BAG-1065,2025-10-01,Bagalkot,Kashyap Circle,Chain Snatching,BNS 304,two-wheeler drive-by snatching,charge-sheeted,True
+FIR-2024-MYS-1066,2024-01-31,Mysuru,Keer,Cyber Fraud,IT Act 66D,UPI phishing call,convicted,True
+FIR-2025-BEL-1067,2025-05-07,Belagavi,Banik Street,Burglary,BNS 331,terrace entry,convicted,True
+FIR-2024-BEL-1068,2024-11-16,Belagavi,Deol Street,Cyber Fraud,IT Act 66D,OTP social engineering,convicted,True
+FIR-2025-MYS-1069,2025-05-28,Mysuru,Dhawan Ganj,Theft,BNS 303,vehicle theft from parking,charge-sheeted,True
+FIR-2025-HAS-1070,2025-01-21,Hassan,Bath Chowk,Burglary,BNS 331,terrace entry,charge-sheeted,True
+FIR-2025-BAL-1071,2025-06-07,Ballari,Contractor Zila,Theft,BNS 303,vehicle theft from parking,charge-sheeted,True
+FIR-2024-DHA-1072,2024-02-24,Dharwad,Venkatesh Marg,Extortion,BNS 308,digital arrest threat call,under-investigation,True
+FIR-2024-MYS-1073,2024-10-01,Mysuru,Keer,Murder,BNS 103,property dispute,convicted,True
+FIR-2024-BAL-1074,2024-03-06,Ballari,Arya Road,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2024-DAK-1075,2024-10-31,Dakshina Kannada,Sankaran Chowk,Cheating,BNS 318,investment ponzi scheme,court-pending,True
+FIR-2025-SHI-1076,2025-02-03,Shivamogga,Ravi Marg,Murder,BNS 103,property dispute,under-investigation,True
+FIR-2025-MAN-1077,2025-11-22,Mandya,Saran Marg,Burglary,BNS 331,night house-break via rear entry,court-pending,True
+FIR-2025-SHI-1078,2025-01-21,Shivamogga,Ravi Marg,Extortion,BNS 308,digital arrest threat call,convicted,True
+FIR-2025-DAV-1079,2025-06-15,Davanagere,Singh Nagar,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2024-MYS-1080,2024-10-23,Mysuru,Dhawan Ganj,Murder,BNS 103,personal enmity,under-investigation,True
+FIR-2024-BAL-1081,2024-05-05,Ballari,Arya Road,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2025-VIJ-1082,2025-05-19,Vijayapur,Ram Zila,Burglary,BNS 331,lock-picking daytime entry,charge-sheeted,True
+FIR-2024-UDU-1083,2024-12-01,Udupi,Talwar Marg,Robbery,BNS 309,ATM-exit targeting,charge-sheeted,True
+FIR-2024-RAI-1084,2024-04-24,Raichur,Savant Ganj,Burglary,BNS 331,terrace entry,convicted,True
+FIR-2024-BEL-1085,2024-10-17,Belagavi,Banik Street,Theft,BNS 303,pickpocketing in transit,closed,True
+FIR-2025-SHI-1086,2025-08-11,Shivamogga,Sachdev Circle,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2024-TUM-1087,2024-05-31,Tumakuru,Deo Ganj,Burglary,BNS 331,lock-picking daytime entry,charge-sheeted,True
+FIR-2025-BEN-1088,2025-01-10,Bengaluru City,Jayaraman Nagar,Murder,BNS 103,property dispute,under-investigation,True
+FIR-2024-BEN-1089,2024-05-11,Bengaluru City,Majumdar Street,Robbery,BNS 309,knife-point street robbery,closed,True
+FIR-2024-BAG-1090,2024-06-06,Bagalkot,Kashyap Circle,Cheating,BNS 318,land document forgery,charge-sheeted,True
+FIR-2025-RAI-1091,2025-06-05,Raichur,Savant Ganj,Cheating,BNS 318,investment ponzi scheme,charge-sheeted,True
+FIR-2024-BAL-1092,2024-04-28,Ballari,Contractor Zila,Murder,BNS 103,personal enmity,closed,True
+FIR-2025-RAI-1093,2025-05-03,Raichur,Savant Ganj,Burglary,BNS 331,night house-break via rear entry,charge-sheeted,True
+FIR-2025-BEN-1094,2025-12-08,Bengaluru City,Majumdar Street,Extortion,BNS 308,protection money demand,court-pending,True
+FIR-2025-DHA-1095,2025-10-02,Dharwad,Saha Nagar,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2025-BAL-1096,2025-08-05,Ballari,Arya Road,Rioting,BNS 191,communal flashpoint clash,charge-sheeted,True
+FIR-2024-KAL-1097,2024-08-16,Kalaburagi,Bhatia Chowk,Robbery,BNS 309,ATM-exit targeting,charge-sheeted,True
+FIR-2024-RAI-1098,2024-11-12,Raichur,Savant Ganj,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2024-SHI-1099,2024-01-18,Shivamogga,Sachdev Circle,NDPS,NDPS Act 20,courier parcel concealment,closed,True
+FIR-2025-MAN-1100,2025-08-27,Mandya,Gala Street,Cheating,BNS 318,fake job placement racket,charge-sheeted,True
+FIR-2025-BEL-1101,2025-03-12,Belagavi,Sabharwal Ganj,Extortion,BNS 308,digital arrest threat call,convicted,True
+FIR-2024-KOL-1102,2024-11-14,Kolar,Bhat Chowk,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2024-KOL-1103,2024-01-07,Kolar,Rau Nagar,Murder,BNS 103,property dispute,court-pending,True
+FIR-2024-TUM-1104,2024-01-27,Tumakuru,Kala Ganj,Rioting,BNS 191,protest escalation,court-pending,True
+FIR-2025-DHA-1105,2025-04-09,Dharwad,Venkatesh Marg,Murder,BNS 103,gang rivalry,convicted,True
+FIR-2025-DAV-1106,2025-10-14,Davanagere,Singh Nagar,Burglary,BNS 331,lock-picking daytime entry,under-investigation,True
+FIR-2025-KAL-1107,2025-11-18,Kalaburagi,Rajan Road,Cheating,BNS 318,land document forgery,charge-sheeted,True
+FIR-2024-BEN-1108,2024-09-26,Bengaluru City,Sankaran Chowk,Rioting,BNS 191,protest escalation,closed,True
+FIR-2025-DAK-1109,2025-01-01,Dakshina Kannada,Sarma Road,Cyber Fraud,IT Act 66D,courier scam,charge-sheeted,True
+FIR-2024-BEL-1110,2024-06-16,Belagavi,Sabharwal Ganj,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2024-VIJ-1111,2024-05-04,Vijayapur,Ram Zila,Cheating,BNS 318,land document forgery,charge-sheeted,True
+FIR-2024-KOL-1112,2024-10-28,Kolar,Dhawan Street,Cheating,BNS 318,investment ponzi scheme,closed,True
+FIR-2024-DAK-1113,2024-03-17,Dakshina Kannada,Sankaran Chowk,Robbery,BNS 309,ATM-exit targeting,convicted,True
+FIR-2025-BEL-1114,2025-07-06,Belagavi,Sabharwal Ganj,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2025-CHI-1115,2025-02-16,Chickballapura,Sidhu Chowk,Murder,BNS 103,gang rivalry,closed,True
+FIR-2025-KAL-1116,2025-07-07,Kalaburagi,Butala Nagar,Cheating,BNS 318,investment ponzi scheme,court-pending,True
+FIR-2025-KAL-1117,2025-02-18,Kalaburagi,Butala Nagar,Cyber Fraud,IT Act 66D,fake loan app extortion,court-pending,True
+FIR-2025-RAI-1118,2025-09-15,Raichur,Dugal Street,Rioting,BNS 191,communal flashpoint clash,convicted,True
+FIR-2025-BAL-1119,2025-09-11,Ballari,Raj,Murder,BNS 103,gang rivalry,closed,True
+FIR-2024-RAI-1120,2024-10-17,Raichur,Amble Circle,Rioting,BNS 191,communal flashpoint clash,closed,True
+FIR-2025-CHI-1121,2025-02-03,Chickballapura,Sidhu Chowk,Extortion,BNS 308,protection money demand,court-pending,True
+FIR-2025-UDU-1122,2025-05-19,Udupi,Badami Circle,NDPS,NDPS Act 20,hostel network supply,convicted,True
+FIR-2024-RAI-1123,2024-02-09,Raichur,Dugal Street,Cyber Fraud,IT Act 66D,UPI phishing call,convicted,True
+FIR-2025-UDU-1124,2025-02-03,Udupi,Basu Chowk,Cyber Fraud,IT Act 66D,UPI phishing call,convicted,True
+FIR-2025-BAG-1125,2025-02-06,Bagalkot,Rastogi Path,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2025-RAI-1126,2025-11-30,Raichur,Dugal Street,Chain Snatching,BNS 304,two-wheeler drive-by snatching,convicted,True
+FIR-2024-HAS-1127,2024-09-23,Hassan,Ghosh Chowk,Chain Snatching,BNS 304,market crowd snatching,court-pending,True
+FIR-2024-DAK-1128,2024-06-20,Dakshina Kannada,Madan Circle,Cheating,BNS 318,investment ponzi scheme,closed,True
+FIR-2025-DAV-1129,2025-06-15,Davanagere,Keer Street,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2025-KOL-1130,2025-11-22,Kolar,Dhawan Street,Robbery,BNS 309,knife-point street robbery,closed,True
+FIR-2025-HAS-1131,2025-12-22,Hassan,Ghosh Chowk,NDPS,NDPS Act 20,street-level peddling,under-investigation,True
+FIR-2024-DAK-1132,2024-07-26,Dakshina Kannada,Deshpande Marg,Cyber Fraud,IT Act 66D,fake loan app extortion,court-pending,True
+FIR-2024-DAV-1133,2024-01-17,Davanagere,Mani Road,Murder,BNS 103,gang rivalry,convicted,True
+FIR-2025-KOL-1134,2025-04-12,Kolar,Dhawan Street,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2024-MAN-1135,2024-10-05,Mandya,Gala Street,Murder,BNS 103,property dispute,court-pending,True
+FIR-2024-DAK-1136,2024-10-13,Dakshina Kannada,Sarma Road,Cyber Fraud,IT Act 66D,OTP social engineering,charge-sheeted,True
+FIR-2024-KAL-1137,2024-10-21,Kalaburagi,Dhawan,Cyber Fraud,IT Act 66D,UPI phishing call,closed,True
+FIR-2024-MAN-1138,2024-11-10,Mandya,Gala Street,Chain Snatching,BNS 304,two-wheeler drive-by snatching,court-pending,True
+FIR-2025-VIJ-1139,2025-05-07,Vijayapur,Shah Marg,Cyber Fraud,IT Act 66D,fake loan app extortion,court-pending,True
+FIR-2025-BAG-1140,2025-03-09,Bagalkot,Lad Ganj,Burglary,BNS 331,night house-break via rear entry,court-pending,True
+FIR-2024-TUM-1141,2024-08-02,Tumakuru,Deo Ganj,Theft,BNS 303,vehicle theft from parking,convicted,True
+FIR-2024-KAL-1142,2024-03-05,Kalaburagi,Butala Nagar,Burglary,BNS 331,terrace entry,court-pending,True
+FIR-2024-VIJ-1143,2024-06-12,Vijayapur,Shah Marg,Extortion,BNS 308,protection money demand,charge-sheeted,True
+FIR-2024-HAS-1144,2024-12-24,Hassan,Ganesan Marg,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2024-TUM-1145,2024-02-03,Tumakuru,Kala Ganj,Rioting,BNS 191,communal flashpoint clash,charge-sheeted,True
+FIR-2025-CHI-1146,2025-10-22,Chickballapura,Sidhu Chowk,Robbery,BNS 309,ATM-exit targeting,under-investigation,True
+FIR-2024-VIJ-1147,2024-07-05,Vijayapur,Shah Marg,Cyber Fraud,IT Act 66D,UPI phishing call,closed,True
+FIR-2024-BAL-1148,2024-05-27,Ballari,Arya Road,NDPS,NDPS Act 20,courier parcel concealment,charge-sheeted,True
+FIR-2025-BEL-1149,2025-03-03,Belagavi,Banik Street,Theft,BNS 303,shop till theft,convicted,True
+FIR-2024-BEN-1150,2024-09-10,Bengaluru City,Jayaraman Nagar,Theft,BNS 303,pickpocketing in transit,closed,True
+FIR-2024-DAK-1151,2024-06-27,Dakshina Kannada,Sankaran Chowk,Rioting,BNS 191,protest escalation,charge-sheeted,True
+FIR-2025-KAL-1152,2025-06-15,Kalaburagi,Butala Nagar,Cyber Fraud,IT Act 66D,UPI phishing call,convicted,True
+FIR-2025-BAG-1153,2025-05-15,Bagalkot,Rastogi Path,NDPS,NDPS Act 20,street-level peddling,charge-sheeted,True
+FIR-2025-MYS-1154,2025-02-07,Mysuru,Keer,NDPS,NDPS Act 20,courier parcel concealment,under-investigation,True
+FIR-2025-DAK-1155,2025-04-16,Dakshina Kannada,Sarma Road,Robbery,BNS 309,ATM-exit targeting,convicted,True
+FIR-2025-MAN-1156,2025-08-23,Mandya,Varughese Zila,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2025-DHA-1157,2025-08-13,Dharwad,Saha Nagar,Murder,BNS 103,gang rivalry,under-investigation,True
+FIR-2024-DAK-1158,2024-06-04,Dakshina Kannada,Sankaran Chowk,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2025-BEL-1159,2025-11-20,Belagavi,Banik Street,Rioting,BNS 191,communal flashpoint clash,charge-sheeted,True
+FIR-2024-VIJ-1160,2024-09-11,Vijayapur,Kanda Chowk,Cyber Fraud,IT Act 66D,OTP social engineering,closed,True
+FIR-2024-BEN-1161,2024-10-18,Bengaluru City,Sankaran Chowk,Robbery,BNS 309,knife-point street robbery,court-pending,True
+FIR-2024-BEN-1162,2024-05-11,Bengaluru City,Brar Zila,Cheating,BNS 318,fake job placement racket,convicted,True
+FIR-2025-MAN-1163,2025-09-02,Mandya,Gala Street,Rioting,BNS 191,protest escalation,convicted,True
+FIR-2024-VIJ-1164,2024-10-09,Vijayapur,Shah Marg,Chain Snatching,BNS 304,market crowd snatching,closed,True
+FIR-2024-KAL-1165,2024-03-17,Kalaburagi,Butala Nagar,Theft,BNS 303,shop till theft,convicted,True
+FIR-2024-BEN-1166,2024-03-28,Bengaluru City,Sankaran Chowk,Chain Snatching,BNS 304,two-wheeler drive-by snatching,closed,True
+FIR-2024-MYS-1167,2024-09-12,Mysuru,Keer,Murder,BNS 103,property dispute,closed,True
+FIR-2024-MAN-1168,2024-03-07,Mandya,Saran Marg,Rioting,BNS 191,communal flashpoint clash,under-investigation,True
+FIR-2025-BEN-1169,2025-03-20,Bengaluru City,Majumdar Street,Extortion,BNS 308,protection money demand,under-investigation,True
+FIR-2025-BAL-1170,2025-07-21,Ballari,Ramakrishnan Path,Cheating,BNS 318,fake job placement racket,charge-sheeted,True
+FIR-2025-BEN-1171,2025-04-03,Bengaluru City,Majumdar Street,Cyber Fraud,IT Act 66D,UPI phishing call,closed,True
+FIR-2024-MAN-1172,2024-10-21,Mandya,Saran Marg,Robbery,BNS 309,knife-point street robbery,charge-sheeted,True
+FIR-2025-RAI-1173,2025-03-21,Raichur,Dugal Street,Rioting,BNS 191,protest escalation,charge-sheeted,True
+FIR-2025-DAV-1174,2025-03-26,Davanagere,Keer Street,Cyber Fraud,IT Act 66D,courier scam,closed,True
+FIR-2024-MYS-1175,2024-01-20,Mysuru,Keer,Extortion,BNS 308,digital arrest threat call,closed,True
+FIR-2024-DAV-1176,2024-02-08,Davanagere,Mani Road,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2024-DAK-1177,2024-11-20,Dakshina Kannada,Sankaran Chowk,Robbery,BNS 309,knife-point street robbery,under-investigation,True
+FIR-2025-TUM-1178,2025-10-25,Tumakuru,Deo Ganj,Burglary,BNS 331,lock-picking daytime entry,charge-sheeted,True
+FIR-2024-KAL-1179,2024-04-11,Kalaburagi,Rajan Road,Cheating,BNS 318,investment ponzi scheme,charge-sheeted,True
+FIR-2025-SHI-1180,2025-11-16,Shivamogga,Sachdev Circle,NDPS,NDPS Act 20,courier parcel concealment,closed,True
+FIR-2024-BAG-1181,2024-08-07,Bagalkot,Kashyap Circle,Murder,BNS 103,gang rivalry,court-pending,True
+FIR-2025-DAV-1182,2025-10-07,Davanagere,Singhal Nagar,Murder,BNS 103,gang rivalry,convicted,True
+FIR-2024-BAG-1183,2024-04-24,Bagalkot,Kashyap Circle,Chain Snatching,BNS 304,market crowd snatching,convicted,True
+FIR-2024-RAI-1184,2024-11-07,Raichur,Savant Ganj,Theft,BNS 303,pickpocketing in transit,closed,True
+FIR-2024-MYS-1185,2024-06-25,Mysuru,Keer,NDPS,NDPS Act 20,courier parcel concealment,closed,True
+FIR-2025-TUM-1186,2025-10-25,Tumakuru,Deo Ganj,Robbery,BNS 309,highway vehicle stop,court-pending,True
+FIR-2025-KAL-1187,2025-05-31,Kalaburagi,Bhatia Chowk,NDPS,NDPS Act 20,courier parcel concealment,convicted,True
+FIR-2024-BEL-1188,2024-12-29,Belagavi,Deol Street,Rioting,BNS 191,communal flashpoint clash,closed,True
+FIR-2025-RAI-1189,2025-05-14,Raichur,Savant Ganj,Chain Snatching,BNS 304,market crowd snatching,charge-sheeted,True
+FIR-2025-DHA-1190,2025-09-11,Dharwad,Tella Circle,Murder,BNS 103,property dispute,convicted,True
+FIR-2024-KAL-1191,2024-11-15,Kalaburagi,Butala Nagar,NDPS,NDPS Act 20,street-level peddling,charge-sheeted,True
+FIR-2024-DHA-1192,2024-09-05,Dharwad,Tella Circle,Rioting,BNS 191,communal flashpoint clash,court-pending,True
+FIR-2025-KOL-1193,2025-12-14,Kolar,Wable Chowk,NDPS,NDPS Act 20,courier parcel concealment,court-pending,True
+FIR-2024-TUM-1194,2024-03-05,Tumakuru,Deo Ganj,Rioting,BNS 191,communal flashpoint clash,closed,True
+FIR-2025-VIJ-1195,2025-02-21,Vijayapur,Shah Marg,Burglary,BNS 331,night house-break via rear entry,convicted,True
+FIR-2025-HAS-1196,2025-02-14,Hassan,Bath Chowk,Cyber Fraud,IT Act 66D,OTP social engineering,closed,True
+FIR-2025-VIJ-1197,2025-10-27,Vijayapur,Walia Nagar,Cyber Fraud,IT Act 66D,courier scam,under-investigation,True
+FIR-2024-BEL-1198,2024-05-28,Belagavi,Deol Street,NDPS,NDPS Act 20,street-level peddling,court-pending,True
+FIR-2024-RAI-1199,2024-09-28,Raichur,Amble Circle,Cheating,BNS 318,land document forgery,court-pending,True
+FIR-2024-HAS-1200,2024-12-01,Hassan,Ganesan Marg,Robbery,BNS 309,ATM-exit targeting,closed,True

@@ -5,7 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { districts, ipcCrimes } from "@/data/crimeData";
-import { runPrediction, type PredictionResult } from "@/lib/predict";
+import { runPrediction, type PredictionInput, type PredictionResult } from "@/lib/predict";
+import { fetchAPI } from "@/lib/apiClient";
 import * as motion from "motion/react-client";
 import { AnimatePresence } from "motion/react";
 import {
@@ -32,6 +33,23 @@ const simLogs = [
   "PREDICTION COMPLETE."
 ];
 
+// Extra metadata returned by the real ML backend (absent in offline simulation).
+interface PredictionMeta {
+  engine: string;
+  modelType: string;
+  resolvedDistrict: string | null;
+  resolvedCrimeType: string | null;
+  aggregationLevel: string;
+  escalated: boolean;
+  modeledSeries: string;
+  backtestSMAPE: number;
+  trainingMonths: number;
+  pooledSeries: number;
+  isSynthetic: boolean;
+}
+
+type BackendPrediction = PredictionResult & { meta?: PredictionMeta };
+
 export default function AIPredictionPage() {
   const { t } = useLanguage();
   const [district, setDistrict] = useState("Bengaluru City");
@@ -43,6 +61,8 @@ export default function AIPredictionPage() {
   
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [logs, setLogs] = useState<string[]>([]);
+  const [source, setSource] = useState<"live" | "simulated">("simulated");
+  const [meta, setMeta] = useState<PredictionMeta | null>(null);
   const [result, setResult] = useState<PredictionResult | null>(() =>
     runPrediction({
       district: "Bengaluru City",
@@ -54,44 +74,65 @@ export default function AIPredictionPage() {
     })
   );
 
+  // Call the real ML backend; fall back to the client-side simulation offline.
+  const executePrediction = async (input: PredictionInput, showTerminal: boolean) => {
+    let interval: ReturnType<typeof setInterval> | null = null;
+    if (showTerminal) {
+      setIsAnalyzing(true);
+      setResult(null);
+      setLogs([]);
+      let logIndex = 0;
+      interval = setInterval(() => {
+        if (logIndex < simLogs.length) {
+          setLogs(prev => [...prev, simLogs[logIndex]]);
+          logIndex++;
+        }
+      }, 150);
+    }
+    try {
+      const data: BackendPrediction = await fetchAPI("/predict", {
+        method: "POST",
+        body: JSON.stringify(input),
+      });
+      setResult(data);
+      setMeta(data.meta ?? null);
+      setSource("live");
+    } catch {
+      setResult(runPrediction(input));
+      setMeta(null);
+      setSource("simulated");
+    } finally {
+      if (interval) clearInterval(interval);
+      if (showTerminal) setIsAnalyzing(false);
+    }
+  };
+
+  // Replace the initial simulated result with a live forecast once on mount.
+  useEffect(() => {
+    executePrediction(
+      { district: "Bengaluru City", crimeType: "Theft", months: 3, modelType: "LSTM", includeEnvironmental: true, includeEvents: false },
+      false
+    );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const handlePredict = () => {
     if (!district || !crimeType) return;
-    setIsAnalyzing(true);
-    setResult(null);
-    setLogs([]);
-    
-    // Simulate terminal logs over time
-    let logIndex = 0;
-    const interval = setInterval(() => {
-      setLogs(prev => [...prev, simLogs[logIndex]]);
-      logIndex++;
-      if (logIndex >= simLogs.length) {
-        clearInterval(interval);
-        setResult(runPrediction({ 
-          district, 
-          crimeType, 
-          months, 
-          modelType,
-          includeEnvironmental, 
-          includeEvents 
-        }));
-        setIsAnalyzing(false);
-      }
-    }, 150);
+    executePrediction({ district, crimeType, months, modelType, includeEnvironmental, includeEvents }, true);
   };
 
   const applyPreset = (presetDist: string, presetCrime: string, presetModel: "LSTM" | "XGBoost" | "Prophet") => {
     setDistrict(presetDist);
     setCrimeType(presetCrime);
     setModelType(presetModel);
-    setResult(runPrediction({
+    executePrediction({
       district: presetDist,
       crimeType: presetCrime,
       months,
       modelType: presetModel,
       includeEnvironmental,
       includeEvents,
-    }));
+    }, true);
   };
 
   const getTierColor = (tier: string) => {
@@ -114,6 +155,16 @@ export default function AIPredictionPage() {
           {t("Predictive Command Center")}
         </h1>
         <p className="text-muted-foreground mt-3 text-base">{t("Multi-model AI forecasting, resource allocation, and spatial hotspot identification.")}</p>
+        <div className={`mt-2 inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full border ${
+          source === "live"
+            ? "text-brand-teal border-brand-teal/30 bg-brand-teal/10"
+            : "text-brand-amber border-brand-amber/30 bg-brand-amber/10"
+        }`}>
+          <Server className="h-3 w-3" />
+          {source === "live"
+            ? `${t("Live ML Backend")}${meta ? ` — ${meta.engine}` : ""}`
+            : t("Offline Simulation (backend unreachable)")}
+        </div>
       </motion.div>
 
       <div className="grid gap-6 lg:grid-cols-12 items-start">
@@ -378,9 +429,16 @@ export default function AIPredictionPage() {
                   <Card className="glass-card overflow-hidden">
                     <CardHeader className="border-b border-border/50 bg-muted/10 pb-3 pt-4 px-5">
                       <div className="flex justify-between items-center">
-                        <CardTitle className="font-heading text-base flex items-center gap-2">
-                          <Activity className="h-4 w-4 text-brand-blue" /> {t("Forecast Trajectory")}
-                        </CardTitle>
+                        <div>
+                          <CardTitle className="font-heading text-base flex items-center gap-2">
+                            <Activity className="h-4 w-4 text-brand-blue" /> {t("Forecast Trajectory")}
+                          </CardTitle>
+                          {meta && (
+                            <p className="text-[10px] text-muted-foreground mt-1 font-mono">
+                              {t("Modeled")}: {meta.modeledSeries} · {meta.trainingMonths} {t("mo. history")} · {t("backtest sMAPE")} {meta.backtestSMAPE}%{meta.isSynthetic ? ` · ${t("synthetic data")}` : ""}
+                            </p>
+                          )}
+                        </div>
                         <div className="flex gap-4 text-[10px] font-semibold font-mono text-muted-foreground">
                           <span className="flex items-center gap-1.5"><div className="w-3 h-0.5 bg-muted-foreground" /> {t("Actual")}</span>
                           <span className="flex items-center gap-1.5"><div className="w-3 h-0.5 border-t-2 border-dashed border-brand-purple" /> {t("Projection")}</span>

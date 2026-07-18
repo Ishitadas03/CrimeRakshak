@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { getSurgeAlerts } from "@/lib/derive";
+import { fetchAPI } from "@/lib/apiClient";
 import * as motion from "motion/react-client";
 import { AnimatePresence } from "motion/react";
 import {
@@ -48,6 +49,38 @@ const mockUnits = [
   ["Activate Neighborhood Watch Protocol", "Increase Night Patrol Frequency"],
   ["Deploy Special Task Force (STF)", "Establish Tactical Checkpoints"],
 ];
+
+// Shape returned by GET /predict/early-warning (real Poisson surge detection).
+interface BackendSurgeAlert {
+  id: string;
+  district: string;
+  crime: string;
+  location: string;
+  currentMonth: number;
+  prevMonth: number;
+  change: number;
+  probability: number;
+  severity: "Critical" | "High" | "Moderate";
+  month: string;
+  slaMinutes: number;
+  suggestedUnits: string[];
+}
+
+function mapBackendAlerts(items: BackendSurgeAlert[]): Alert[] {
+  return items.map((a, i) => ({
+    id: a.id,
+    crime: `${a.crime} Surge — ${a.district}`,
+    change: a.change,
+    currentMonth: a.currentMonth,
+    prevMonth: Math.round(a.prevMonth),
+    severity: a.severity as RiskTier,
+    timestamp: new Date(Date.now() - i * 3600000),
+    status: "Unread" as const,
+    location: `${a.location} (${a.district})`,
+    slaMinutes: a.slaMinutes,
+    suggestedUnits: a.suggestedUnits,
+  }));
+}
 
 function generateAlerts(): Alert[] {
   const surges = getSurgeAlerts(12);
@@ -124,14 +157,30 @@ export default function AlertsPage() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   
   const [isDeploying, setIsDeploying] = useState(false);
+  const [source, setSource] = useState<"live" | "simulated">("simulated");
+  const [generatedFor, setGeneratedFor] = useState<string | null>(null);
 
-  // Initialize data on mount
+  // Initialize on mount: real early-warning scan, mock surges as offline fallback
   useEffect(() => {
-    const initialAlerts = generateAlerts();
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setAlerts(initialAlerts);
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    if (initialAlerts.length > 0) setSelectedId(initialAlerts[0].id);
+    let cancelled = false;
+    (async () => {
+      try {
+        const data = await fetchAPI("/predict/early-warning");
+        if (cancelled) return;
+        const mapped = mapBackendAlerts(data.alerts as BackendSurgeAlert[]);
+        setAlerts(mapped);
+        if (mapped.length > 0) setSelectedId(mapped[0].id);
+        setSource("live");
+        setGeneratedFor(data.generatedFor ?? null);
+      } catch {
+        if (cancelled) return;
+        const initialAlerts = generateAlerts();
+        setAlerts(initialAlerts);
+        if (initialAlerts.length > 0) setSelectedId(initialAlerts[0].id);
+        setSource("simulated");
+      }
+    })();
+    return () => { cancelled = true; };
   }, []);
 
   const updateAlertStatus = (id: string, status: Alert["status"]) => {
@@ -146,8 +195,10 @@ export default function AlertsPage() {
     }, 1500);
   };
 
-  // Simulate an incoming alert every 45 seconds for demo purposes
+  // Simulate an incoming alert every 45 seconds — demo mode only, so real
+  // early-warning results are never polluted with fabricated criticals
   useEffect(() => {
+    if (source === "live") return;
     const timer = setInterval(() => {
       setAlerts(prev => {
         const surges = getSurgeAlerts(1); // Get a random one
@@ -168,7 +219,7 @@ export default function AlertsPage() {
       });
     }, 45000);
     return () => clearInterval(timer);
-  }, []);
+  }, [source]);
 
   const injectFlashAlert = (crime: string, location: string, change: number, units: string[]) => {
     const flashId = `alert-flash-${Date.now()}`;
@@ -221,6 +272,16 @@ export default function AlertsPage() {
             {t("Incident Command Center")}
           </h1>
           <p className="text-muted-foreground mt-2 text-sm">{t("Real-time triage dashboard for high-priority automated alerts and spatial anomalies.")}</p>
+          <div className={`mt-2 inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full border ${
+            source === "live"
+              ? "text-brand-teal border-brand-teal/30 bg-brand-teal/10"
+              : "text-brand-amber border-brand-amber/30 bg-brand-amber/10"
+          }`}>
+            <Radio className="h-3 w-3" />
+            {source === "live"
+              ? `${t("Live Poisson Surge Detection")}${generatedFor ? ` — ${generatedFor}` : ""}`
+              : t("Offline Simulation (backend unreachable)")}
+          </div>
         </motion.div>
 
         {/* Mini KPI Dashboard */}

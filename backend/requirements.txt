@@ -13,6 +13,13 @@ deep-translator==1.11.4
 
 
 
+# ── Forecasting & Early Warning (Block 8) ──
+scikit-learn==1.9.0
+xgboost==3.3.0
+statsmodels==0.14.6
+# torch is optional: the LSTM engine uses it when present and falls back to a
+# sklearn MLP window model otherwise. Install with: pip install torch --index-url https://download.pytorch.org/whl/cpu
+
 # ── Auth & RBAC API (FastAPI) ──
 fastapi==0.121.2
 uvicorn[standard]==0.38.0
