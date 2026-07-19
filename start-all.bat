@@ -242,16 +242,16 @@ start "CrimeRakshak Frontend" cmd /c "%~dp0_run-frontend.bat"
 
 echo.
 echo CrimeRakshak is starting up in separate terminal windows!
-echo - Backend:        http://localhost:8000
+echo - Backend:        http://localhost:8001
 echo - Frontend:       http://localhost:3000
-echo - Forecast API:   POST http://localhost:8000/api/v1/predict
-echo - Early Warning:  GET  http://localhost:8000/api/v1/predict/early-warning
-echo - Financial API:  GET  http://localhost:8000/api/v1/financial/suspicious
-echo - Money Trail:    GET  http://localhost:8000/api/v1/financial/money-trail
-echo - Network Graph:  GET  http://localhost:8000/api/v1/network/full  (Criminal Network page)
-echo - Case Intel:     GET  http://localhost:8000/api/v1/graph/firs/list  (CSV-backed, 1200 FIRs)
-echo - Chat + Trace:   POST http://localhost:8000/api/v1/chat  (answers include reasoning trace)
-echo - Audit Trail:    GET  http://localhost:8000/api/v1/admin/audit-logs  (Explainability page)
+echo - Forecast API:   POST http://localhost:8001/api/v1/predict
+echo - Early Warning:  GET  http://localhost:8001/api/v1/predict/early-warning
+echo - Financial API:  GET  http://localhost:8001/api/v1/financial/suspicious
+echo - Money Trail:    GET  http://localhost:8001/api/v1/financial/money-trail
+echo - Network Graph:  GET  http://localhost:8001/api/v1/network/full  (Criminal Network page)
+echo - Case Intel:     GET  http://localhost:8001/api/v1/graph/firs/list  (CSV-backed, 1200 FIRs)
+echo - Chat + Trace:   POST http://localhost:8001/api/v1/chat  (answers include reasoning trace)
+echo - Audit Trail:    GET  http://localhost:8001/api/v1/admin/audit-logs  (Explainability page)
 echo.
 echo Explainable AI: every chat answer returns a step-by-step tool trace,
 echo is written to the persistent audit log, and is visualized on the

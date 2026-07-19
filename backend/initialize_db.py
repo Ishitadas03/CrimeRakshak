@@ -17,8 +17,10 @@ if not env_loaded:
     load_dotenv()  # Fallback to default load
     print("Attempted to load default environment variables.")
 
-# Retrieve environment variables
-postgres_uri = os.getenv("POSTGRES_URI")
+postgres_uri = os.getenv("POSTGRES_URI", "")
+if postgres_uri:
+    postgres_uri = postgres_uri.replace("?pgbouncer=true&", "?").replace("?pgbouncer=true", "").replace("&pgbouncer=true", "")
+
 neo4j_uri = os.getenv("NEO4J_URI")
 neo4j_user = os.getenv("NEO4J_USER", "neo4j")
 neo4j_password = os.getenv("NEO4J_PASSWORD", "password")

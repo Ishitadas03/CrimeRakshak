@@ -5,12 +5,13 @@
 // forwards the user's message to POST /api/v1/chat. The real Gemini agent,
 // DuckDB crime data, citations and Kannada support all live in that backend.
 //
-// Configure via frontend/.env.local:
-//   BACKEND_URL=http://127.0.0.1:8000
-//   BACKEND_USERNAME=admin
-//   BACKEND_PASSWORD=ChangeMe123!
+// Optional: if the Next.js app needs to override the local FastAPI URL
+//   BACKEND_URL=http://127.0.0.1:8001
+import { NextRequest, NextResponse } from "next/server";
+import { cookies } from "next/headers";
+import { auth } from "@clerk/nextjs/server";
 
-const BACKEND_URL = process.env.BACKEND_URL ?? "http://127.0.0.1:8000";
+const BACKEND_URL = process.env.BACKEND_URL ?? "http://127.0.0.1:8001";
 const BACKEND_USERNAME = process.env.BACKEND_USERNAME ?? "admin";
 const BACKEND_PASSWORD = process.env.BACKEND_PASSWORD ?? "ChangeMe123!";
 
@@ -41,6 +42,11 @@ async function getToken(): Promise<string> {
 
 export async function POST(req: Request) {
   try {
+    const { userId } = await auth();
+    if (!userId) {
+      return Response.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
     const { message, conversation_id, language } = await req.json();
     if (!message || typeof message !== "string") {
       return Response.json({ error: "message is required" }, { status: 400 });

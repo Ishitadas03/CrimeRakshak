@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { Eye, EyeOff, Loader2 } from "lucide-react";
+import { SignIn, SignUp } from "@clerk/nextjs";
 import "@/app/auth.css";
 
 // ── Input recipe (shared across all fields) ──
@@ -168,114 +169,16 @@ export default function UniversalAuth({
         >
           {/* ─── Sign Up Form (DOM-first) ─── */}
           <div className="auth-form-container sign-up-container">
-            <form onSubmit={handleSignup} className="space-y-4">
-              <h1
-                className="text-3xl font-bold text-center text-gray-900 mb-2 italic"
-                style={{ fontFamily: '"Playfair Display", serif' }}
-              >
-                Create Account
-              </h1>
-
-              {signupError && (
-                <div className="p-2 text-sm rounded-lg border font-medium text-red-500 bg-red-50 border-red-200">
-                  {signupError}
-                </div>
-              )}
-
-              <input
-                required
-                name="displayName"
-                type="text"
-                placeholder="Name"
-                value={formData.displayName}
-                onChange={updateFormData}
-                className={inputClass}
-              />
-              <input
-                required
-                name="email"
-                type="email"
-                placeholder="Email"
-                value={formData.email}
-                onChange={updateFormData}
-                className={inputClass}
-              />
-              <input
-                name="phone"
-                type="tel"
-                placeholder="Phone"
-                value={formData.phone}
-                onChange={updateFormData}
-                className={inputClass}
-              />
-              <input
-                required
-                name="department"
-                type="text"
-                placeholder="Department"
-                value={formData.department}
-                onChange={updateFormData}
-                className={inputClass}
-              />
-
-              {/* Password + Confirm — side by side */}
-              <div className="flex gap-2">
-                <div className="relative w-full">
-                  <input
-                    required
-                    name="password"
-                    type={showSignupPassword ? "text" : "password"}
-                    placeholder="Password"
-                    value={formData.password}
-                    onChange={updateFormData}
-                    className={inputClass}
-                  />
-                  <button
-                    type="button"
-                    onClick={() => setShowSignupPassword((v) => !v)}
-                    className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-[#2563EB] transition-colors"
-                  >
-                    {showSignupPassword ? (
-                      <EyeOff size={18} />
-                    ) : (
-                      <Eye size={18} />
-                    )}
-                  </button>
-                </div>
-                <div className="relative w-full">
-                  <input
-                    required
-                    name="confirmPassword"
-                    type={showSignupConfirmPassword ? "text" : "password"}
-                    placeholder="Confirm"
-                    value={formData.confirmPassword}
-                    onChange={updateFormData}
-                    className={inputClass}
-                  />
-                  <button
-                    type="button"
-                    onClick={() => setShowSignupConfirmPassword((v) => !v)}
-                    className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-[#2563EB] transition-colors"
-                  >
-                    {showSignupConfirmPassword ? (
-                      <EyeOff size={18} />
-                    ) : (
-                      <Eye size={18} />
-                    )}
-                  </button>
-                </div>
-              </div>
-
-              <button
-                type="submit"
-                disabled={signupLoading}
-                className="w-full flex items-center justify-center gap-2 rounded-xl bg-[#2563EB] px-4 py-3 font-semibold text-white hover:bg-[#1D4ED8] transition-all disabled:bg-[#1D4ED8] disabled:cursor-wait"
-              >
-                {signupLoading ? "Creating Account..." : "Sign Up"}
-              </button>
-
+            <div className="w-full max-w-md mx-auto flex flex-col items-center justify-center h-full space-y-4">
+              <SignUp appearance={{
+                elements: {
+                  footerAction: "hidden",
+                  card: "shadow-none bg-transparent w-full"
+                }
+              }} routing="hash" fallbackRedirectUrl="/overview" />
+              
               {/* Mobile-only switch link */}
-              <div className="mt-4 text-center md:hidden">
+              <div className="mt-4 text-center md:hidden pb-10">
                 <button
                   type="button"
                   onClick={() => togglePanel(false)}
@@ -285,66 +188,21 @@ export default function UniversalAuth({
                   <span className="text-[#2563EB] font-medium">Sign In</span>
                 </button>
               </div>
-            </form>
+            </div>
           </div>
 
           {/* ─── Sign In Form (DOM-second) ─── */}
           <div className="auth-form-container sign-in-container">
-            <form onSubmit={handleLogin} className="space-y-4">
-              <h1
-                className="text-3xl font-bold text-center text-gray-900 mb-2 italic"
-                style={{ fontFamily: '"Playfair Display", serif' }}
-              >
-                Welcome Back
-              </h1>
-
-              {loginError && (
-                <div className="p-3 text-sm rounded-lg border font-medium text-red-500 bg-red-50 border-red-200">
-                  {loginError}
-                </div>
-              )}
-
-              <input
-                required
-                type="text"
-                placeholder="Login Id / Email"
-                value={identifier}
-                onChange={(e) => setIdentifier(e.target.value)}
-                className={inputClass}
-              />
-
-              <div className="relative w-full">
-                <input
-                  required
-                  type={showLoginPassword ? "text" : "password"}
-                  placeholder="Password"
-                  value={loginPassword}
-                  onChange={(e) => setLoginPassword(e.target.value)}
-                  className={inputClass}
-                />
-                <button
-                  type="button"
-                  onClick={() => setShowLoginPassword((v) => !v)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-[#2563EB] transition-colors"
-                >
-                  {showLoginPassword ? (
-                    <EyeOff size={18} />
-                  ) : (
-                    <Eye size={18} />
-                  )}
-                </button>
-              </div>
-
-              <button
-                type="submit"
-                disabled={loginLoading}
-                className="w-full flex items-center justify-center gap-2 rounded-xl bg-[#2563EB] px-4 py-3 mt-4 font-semibold text-white hover:bg-[#1D4ED8] transition-all shadow-md hover:shadow-lg disabled:bg-[#1D4ED8] disabled:cursor-wait"
-              >
-                {loginLoading ? "Signing In..." : "Sign In"}
-              </button>
-
+            <div className="w-full max-w-md mx-auto flex flex-col items-center justify-center h-full space-y-4">
+              <SignIn appearance={{
+                elements: {
+                  footerAction: "hidden",
+                  card: "shadow-none bg-transparent w-full"
+                }
+              }} routing="hash" fallbackRedirectUrl="/overview" />
+              
               {/* Mobile-only switch link */}
-              <div className="mt-4 text-center md:hidden">
+              <div className="mt-4 text-center md:hidden pb-10">
                 <button
                   type="button"
                   onClick={() => togglePanel(true)}
@@ -354,7 +212,7 @@ export default function UniversalAuth({
                   <span className="text-[#2563EB] font-medium">Sign Up</span>
                 </button>
               </div>
-            </form>
+            </div>
           </div>
 
           {/* ─── Desktop Overlay (sliding gradient blob) ─── */}

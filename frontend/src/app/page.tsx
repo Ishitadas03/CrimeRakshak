@@ -1,4 +1,6 @@
 import React from 'react';
+import { auth } from '@clerk/nextjs/server';
+import { redirect } from 'next/navigation';
 import { MeshGradientBackground } from '@/components/landing/MeshGradientBackground';
 import { Navbar } from '@/components/landing/Navbar';
 import { Hero } from '@/components/landing/Hero';
@@ -16,7 +18,13 @@ import { DeploymentTiers } from '@/components/landing/DeploymentTiers';
 import { FinalCTA } from '@/components/landing/FinalCTA';
 import { Footer } from '@/components/landing/Footer';
 
-export default function LandingPage() {
+export default async function LandingPage() {
+  const { userId } = await auth();
+  
+  if (userId) {
+    redirect('/overview');
+  }
+
   return (
     <main className="min-h-screen bg-bg-base text-text-primary selection:bg-accent/30 selection:text-white overflow-x-hidden">
       <MeshGradientBackground>

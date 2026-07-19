@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useUser } from "@clerk/nextjs";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import {
@@ -34,7 +35,10 @@ const RANGES = [
 
 export default function OverviewPage() {
   const { t } = useLanguage();
+  const { user } = useUser();
   const [selectedRange, setSelectedRange] = useState<string>("All Karnataka");
+
+  const userName = user?.firstName || user?.fullName || "Officer";
 
   const baseKpis = useMemo(() => getOverviewKPIs(), []);
 
@@ -123,7 +127,7 @@ export default function OverviewPage() {
             </span>
           </div>
           <h1 className="text-2xl md:text-4xl font-heading font-bold text-brand-purple">
-            {t("Dashboard Overview")}
+            {t("Welcome")}, {userName}
           </h1>
           <p className="text-muted-foreground mt-1 text-sm md:text-base">
             {t("Executive Pattern Snapshot — Macro Crime Volume, Early Warning Alerts & Digital SLA Governance")}

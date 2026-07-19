@@ -16,6 +16,8 @@ def main():
     load_dotenv()
     
     pg_uri = os.getenv("POSTGRES_URI", "postgresql://user:password@localhost:5432/crimerakshak")
+    if pg_uri:
+        pg_uri = pg_uri.replace("?pgbouncer=true&", "?").replace("?pgbouncer=true", "").replace("&pgbouncer=true", "")
     neo4j_uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
     neo4j_user = os.getenv("NEO4J_USER", "neo4j")
     neo4j_pass = os.getenv("NEO4J_PASSWORD", "password")

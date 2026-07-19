@@ -33,6 +33,7 @@ class Settings(BaseSettings):
     # ── JWT / Auth ──
     # SECRET_KEY MUST be overridden in production via the environment.
     SECRET_KEY: str = "CHANGE_ME_IN_PRODUCTION_use_openssl_rand_hex_32"
+    CLERK_SECRET_KEY: str = ""
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
@@ -100,6 +101,12 @@ class Settings(BaseSettings):
         uri = self.POSTGRES_URI
         if uri.startswith("postgresql://"):
             uri = uri.replace("postgresql://", "postgresql+psycopg2://", 1)
+        
+        # Remove pgbouncer=true because psycopg2 doesn't support it in the DSN
+        uri = uri.replace("?pgbouncer=true&", "?")
+        uri = uri.replace("?pgbouncer=true", "")
+        uri = uri.replace("&pgbouncer=true", "")
+        
         return uri
 
 

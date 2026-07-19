@@ -4,8 +4,9 @@
 // queries to live DuckDB telemetry endpoints over the KSP dataset.
 
 import { NextRequest, NextResponse } from "next/server";
+import { auth } from "@clerk/nextjs/server";
 
-const BACKEND_URL = process.env.BACKEND_URL ?? "http://127.0.0.1:8000";
+const BACKEND_URL = process.env.BACKEND_URL ?? "http://127.0.0.1:8001";
 const BACKEND_USERNAME = process.env.BACKEND_USERNAME ?? "admin";
 const BACKEND_PASSWORD = process.env.BACKEND_PASSWORD ?? "ChangeMe123!";
 
@@ -37,6 +38,11 @@ export async function GET(
   context: { params: Promise<{ endpoint: string[] }> }
 ) {
   try {
+    const { userId } = await auth();
+    if (!userId) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
     const params = await context.params;
     const path = params.endpoint.join("/");
     const searchParams = req.nextUrl.searchParams.toString();
@@ -76,6 +82,11 @@ export async function POST(
   context: { params: Promise<{ endpoint: string[] }> }
 ) {
   try {
+    const { userId } = await auth();
+    if (!userId) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
     const params = await context.params;
     const path = params.endpoint.join("/");
     const targetUrl = `${BACKEND_URL}/api/v1/analytics/${path}`;

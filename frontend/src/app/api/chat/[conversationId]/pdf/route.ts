@@ -1,6 +1,7 @@
 // Server-side proxy for PDF export: authenticates to the FastAPI backend and
 // streams back the generated conversation-transcript PDF.
 import { NextRequest } from "next/server";
+import { auth } from "@clerk/nextjs/server";
 
 const BACKEND_URL = process.env.BACKEND_URL ?? "http://127.0.0.1:8000";
 const BACKEND_USERNAME = process.env.BACKEND_USERNAME ?? "admin";
@@ -25,6 +26,11 @@ export async function GET(
   _req: NextRequest,
   { params }: { params: Promise<{ conversationId: string }> },
 ) {
+  const { userId } = await auth();
+  if (!userId) {
+    return Response.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   const { conversationId } = await params;
   try {
     const token = await getToken();

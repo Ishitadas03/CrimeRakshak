@@ -1,5 +1,5 @@
 import UniversalAuth from "@/components/auth/UniversalAuth";
 
-export default function SignupPage() {
+export default function SignUpPage() {
   return <UniversalAuth defaultIsSignUp={true} />;
 }
