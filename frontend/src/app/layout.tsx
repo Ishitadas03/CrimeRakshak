@@ -65,7 +65,7 @@ export default function RootLayout({
           attribute="class"
           defaultTheme="light"
           storageKey="crime-rakshak-theme-v2"
-          enableSystem
+          enableSystem={false}
           disableTransitionOnChange
           >
           <LanguageProvider>

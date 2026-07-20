@@ -10,6 +10,7 @@ import { useLanguage } from "@/components/LanguageContext";
 import { speak, stopSpeaking, listen, isSpeechRecognitionSupported } from "@/lib/voice";
 import * as motion from "motion/react-client";
 import { Send, Sparkles, Bot, User, Volume2, Square, Mic, FileDown, Building2, Plus, Trash2, MessageSquare } from "lucide-react";
+import { useUser } from "@clerk/nextjs";
 
 const GREETING =
   "Hello! I'm the CrimeRakshak AI Copilot & Decision Support system. Ask me about Karnataka crime data — trends, rankings, district reviews — or open Decision Support for a district briefing.";
@@ -43,6 +44,9 @@ export default function AIAssistantPage() {
   const [chatLang, setChatLang] = useState<"en" | "kn">(lang === "KA" ? "kn" : "en");
   const voiceLang = chatLang;
 
+  const { user, isLoaded } = useUser();
+  const storageKey = `crimerakshak_chat_sessions_${user?.id || 'guest'}`;
+
   // Session history state
   const [sessions, setSessions] = useState<ChatSession[]>([]);
   const [activeSessionId, setActiveSessionId] = useState<string | null>(null);
@@ -67,7 +71,9 @@ export default function AIAssistantPage() {
 
   // Load sessions from localStorage on mount
   useEffect(() => {
-    const saved = localStorage.getItem("crimerakshak_chat_sessions");
+    if (!isLoaded) return;
+    
+    const saved = localStorage.getItem(storageKey);
     if (saved) {
       try {
         const parsed = JSON.parse(saved) as ChatSession[];
@@ -81,8 +87,14 @@ export default function AIAssistantPage() {
       } catch (e) {
         console.error("Failed to parse saved chat sessions:", e);
       }
+    } else {
+      // Clear sessions if a different user logs in with no history
+      setSessions([]);
+      setActiveSessionId(null);
+      setMessages([{ role: "assistant", content: GREETING, timestamp: new Date() }]);
+      conversationId.current = null;
     }
-  }, []);
+  }, [isLoaded, storageKey]);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -161,7 +173,7 @@ export default function AIAssistantPage() {
           setActiveSessionId(currentConvId);
         }
 
-        localStorage.setItem("crimerakshak_chat_sessions", JSON.stringify(newSessions));
+        localStorage.setItem(storageKey, JSON.stringify(newSessions));
         return newSessions;
       });
 
@@ -194,7 +206,7 @@ export default function AIAssistantPage() {
 
     setSessions((prevSessions) => {
       const newSessions = prevSessions.filter((s) => s.id !== sessionId);
-      localStorage.setItem("crimerakshak_chat_sessions", JSON.stringify(newSessions));
+      localStorage.setItem(storageKey, JSON.stringify(newSessions));
       return newSessions;
     });
 
@@ -289,7 +301,7 @@ export default function AIAssistantPage() {
 
       <div className="flex-1 flex gap-4 min-h-0">
         {/* Left Sidebar: Conversation History */}
-        <div className="w-64 bg-slate-900/40 backdrop-blur-md border border-border/40 rounded-2xl p-4 flex flex-col gap-3 min-h-0 shrink-0 hidden md:flex">
+        <Card className="glass-card w-64 p-4 flex flex-col gap-3 min-h-0 shrink-0 hidden md:flex hover:!transform-none">
           {/* New Chat Button */}
           <Button onClick={startNewChat} className="w-full bg-gradient-to-r from-brand-purple to-brand-blue flex items-center justify-center gap-2 font-medium">
             <Plus className="h-4 w-4" /> {t("New Chat")}
@@ -340,7 +352,7 @@ export default function AIAssistantPage() {
               </div>
             )}
           </div>
-        </div>
+        </Card>
 
         {/* Main Chat Area */}
         <Card className="glass-card flex-1 flex flex-col min-h-0 hover:!transform-none">
@@ -407,7 +419,7 @@ export default function AIAssistantPage() {
             </div>
           )}
 
-          <div className="p-4 border-t border-border">
+          <div className="p-4 border-t border-border/40 bg-background/20 backdrop-blur-md">
             <form onSubmit={(e) => { e.preventDefault(); handleSend(); }} className="flex gap-2">
               <Button type="button" size="icon" variant={listening ? "default" : "outline"}
                 onClick={handleMic} title={t("Voice input")}
@@ -420,7 +432,7 @@ export default function AIAssistantPage() {
                     ? (chatLang === "kn" ? "ಕೇಳುತ್ತಿದೆ..." : t("Listening..."))
                     : (chatLang === "kn" ? "ಅಪರಾಧ ದತ್ತಾಂಶ ಕುರಿತು ಕೇಳಿ, ಅಥವಾ ಮೈಕ್ ಬಳಸಿ..." : t("Ask about crime data, or use the mic..."))
                 }
-                className="flex-1" disabled={loading} />
+                className="flex-1 bg-background/40 border-border/60 focus-visible:ring-brand-purple shadow-inner" disabled={loading} />
               <Button type="submit" size="icon" className="bg-gradient-to-r from-brand-purple to-brand-blue" disabled={!input.trim() || loading}>
                 <Send className="h-4 w-4" />
               </Button>

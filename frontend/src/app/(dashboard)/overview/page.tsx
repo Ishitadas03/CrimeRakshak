@@ -79,23 +79,23 @@ export default function OverviewPage() {
 
   const kpis = [
     {
-      title: "Total Crimes (2025 YTD)",
+      title: "Total Crimes",
       value: dynamicStats.totalCrimes.toLocaleString("en-IN"),
       icon: AlertTriangle,
       trend: `${dynamicStats.yoyChange}%`,
-      trendLabel: "vs 2024 baseline",
+      trendLabel: "vs 2024",
     },
     {
-      title: "IPC Cases Volume (2025 YTD)",
+      title: "IPC Cases",
       value: dynamicStats.ipcCount.toLocaleString("en-IN"),
       subValue: `+ SLL: ${(dynamicStats.totalCrimes - dynamicStats.ipcCount).toLocaleString("en-IN")}`,
       icon: Scale,
       trend: `${dynamicStats.ipcShare}%`,
-      trendLabel: "of total volume",
+      trendLabel: "of total",
       positive: true,
     },
     {
-      title: "Investigative Resolution (2025 Annual Avg)",
+      title: "Resolution Rate",
       value: `${dynamicStats.resolutionRate}%`,
       icon: ShieldCheck,
       trend: "+2.1%",
@@ -103,7 +103,7 @@ export default function OverviewPage() {
       positive: true,
     },
     {
-      title: "Monitored Jurisdictions (2025 Active Sectors)",
+      title: "Monitored Jurisdictions",
       value: String(dynamicStats.districtCount),
       icon: Building2,
       trend: selectedRange,
@@ -123,25 +123,25 @@ export default function OverviewPage() {
         >
           <div className="flex items-center gap-2 mb-1">
             <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold tracking-widest uppercase bg-brand-purple/10 text-brand-purple border border-brand-purple/20">
-              {t("STATEWIDE MACRO SURVEILLANCE & SLA GOVERNANCE")}
+              {t("MACRO SURVEILLANCE")}
             </span>
           </div>
           <h1 className="text-2xl md:text-4xl font-heading font-bold text-brand-purple">
             {t("Welcome")}, {userName}
           </h1>
           <p className="text-muted-foreground mt-1 text-sm md:text-base">
-            {t("Executive Pattern Snapshot — Macro Crime Volume, Early Warning Alerts & Digital SLA Governance")}
+            {t("Executive Pattern Snapshot")}
           </p>
         </motion.div>
 
         {/* Range Filter Selector */}
-        <div className="flex flex-wrap items-center gap-1.5 bg-muted/20 p-1.5 rounded-xl border border-border/60">
-          <Filter className="w-4 h-4 ml-2 text-muted-foreground hidden sm:inline" />
+        <div className="flex flex-nowrap overflow-x-auto items-center gap-1.5 bg-muted/20 p-1.5 rounded-xl border border-border/60 hide-scrollbar max-w-full">
+          <Filter className="w-4 h-4 ml-2 text-muted-foreground hidden sm:block shrink-0" />
           {RANGES.map((range) => (
             <button
               key={range}
               onClick={() => setSelectedRange(range)}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all whitespace-nowrap shrink-0 ${
                 selectedRange === range
                   ? "bg-brand-purple text-white shadow-md shadow-brand-purple/25"
                   : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
@@ -156,8 +156,8 @@ export default function OverviewPage() {
       {/* ─── Early Warning Banner & Governance SLA Row ─── */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         {/* Early Warning & Predictive Threat Banner */}
-        <Card className="glass-card border-l-4 border-l-brand-red bg-gradient-to-r from-brand-red/10 via-background to-background">
-          <CardContent className="p-4 flex items-center justify-between gap-4">
+        <Card className="glass-card h-full border-l-4 border-l-brand-red bg-gradient-to-r from-brand-red/10 via-background to-background">
+          <CardContent className="p-4 h-full flex flex-col justify-center sm:flex-row items-start sm:items-center justify-between gap-4">
             <div className="flex items-start gap-3.5">
               <div className="p-2.5 bg-brand-red/15 rounded-xl shrink-0 mt-0.5">
                 <Siren className="h-5 w-5 text-brand-red animate-pulse" />
@@ -165,17 +165,17 @@ export default function OverviewPage() {
               <div>
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-bold uppercase tracking-wider text-brand-red">
-                    {t("AI PREDICTIVE THREAT SURGE ALERT")}
+                    {t("AI PREDICTIVE ALERT")}
                   </span>
                   <span className="text-[10px] bg-brand-red/20 text-brand-red px-2 py-0.5 rounded-full font-mono font-bold">
-                    ACTIVE SURGE
+                    ACTIVE
                   </span>
                 </div>
                 <p className="text-sm font-semibold text-foreground mt-1">
-                  {t("Projected +14.2% Property Theft anomaly in Bengaluru South corridor over next 30 days.")}
+                  {t("Projected +14.2% Property Theft anomaly.")}
                 </p>
                 <p className="text-xs text-muted-foreground mt-0.5">
-                  {t("Recommended Action: Pre-deploy 3x Hoysala tactical units & step up highway checkpoint screening.")}
+                  {t("Action: Pre-deploy units & step up screening.")}
                 </p>
               </div>
             </div>
@@ -189,8 +189,8 @@ export default function OverviewPage() {
         </Card>
 
         {/* Digital Policing & Governance SLA Card */}
-        <Card className="glass-card border-l-4 border-l-brand-teal bg-gradient-to-r from-brand-teal/10 via-background to-background">
-          <CardContent className="p-4 flex items-center justify-between gap-4">
+        <Card className="glass-card h-full border-l-4 border-l-brand-teal bg-gradient-to-r from-brand-teal/10 via-background to-background">
+          <CardContent className="p-4 h-full flex flex-col justify-center sm:flex-row items-start sm:items-center justify-between gap-4">
             <div className="flex items-start gap-3.5">
               <div className="p-2.5 bg-brand-teal/15 rounded-xl shrink-0 mt-0.5">
                 <FileCheck className="h-5 w-5 text-brand-teal" />
@@ -198,17 +198,17 @@ export default function OverviewPage() {
               <div>
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-bold uppercase tracking-wider text-brand-teal">
-                    {t("DIGITAL POLICING & ESIGN COMPLIANCE SLA")}
+                    {t("DIGITAL POLICING SLA")}
                   </span>
                   <span className="text-[10px] bg-brand-teal/20 text-brand-teal px-2 py-0.5 rounded-full font-mono font-bold flex items-center gap-1">
-                    <CheckCircle2 className="h-2.5 w-2.5" /> eSign VERIFIED
+                    <CheckCircle2 className="h-2.5 w-2.5" /> VERIFIED
                   </span>
                 </div>
                 <p className="text-sm font-semibold text-foreground mt-1">
-                  {t("Statewide eSign FIR Compliance at 98.4% | Sakala Citizen Service Disposal at 96.8%.")}
+                  {t("eSign FIR Compliance: 98.4% | Service Disposal: 96.8%.")}
                 </p>
                 <p className="text-xs text-muted-foreground mt-0.5">
-                  {t("All digital FIR registrations & citizen clearances backed by immutable audit trail timestamp logs.")}
+                  {t("All records backed by immutable audit logs.")}
                 </p>
               </div>
             </div>
@@ -233,7 +233,7 @@ export default function OverviewPage() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.4, delay: i * 0.08 }}
             >
-              <Card className="glass-card relative overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-brand-purple/10 hover:border-brand-purple/30">
+              <Card className="glass-card h-full relative overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-brand-purple/10 hover:border-brand-purple/30">
                 <div className="absolute inset-0 bg-gradient-to-br from-white/40 to-transparent dark:from-white/5 pointer-events-none" />
                 <CardHeader className="flex flex-row items-center justify-between pb-2 space-y-0 relative">
                   <CardTitle className="text-sm font-medium text-muted-foreground">

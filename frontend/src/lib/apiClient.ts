@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8001/api/v1";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8001/api/v1";
 
 let cachedToken: string | null = null;
 
@@ -28,6 +28,15 @@ async function performLogin() {
 }
 
 async function getToken() {
+  if (typeof window !== "undefined" && (window as any).Clerk?.session) {
+    try {
+      const clerkToken = await (window as any).Clerk.session.getToken();
+      if (clerkToken) return clerkToken;
+    } catch (error) {
+      console.warn("Failed to get Clerk token:", error);
+    }
+  }
+
   if (cachedToken) return cachedToken;
   if (typeof window !== "undefined") {
     cachedToken = localStorage.getItem("auth_token");

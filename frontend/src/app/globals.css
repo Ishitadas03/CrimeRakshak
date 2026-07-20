@@ -157,6 +157,16 @@
   --surface-card: #1f2937;
   --surface-card-hover: #374151;
   --surface-side: #0b0c10;
+
+  /* Glass Card - Dark Mode (Default) */
+  --glass-bg: rgba(17, 24, 39, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 8px 30px rgba(0, 0, 0, 0.5), 0 0 60px rgba(168, 85, 247, 0.05);
+  --glass-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.6), 0 0 80px rgba(168, 85, 247, 0.15);
+  --glass-aurora-1: rgba(168, 85, 247, 0.15);
+  --glass-aurora-2: rgba(59, 130, 246, 0.15);
+  --headline-gradient-start: #F8FAFC;
+  --headline-gradient-end: #60A5FA;
 }
 
 /* ===== LIGHT THEME ===== */
@@ -203,6 +213,16 @@
   --surface-card: #ffffff;
   --surface-card-hover: #f1f5f9;
   --surface-side: #EFEFF8;
+
+  /* Glass Card - Light Mode */
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.7);
+  --glass-shadow: 0 8px 30px rgba(80, 140, 255, 0.08), 0 0 60px rgba(120, 220, 255, 0.06);
+  --glass-shadow-hover: 0 12px 40px rgba(80, 140, 255, 0.12), 0 0 80px rgba(120, 220, 255, 0.08);
+  --glass-aurora-1: rgba(143, 211, 255, 0.25);
+  --glass-aurora-2: rgba(184, 255, 217, 0.25);
+  --headline-gradient-start: #0F172A;
+  --headline-gradient-end: #2563EB;
 }
 
 @layer base {
@@ -219,14 +239,12 @@
 
 /* Glassmorphism card utility (Apple Liquid Glass style) */
 .glass-card {
-  background: rgba(255, 255, 255, 0.75);
+  background: var(--glass-bg);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--glass-border);
   border-radius: 24px;
-  box-shadow: 
-    0 8px 30px rgba(80, 140, 255, 0.08), 
-    0 0 60px rgba(120, 220, 255, 0.06);
+  box-shadow: var(--glass-shadow);
   transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   z-index: 1;
@@ -240,17 +258,15 @@
   z-index: -1;
   border-radius: inherit;
   background:
-    radial-gradient(circle at 20% 20%, rgba(143, 211, 255, 0.25), transparent 40%),
-    radial-gradient(circle at 80% 70%, rgba(184, 255, 217, 0.25), transparent 40%);
+    radial-gradient(circle at 20% 20%, var(--glass-aurora-1), transparent 40%),
+    radial-gradient(circle at 80% 70%, var(--glass-aurora-2), transparent 40%);
   filter: blur(20px);
   pointer-events: none;
 }
 
 .glass-card:hover {
   transform: translateY(-4px);
-  box-shadow: 
-    0 12px 40px rgba(80, 140, 255, 0.12), 
-    0 0 80px rgba(120, 220, 255, 0.08);
+  box-shadow: var(--glass-shadow-hover);
 }
 
 
@@ -264,7 +280,7 @@
 }
 
 .headline-gradient {
-  background: linear-gradient(135deg, #0F172A 0%, #2563EB 100%);
+  background: linear-gradient(135deg, var(--headline-gradient-start) 0%, var(--headline-gradient-end) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -340,7 +356,11 @@
     radial-gradient(at 0% 100%, #bfdbfe 0px, transparent 60%); /* light blue at bottom left */
 }
 .dark .sidebar-mesh {
-  background-color: #0b0c10; /* keep dark surface */
+  background-color: #080b14; /* Deep dark slate matching background */
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(37, 99, 235, 0.08) 0px, transparent 70%),
+    radial-gradient(at 100% 0%, rgba(168, 85, 247, 0.05) 0px, transparent 70%),
+    radial-gradient(at 0% 100%, rgba(37, 99, 235, 0.05) 0px, transparent 60%);
 }
 
 /* Custom Mesh Gradient for Main Dashboard Content */

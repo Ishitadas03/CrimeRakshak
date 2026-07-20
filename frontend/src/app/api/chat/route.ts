@@ -12,37 +12,10 @@ import { cookies } from "next/headers";
 import { auth } from "@clerk/nextjs/server";
 
 const BACKEND_URL = process.env.BACKEND_URL ?? "http://127.0.0.1:8001";
-const BACKEND_USERNAME = process.env.BACKEND_USERNAME ?? "admin";
-const BACKEND_PASSWORD = process.env.BACKEND_PASSWORD ?? "ChangeMe123!";
-
-// Simple in-memory token cache (per server process).
-let cachedToken: { value: string; expires: number } | null = null;
-
-async function getToken(): Promise<string> {
-  if (cachedToken && cachedToken.expires > Date.now() + 30_000) {
-    return cachedToken.value;
-  }
-  const body = new URLSearchParams({
-    username: BACKEND_USERNAME,
-    password: BACKEND_PASSWORD,
-  });
-  const res = await fetch(`${BACKEND_URL}/api/v1/auth/login`, {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body,
-  });
-  if (!res.ok) {
-    throw new Error(`backend login failed: ${res.status}`);
-  }
-  const data = await res.json();
-  // Access tokens are short-lived; cache ~25 min to be safe.
-  cachedToken = { value: data.access_token, expires: Date.now() + 25 * 60_000 };
-  return cachedToken.value;
-}
 
 export async function POST(req: Request) {
   try {
-    const { userId } = await auth();
+    const { userId, getToken: getClerkToken } = await auth();
     if (!userId) {
       return Response.json({ error: "Unauthorized" }, { status: 401 });
     }
@@ -52,7 +25,7 @@ export async function POST(req: Request) {
       return Response.json({ error: "message is required" }, { status: 400 });
     }
 
-    const token = await getToken();
+    const token = await getClerkToken();
     const res = await fetch(`${BACKEND_URL}/api/v1/chat`, {
       method: "POST",
       headers: {

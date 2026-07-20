@@ -87,6 +87,11 @@ export function Sidebar() {
   const { user } = useUser();
 
   const name = user?.fullName || user?.firstName || user?.primaryEmailAddress?.emailAddress?.split('@')[0] || "User";
+  let displayName = name;
+  const parts = name.trim().split(/\s+/);
+  if (parts.length >= 2) {
+    displayName = `${parts[0][0].toUpperCase()}.${parts[parts.length - 1][0].toUpperCase()}`;
+  }
   const initials = name.substring(0, 2).toUpperCase();
   const role = (user?.publicMetadata?.role as string) || "Investigator";
 
@@ -129,7 +134,7 @@ export function Sidebar() {
                 <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-[#1E40AF] to-[#3B82F6] flex items-center justify-center flex-shrink-0 shadow-[0_0_10px_rgba(30,64,175,0.3)]">
                   <Shield className="h-4 w-4 text-white" />
                 </div>
-                <span className="brand-logo font-black text-xl tracking-tight bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#3B82F6] text-transparent bg-clip-text drop-shadow-sm whitespace-nowrap truncate min-w-0">
+                <span className="brand-logo font-black text-xl tracking-tight bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#3B82F6] dark:from-[#F8FAFC] dark:via-[#93C5FD] dark:to-[#60A5FA] text-transparent bg-clip-text drop-shadow-sm whitespace-nowrap truncate min-w-0">
                   {t("CrimeRakshak")}
                 </span>
               </div>
@@ -204,7 +209,7 @@ export function Sidebar() {
               </div>
               {!collapsed && (
                 <div className="min-w-0">
-                  <p className="text-sm font-bold text-black dark:text-white truncate">{name}</p>
+                  <p className="text-sm font-bold text-black dark:text-white truncate">{displayName}</p>
                   <p className="text-[10px] text-black/70 dark:text-white/60 uppercase tracking-wider font-semibold truncate">{role}</p>
                 </div>
               )}
