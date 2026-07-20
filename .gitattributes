@@ -1,0 +1,4 @@
+# Windows batch files must keep CRLF line endings — cmd.exe misparses
+# multi-line if/else blocks and goto labels in LF-only files.
+*.bat text eol=crlf
+*.cmd text eol=crlf

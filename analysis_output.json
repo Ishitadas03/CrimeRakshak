@@ -1,0 +1,1593 @@
+{
+    "01_crime_review_summary.csv": {
+        "num_rows": 28,
+        "num_columns": 5,
+        "duplicate_columns": [],
+        "columns": {
+            "Crime Head": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Murder",
+                    "Murder",
+                    "Murder"
+                ]
+            },
+            "Category": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Murder for gain",
+                    "Other Murders",
+                    "Total Murder"
+                ]
+            },
+            "January 2026": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    5,
+                    93,
+                    98
+                ]
+            },
+            "December 2025": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    2,
+                    80,
+                    82
+                ]
+            },
+            "January 2025": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    4,
+                    95,
+                    99
+                ]
+            }
+        }
+    },
+    "02_district_wise_reported_cases.csv": {
+        "num_rows": 39,
+        "num_columns": 27,
+        "duplicate_columns": [],
+        "columns": {
+            "District": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Bagalkot",
+                    "Ballari",
+                    "Belagavi City"
+                ]
+            },
+            "MURDER": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    3,
+                    1,
+                    0
+                ]
+            },
+            "DACOITY": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "ROBBERY": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    1,
+                    1,
+                    0
+                ]
+            },
+            "CHAIN SNATCHING": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "BURGLARY DAY": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    6,
+                    3,
+                    0
+                ]
+            },
+            "BURGLARY NIGHT": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    13,
+                    4,
+                    14
+                ]
+            },
+            "THEFT": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    20,
+                    37,
+                    20
+                ]
+            },
+            "SNATCHING": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "RIOTS": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    4,
+                    8,
+                    4
+                ]
+            },
+            "CASES OF HURT": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    12,
+                    13,
+                    11
+                ]
+            },
+            "Spl & Local laws": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    82,
+                    124,
+                    73
+                ]
+            },
+            "RAPE": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "DOWRY DEATHS": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "POCSO": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    8,
+                    5,
+                    3
+                ]
+            },
+            "SC ST POA Act": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    4,
+                    6,
+                    0
+                ]
+            },
+            "107 CrPC/126 BNSS": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    42,
+                    20,
+                    77
+                ]
+            },
+            "109 CrPC/128 BNSS": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    7,
+                    3,
+                    7
+                ]
+            },
+            "110 CrPC/129 BNSS": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    0,
+                    0,
+                    10
+                ]
+            },
+            "CYBER CRIME": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    2,
+                    13,
+                    12
+                ]
+            },
+            "Cr Br of Trust": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    1,
+                    0,
+                    1
+                ]
+            },
+            "CHEATING": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "COUNTERFEITING": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "KMMC": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "MMDR": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Motor vehicles Theft": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    7,
+                    9,
+                    13
+                ]
+            },
+            "NDPS": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    3,
+                    1,
+                    23
+                ]
+            }
+        }
+    },
+    "03_range_wise_ipc_sll_cases.csv": {
+        "num_rows": 39,
+        "num_columns": 7,
+        "duplicate_columns": [],
+        "columns": {
+            "Group": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Commissionerates",
+                    "Commissionerates",
+                    "Commissionerates"
+                ]
+            },
+            "Sl No": {
+                "dtype": "float64",
+                "missing_count": 2,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "District/Unit": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Bengaluru City",
+                    "Mysuru City",
+                    "Hubballi Dharwad City"
+                ]
+            },
+            "IPC BNS - Month (Jan 2026)": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    2803,
+                    183,
+                    158
+                ]
+            },
+            "IPC BNS - Year To Date": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    2803,
+                    183,
+                    158
+                ]
+            },
+            "SLL - Month (Jan 2026)": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    2138,
+                    137,
+                    57
+                ]
+            },
+            "SLL - Year To Date": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    2138,
+                    137,
+                    57
+                ]
+            }
+        }
+    },
+    "04_sakala_district_receipts_disposals.csv": {
+        "num_rows": 38,
+        "num_columns": 5,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl No": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            "District": {
+                "dtype": "object",
+                "missing_count": 1,
+                "sample": [
+                    "BELAGAVI CITY",
+                    "BENGALURU CITY",
+                    "HUBLI-DHARWAD CITY"
+                ]
+            },
+            "SAKALA Receipts": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    3327,
+                    42834,
+                    1024
+                ]
+            },
+            "SAKALA Disposals": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    2984,
+                    41211,
+                    1021
+                ]
+            },
+            "Pendency After Due Date (31.01.2026)": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    22,
+                    48,
+                    72
+                ]
+            }
+        }
+    },
+    "05_road_accidents_jan2026.csv": {
+        "num_rows": 4,
+        "num_columns": 8,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl No": {
+                "dtype": "float64",
+                "missing_count": 1,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Location of Accidents": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "National Highways",
+                    "State Highways",
+                    "Other Roads"
+                ]
+            },
+            "Cases Fatal": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    341,
+                    274,
+                    394
+                ]
+            },
+            "Cases Non-Fatal": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    900,
+                    682,
+                    1284
+                ]
+            },
+            "Cases Total": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    1241,
+                    956,
+                    1678
+                ]
+            },
+            "Persons Killed": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    356,
+                    273,
+                    395
+                ]
+            },
+            "Persons Injured": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    1660,
+                    1329,
+                    1853
+                ]
+            },
+            "Persons Total": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    2016,
+                    1602,
+                    2248
+                ]
+            }
+        }
+    },
+    "06_esign_fir_jan2026.csv": {
+        "num_rows": 39,
+        "num_columns": 5,
+        "duplicate_columns": [],
+        "columns": {
+            "SL No": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            "Unit Name": {
+                "dtype": "object",
+                "missing_count": 1,
+                "sample": [
+                    "Vijayapur District",
+                    "Chitradurga District",
+                    "Bagalkot District"
+                ]
+            },
+            "FIR Registered": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    427,
+                    530,
+                    294
+                ]
+            },
+            "FIR eSign": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    413,
+                    502,
+                    276
+                ]
+            },
+            "Percentage": {
+                "dtype": "float64",
+                "missing_count": 0,
+                "sample": [
+                    96.72,
+                    94.72,
+                    93.88
+                ]
+            }
+        }
+    },
+    "07_esign_chargesheet_jan2026.csv": {
+        "num_rows": 39,
+        "num_columns": 5,
+        "duplicate_columns": [],
+        "columns": {
+            "SL No": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            "Unit Name": {
+                "dtype": "object",
+                "missing_count": 1,
+                "sample": [
+                    "Yadgir District",
+                    "Dakshina Kannada District",
+                    "Kalaburagi City"
+                ]
+            },
+            "Chargesheet Registered": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    97,
+                    50,
+                    113
+                ]
+            },
+            "Chargesheet eSign": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    73,
+                    37,
+                    83
+                ]
+            },
+            "Percentage": {
+                "dtype": "float64",
+                "missing_count": 0,
+                "sample": [
+                    75.26,
+                    74.0,
+                    73.45
+                ]
+            }
+        }
+    },
+    "08_cotpa_district_stats_jan2026.csv": {
+        "num_rows": 39,
+        "num_columns": 9,
+        "duplicate_columns": [],
+        "columns": {
+            "Range": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Commissionerate",
+                    "Commissionerate",
+                    "Commissionerate"
+                ]
+            },
+            "Sl No": {
+                "dtype": "object",
+                "missing_count": 1,
+                "sample": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            "Unit/District": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Bengaluru City",
+                    "Mysuru City",
+                    "Hubli-Dharwad City"
+                ]
+            },
+            "Section 4": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    3611,
+                    1426,
+                    3
+                ]
+            },
+            "Section 5": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "Section 6A": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    33,
+                    0,
+                    0
+                ]
+            },
+            "Section 6B": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    18,
+                    0,
+                    0
+                ]
+            },
+            "Section 7": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    43,
+                    0,
+                    0
+                ]
+            },
+            "Total Fine Amount": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    583050,
+                    233450,
+                    600
+                ]
+            }
+        }
+    },
+    "09_crime_against_women.csv": {
+        "num_rows": 24,
+        "num_columns": 6,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl No": {
+                "dtype": "float64",
+                "missing_count": 1,
+                "sample": [
+                    1.0,
+                    1.1,
+                    1.2
+                ]
+            },
+            "Heads of Crime": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Rape (Sec.376 IPC) - Total",
+                    "Custodial Rape",
+                    "Gang Rape"
+                ]
+            },
+            "Current Year To Date": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    45,
+                    0,
+                    3
+                ]
+            },
+            "Corresponding Month Prev Year": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    57,
+                    0,
+                    1
+                ]
+            },
+            "Previous Month": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    41,
+                    0,
+                    1
+                ]
+            },
+            "Current Month (Jan 2026)": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    45,
+                    0,
+                    3
+                ]
+            }
+        }
+    },
+    "10_crime_against_children.csv": {
+        "num_rows": 21,
+        "num_columns": 6,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl No": {
+                "dtype": "float64",
+                "missing_count": 2,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Heads of Crime": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Infanticide/Foeticide Sec.315 & 316",
+                    "Rape on Minor",
+                    "Exposure & abandonment Sec.317"
+                ]
+            },
+            "Current Year To Date": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    0,
+                    0,
+                    3
+                ]
+            },
+            "Corresponding Month Prev Year": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    1,
+                    0,
+                    5
+                ]
+            },
+            "Previous Month": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    0,
+                    0,
+                    5
+                ]
+            },
+            "Current Month (Jan 2026)": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    0,
+                    0,
+                    3
+                ]
+            }
+        }
+    },
+    "11_crime_against_sc_st.csv": {
+        "num_rows": 6,
+        "num_columns": 6,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl No": {
+                "dtype": "float64",
+                "missing_count": 1,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Heads of Crime": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Murder",
+                    "Rape",
+                    "Kidnapping"
+                ]
+            },
+            "Current Year To Date": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    5,
+                    9,
+                    15
+                ]
+            },
+            "Corresponding Month Prev Year": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    10,
+                    10,
+                    13
+                ]
+            },
+            "Previous Month": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    8,
+                    5,
+                    14
+                ]
+            },
+            "Current Month (Jan 2026)": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    5,
+                    9,
+                    15
+                ]
+            }
+        }
+    },
+    "12_sevasindhu_services_jan2026.csv": {
+        "num_rows": 21,
+        "num_columns": 5,
+        "duplicate_columns": [],
+        "columns": {
+            "SL No": {
+                "dtype": "float64",
+                "missing_count": 1,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Service Name": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Job / Service Verification",
+                    "PVC for Central/State Govt employees (direct/by Dept)",
+                    "Police Clearance Certificate for going abroad / Foreign Nationals"
+                ]
+            },
+            "Received": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    38306,
+                    654,
+                    247
+                ]
+            },
+            "Disposed": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    28424,
+                    480,
+                    186
+                ]
+            },
+            "Pending": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    9882,
+                    174,
+                    61
+                ]
+            }
+        }
+    },
+    "CRIME REVIEW - FEBRUARY - 2026.csv": {
+        "error": "Error tokenizing data. C error: Expected 3 fields in line 18, saw 5\n"
+    },
+    "crimes_against_women_children_scst_2024.csv": {
+        "num_rows": 25,
+        "num_columns": 11,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl No": {
+                "dtype": "float64",
+                "missing_count": 5,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Crimes Against Women": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Rape (Sec. 376 IPC)",
+                    "1.1 Custodial Rape",
+                    "1.2 Gang Rape"
+                ]
+            },
+            "2024": {
+                "dtype": "float64",
+                "missing_count": 1,
+                "sample": [
+                    1.0,
+                    9.0,
+                    732.0
+                ]
+            },
+            "Unnamed: 3": {
+                "dtype": "float64",
+                "missing_count": 25,
+                "sample": []
+            },
+            "Sl No.": {
+                "dtype": "float64",
+                "missing_count": 6,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Crimes Against Children": {
+                "dtype": "object",
+                "missing_count": 4,
+                "sample": [
+                    "Infanticide/ Foeticide (Sec. 315 & 316 IPC)",
+                    "Rape on Minor",
+                    "Exposure & abandonment (Sec. 317 IPC)"
+                ]
+            },
+            "2024.1": {
+                "dtype": "float64",
+                "missing_count": 4,
+                "sample": [
+                    2.0,
+                    0.0,
+                    66.0
+                ]
+            },
+            "Unnamed: 7": {
+                "dtype": "float64",
+                "missing_count": 25,
+                "sample": []
+            },
+            "Sl. No": {
+                "dtype": "float64",
+                "missing_count": 20,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Crimes against SCs/STs": {
+                "dtype": "object",
+                "missing_count": 19,
+                "sample": [
+                    "Murder",
+                    "Rape",
+                    "Kidnapping"
+                ]
+            },
+            "2024.2": {
+                "dtype": "float64",
+                "missing_count": 19,
+                "sample": [
+                    99.0,
+                    186.0,
+                    124.0
+                ]
+            }
+        }
+    },
+    "crime_review_detailed_major_minor_heads.csv": {
+        "num_rows": 735,
+        "num_columns": 8,
+        "duplicate_columns": [],
+        "columns": {
+            "SL.NO.": {
+                "dtype": "int64",
+                "missing_count": 0,
+                "sample": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            "HEADS CIRME": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "A - IPC Crime",
+                    "A - IPC Crime",
+                    "A - IPC Crime"
+                ]
+            },
+            "MAJOR HEADS": {
+                "dtype": "object",
+                "missing_count": 1,
+                "sample": [
+                    "Murder (Sec.302/303 IPC/103,104 BNS)",
+                    "Murder (Sec.302/303 IPC/103,104 BNS)",
+                    "Murder (Sec.302/303 IPC/103,104 BNS)"
+                ]
+            },
+            "MINOR HEADS": {
+                "dtype": "object",
+                "missing_count": 70,
+                "sample": [
+                    "For gain",
+                    "Over Property Dispute",
+                    "Due to Personal Vendetta or enemity"
+                ]
+            },
+            "During the current year upto the end of month under review": {
+                "dtype": "float64",
+                "missing_count": 3,
+                "sample": [
+                    38.0,
+                    24.0,
+                    25.0
+                ]
+            },
+            "During the corresponding month of previous year": {
+                "dtype": "float64",
+                "missing_count": 3,
+                "sample": [
+                    6.0,
+                    4.0,
+                    2.0
+                ]
+            },
+            "During the previous month": {
+                "dtype": "float64",
+                "missing_count": 3,
+                "sample": [
+                    4.0,
+                    2.0,
+                    2.0
+                ]
+            },
+            "During the current month": {
+                "dtype": "float64",
+                "missing_count": 4,
+                "sample": [
+                    7.0,
+                    2.0,
+                    2.0
+                ]
+            }
+        }
+    },
+    "district_wise_major_heads_yearly.csv": {
+        "num_rows": 49,
+        "num_columns": 23,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl No": {
+                "dtype": "float64",
+                "missing_count": 12,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "DISTRICT/UNITS": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Commissionerates",
+                    "Bengaluru City",
+                    "Mysuru City"
+                ]
+            },
+            "MURDER": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    176.0,
+                    22.0,
+                    22.0
+                ]
+            },
+            "ATTEMPT TO MURDER": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    450.0,
+                    39.0,
+                    85.0
+                ]
+            },
+            "RAPE": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    167.0,
+                    23.0,
+                    20.0
+                ]
+            },
+            "DACOITY": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    67.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "ROBBERY": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    693.0,
+                    45.0,
+                    28.0
+                ]
+            },
+            "BURGLARY-DAY": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    181.0,
+                    9.0,
+                    22.0
+                ]
+            },
+            "BURGLARY-NIGHT": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    763.0,
+                    82.0,
+                    64.0
+                ]
+            },
+            "THEFT": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    9605.0,
+                    356.0,
+                    221.0
+                ]
+            },
+            "RIOTS": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    72.0,
+                    10.0,
+                    28.0
+                ]
+            },
+            "CASES OF HURT": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    3828.0,
+                    309.0,
+                    170.0
+                ]
+            },
+            "CRUELTY BY HUSBAND": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    614.0,
+                    17.0,
+                    95.0
+                ]
+            },
+            "DOWRY DEATHS": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    25.0,
+                    5.0,
+                    4.0
+                ]
+            },
+            "FATAL MOTOR ACCIDENTS": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    876.0,
+                    160.0,
+                    102.0
+                ]
+            },
+            "NON-FATAL MOTOR ACCIDENTS": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    3903.0,
+                    970.0,
+                    334.0
+                ]
+            },
+            "MOLESTATION": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    1251.0,
+                    59.0,
+                    72.0
+                ]
+            },
+            "SC/ST": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    240.0,
+                    24.0,
+                    47.0
+                ]
+            },
+            "GAMBLING": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    498.0,
+                    51.0,
+                    386.0
+                ]
+            },
+            "DP ACT": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    876.0,
+                    119.0,
+                    0.0
+                ]
+            },
+            "CYBER CRIME": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    17682.0,
+                    272.0,
+                    247.0
+                ]
+            },
+            "POCSO": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    586.0,
+                    65.0,
+                    63.0
+                ]
+            },
+            "POCSO RAPE": {
+                "dtype": "float64",
+                "missing_count": 9,
+                "sample": [
+                    415.0,
+                    49.0,
+                    42.0
+                ]
+            }
+        }
+    },
+    "ipc_crimes_headwise_2024.csv": {
+        "num_rows": 618,
+        "num_columns": 3,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl No": {
+                "dtype": "object",
+                "missing_count": 545,
+                "sample": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            "Heads of Crime": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "A - IPC Crime",
+                    "Murder (Sec.302/303 IPC)",
+                    "For gain"
+                ]
+            },
+            "2024": {
+                "dtype": "float64",
+                "missing_count": 56,
+                "sample": [
+                    38.0,
+                    24.0,
+                    25.0
+                ]
+            }
+        }
+    },
+    "ka-crimes-women-children-scssts.csv": {
+        "num_rows": 25,
+        "num_columns": 9,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl No": {
+                "dtype": "float64",
+                "missing_count": 5,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Crimes Against Women": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Rape (Sec. 376 IPC)",
+                    "1.1 Custodial Rape",
+                    "1.2 Gang Rape"
+                ]
+            },
+            "2025": {
+                "dtype": "float64",
+                "missing_count": 1,
+                "sample": [
+                    0.0,
+                    16.0,
+                    640.0
+                ]
+            },
+            "Sl No.": {
+                "dtype": "float64",
+                "missing_count": 6,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Crimes Against Children": {
+                "dtype": "object",
+                "missing_count": 4,
+                "sample": [
+                    "Infanticide/ Foeticide (Sec. 315 & 316 IPC)",
+                    "Rape on Minor",
+                    "Exposure & abandonment (Sec. 317 IPC)"
+                ]
+            },
+            "2025.1": {
+                "dtype": "float64",
+                "missing_count": 4,
+                "sample": [
+                    5.0,
+                    0.0,
+                    65.0
+                ]
+            },
+            "Sl. No": {
+                "dtype": "float64",
+                "missing_count": 20,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Crimes against SCs/STs": {
+                "dtype": "object",
+                "missing_count": 19,
+                "sample": [
+                    "Murder",
+                    "Rape",
+                    "Kidnapping"
+                ]
+            },
+            "Unnamed: 8": {
+                "dtype": "float64",
+                "missing_count": 19,
+                "sample": [
+                    94.0,
+                    113.0,
+                    182.0
+                ]
+            }
+        }
+    },
+    "ka-district-wise-2025.csv": {
+        "num_rows": 47,
+        "num_columns": 4,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl No": {
+                "dtype": "float64",
+                "missing_count": 10,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Districts/Units": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Commissionerates",
+                    "Bengaluru City",
+                    "Mysuru City"
+                ]
+            },
+            "IPC/BNS Crimes": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    37181.0,
+                    2224.0,
+                    1488.0
+                ]
+            },
+            "SLL Crimes": {
+                "dtype": "float64",
+                "missing_count": 8,
+                "sample": [
+                    19291.0,
+                    1040.0,
+                    1160.0
+                ]
+            }
+        }
+    },
+    "ka-ipc-crimes-2025.csv": {
+        "num_rows": 651,
+        "num_columns": 3,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl. No.": {
+                "dtype": "object",
+                "missing_count": 574,
+                "sample": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            "Heads of Crime": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "Murder (Sec.302/303 IPC/103,104 BNS)",
+                    "For gain",
+                    "Over Property Dispute"
+                ]
+            },
+            "For 2025": {
+                "dtype": "float64",
+                "missing_count": 57,
+                "sample": [
+                    43.0,
+                    24.0,
+                    34.0
+                ]
+            }
+        }
+    },
+    "ka-sll-crimes-2025.csv": {
+        "num_rows": 239,
+        "num_columns": 3,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl. No.": {
+                "dtype": "float64",
+                "missing_count": 201,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Heads of Crime": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "ANTIQUES (CULTURAL PROPERTY)",
+                    "Antiques & Art Treasures Act 1972",
+                    "Ancient Monument & Archaelogical Sites And Remains Act 1958"
+                ]
+            },
+            "For 2025": {
+                "dtype": "float64",
+                "missing_count": 28,
+                "sample": [
+                    0.0,
+                    5.0,
+                    5.0
+                ]
+            }
+        }
+    },
+    "sll_crimes_headwise_2024.csv": {
+        "num_rows": 234,
+        "num_columns": 3,
+        "duplicate_columns": [],
+        "columns": {
+            "Sl No": {
+                "dtype": "float64",
+                "missing_count": 198,
+                "sample": [
+                    1.0,
+                    2.0,
+                    3.0
+                ]
+            },
+            "Head of Crime": {
+                "dtype": "object",
+                "missing_count": 0,
+                "sample": [
+                    "ANTIQUES (CULTURAL PROPERTY)",
+                    "Antiques & Art Treasures Act 1972",
+                    "Ancient Monument & Archaelogical Sites And Remains Act 1958"
+                ]
+            },
+            "2024": {
+                "dtype": "float64",
+                "missing_count": 27,
+                "sample": [
+                    0.0,
+                    9.0,
+                    9.0
+                ]
+            }
+        }
+    }
+}

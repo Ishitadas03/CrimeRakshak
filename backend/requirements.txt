@@ -1,0 +1,36 @@
+# ── Data ingestion pipeline ──
+pandas==2.2.3
+psycopg2-binary==2.9.10
+neo4j==5.17.0
+Faker==22.6.0
+python-dotenv==1.0.1
+
+# ── Conversational AI (Blocks 1 & 6) ──
+duckdb==1.1.3
+openai==1.59.6
+reportlab==4.2.5
+deep-translator==1.11.4
+
+
+
+# ── Forecasting & Early Warning (Block 8) ──
+scikit-learn==1.9.0
+xgboost==3.3.0
+statsmodels==0.14.6
+# torch is optional: the LSTM engine uses it when present and falls back to a
+# sklearn MLP window model otherwise. Install with: pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# ── Auth & RBAC API (FastAPI) ──
+fastapi==0.121.2
+uvicorn[standard]==0.38.0
+SQLAlchemy==2.0.51
+alembic==1.18.5
+pydantic==2.12.4
+pydantic-settings==2.13.1
+pydantic[email]==2.12.4
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.0
+python-multipart==0.0.22
+email-validator==2.3.0
+clerk-backend-api==6.0.1
