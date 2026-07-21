@@ -1,6 +1,6 @@
 {
   "command": "uvicorn app.main:app --host 0.0.0.0 --port $PORT",
-  "build_path": "backend",
+  "build_path": ".",
   "stack": "python_3_11",
   "env_variables": {},
   "memory": 512,
