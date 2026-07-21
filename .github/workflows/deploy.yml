@@ -30,6 +30,8 @@ jobs:
         run: |
           python -c "import app.main; print('FastAPI App Import Successful!')"
         working-directory: backend
+        env:
+          PYTHONPATH: .
 
   frontend-check:
     name: Frontend Build & Type Check

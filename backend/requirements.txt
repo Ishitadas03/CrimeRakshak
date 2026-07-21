@@ -11,12 +11,10 @@ openai==1.59.6
 reportlab==4.2.5
 deep-translator==1.11.4
 
-
-
 # ── Forecasting & Early Warning (Block 8) ──
-scikit-learn==1.9.0
-xgboost==3.3.0
-statsmodels==0.14.6
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+statsmodels>=0.14.0
 # torch is optional: the LSTM engine uses it when present and falls back to a
 # sklearn MLP window model otherwise. Install with: pip install torch --index-url https://download.pytorch.org/whl/cpu
 
