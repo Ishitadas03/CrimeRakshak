@@ -11,7 +11,7 @@ parser.add_argument("--port", type=int, default=None)
 args, _ = parser.parse_known_args()
 
 # Determine port from CLI arg (--port $PORT), environment variable, or default
-port = args.port or int(os.environ.get("PORT") or os.environ.get("X_ZOHO_CATALYST_LISTEN_PORT") or 8000)
+port = args.port or int(os.environ.get("PORT") or 8000)
 
 print(f"Resolved port: {port}")
 print(f"Python version: {sys.version}")

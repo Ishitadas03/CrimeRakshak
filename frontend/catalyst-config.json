@@ -1,5 +1,0 @@
-{
-  "name": "crimerakshak-frontend",
-  "build_command": "npm run build",
-  "command": "npm run start"
-}

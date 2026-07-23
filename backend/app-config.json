@@ -1,9 +1,0 @@
-{
-  "command": "python3 run.py",
-  "build_command": "pip install -r requirements.txt",
-  "build_path": ".",
-  "stack": "python3.11",
-  "env_variables": {},
-  "memory": 1024,
-  "scripts": {}
-}
