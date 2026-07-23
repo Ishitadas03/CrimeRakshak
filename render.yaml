@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Render Infrastructure as Code Blueprint (render.yaml)
+# Deploying FastAPI Backend Service ONLY
+# ─────────────────────────────────────────────────────────────────────────────
+services:
+  - type: web
+    name: crimerakshak-backend
+    runtime: python
+    rootDir: backend
+    region: singapore # or oregon / frankfurt
+    plan: free # or starter / standard
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: true
+
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: API_V1_PREFIX
+        value: /api/v1
+      - key: SECRET_KEY
+        generateValue: true
+      - key: POSTGRES_URI
+        sync: false
+      - key: BACKEND_CORS_ORIGINS
+        sync: false
+      - key: USE_NEO4J
+        value: "False"
+      - key: LLM_PROVIDER
+        value: gemini
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: CLERK_SECRET_KEY
+        sync: false
