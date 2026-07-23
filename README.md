@@ -1,5 +1,7 @@
 # 🔍 CrimeRakshak
 
+<img width="1774" height="887" alt="file_00000000f88882068813e530c9b46344" src="https://github.com/user-attachments/assets/55dc0184-89e7-44d7-a12b-0b833cb31f64" />
+
 > **Intelligent Conversational AI & Graph Analytics Platform for Karnataka State Police (KSP)**
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg?style=flat&logo=fastapi)](https://fastapi.tiangolo.com)
