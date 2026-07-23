@@ -1,0 +1,21 @@
+# Exclude frontend and node_modules from Python serverless function package
+frontend/
+.next/
+node_modules/
+
+# Exclude large dataset files and database binaries from function package
+datasets/
+*.duckdb
+*.db
+
+# Exclude virtual environments
+backend/venv/
+backend/.venv/
+.venv/
+venv/
+
+# Exclude tests, docs, and git metadata
+backend/tests/
+docs/
+.git/
+.github/

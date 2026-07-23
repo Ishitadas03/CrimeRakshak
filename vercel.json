@@ -6,7 +6,8 @@
   "functions": {
     "api/index.py": {
       "memory": 1024,
-      "maxDuration": 30
+      "maxDuration": 30,
+      "excludeFiles": "{frontend/**,datasets/**,*.duckdb,*.db}"
     }
   },
   "rewrites": [
