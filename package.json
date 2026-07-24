@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
-    "start": "cd frontend && npm run start"
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start"
   },
   "dependencies": {
     "next": "16.2.10"
