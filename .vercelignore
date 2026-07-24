@@ -1,5 +1,4 @@
-# Exclude frontend and node_modules from Python serverless function package
-frontend/
+# Exclude node_modules and builds
 .next/
 node_modules/
 
