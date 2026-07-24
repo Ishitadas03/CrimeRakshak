@@ -3,7 +3,9 @@
 import { NextRequest } from "next/server";
 import { auth } from "@clerk/nextjs/server";
 
-const BACKEND_URL = process.env.BACKEND_URL ?? "http://127.0.0.1:8001";
+const BACKEND_URL =
+  process.env.BACKEND_URL ??
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://127.0.0.1:8001");
 
 export async function GET(
   _req: NextRequest,

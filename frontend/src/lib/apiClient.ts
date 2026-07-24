@@ -1,4 +1,7 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8001/api/v1";
+// In production (e.g. Vercel) NEXT_PUBLIC_API_URL is typically unset and we fall
+// back to a same-origin relative path, which the platform rewrites route to the
+// backend function (see vercel.json). Local dev sets it explicitly in .env.local.
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "/api/v1";
 
 let cachedToken: string | null = null;
 

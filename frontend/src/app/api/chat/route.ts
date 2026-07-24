@@ -11,7 +11,9 @@ import { NextRequest, NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import { auth } from "@clerk/nextjs/server";
 
-const BACKEND_URL = process.env.BACKEND_URL ?? "http://127.0.0.1:8001";
+const BACKEND_URL =
+  process.env.BACKEND_URL ??
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://127.0.0.1:8001");
 
 export async function POST(req: Request) {
   try {

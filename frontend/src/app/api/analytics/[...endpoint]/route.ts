@@ -6,7 +6,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
 
-const BACKEND_URL = process.env.BACKEND_URL ?? "http://127.0.0.1:8001";
+// On Vercel, BACKEND_URL is usually unset; fall back to this deployment's own
+// origin so /api/v1/* is served by the backend function (see vercel.json).
+const BACKEND_URL =
+  process.env.BACKEND_URL ??
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://127.0.0.1:8001");
 
 
 export async function GET(
